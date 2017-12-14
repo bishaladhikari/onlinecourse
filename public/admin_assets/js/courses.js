@@ -4,7 +4,6 @@ $.ajaxSetup({
     }
 });
 
-
 let body=$('body');
 let addCategoryInput= $('body').find(".addCategoryInput");
 // $('.category-ul').sortable("refresh");
@@ -52,9 +51,8 @@ function submit_category() {
         url: "category",
         data: {category_name: category_name},
         success: function (response) {
-            console.log('added');
-            // $('body').find('.category-ul').append(response);
-            // makeCategorySortable();
+            $('body').find('.category-ul').append(response);
+            makeCategorySortable();
 
 
         },

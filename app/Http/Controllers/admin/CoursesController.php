@@ -16,7 +16,8 @@ class CoursesController extends Controller
     public function index()
     {
         //
-        return view('admin.courses');
+        $categories= CourseCategories::get();
+        return view('admin.courses')->with('categories',$categories);
     }
 
     /**
@@ -38,7 +39,11 @@ class CoursesController extends Controller
     public function store(Request $request)
     {
         //
-        
+        $request->validate([
+            
+            'category_name' => 'required|max:50',
+            
+        ]);
         
         CourseCategories::create([
             'name'=>$request->category_name,
@@ -77,6 +82,7 @@ class CoursesController extends Controller
     public function update(Request $request, $id)
     {
         //
+
     }
 
     /**

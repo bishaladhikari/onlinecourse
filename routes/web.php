@@ -20,6 +20,6 @@ Auth::routes();
 Route::get('/home', 'HomeController@index')->name('home');
 Route::get('/courses', 'admin\CoursesController@index')->name('courses');
 Route::resources([
-    'category' => 'admin\CoursesController',
-    'posts' => 'PostController'
+    'category' => 'admin\CoursesController'
+    
 ]);

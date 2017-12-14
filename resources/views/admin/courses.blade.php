@@ -77,7 +77,9 @@
                                 </div>
 
 
+
                             </div>
+                      
                         </div>
 
                     </div>
@@ -85,6 +87,55 @@
                 </div>
 
             </div>
+            <div class="row">
+             <div class="col-md-10 col-md-offset-1">
+               @foreach($categories as $category)
+              <div class="panel card-default">
+                   <div class="panel-heading">
+                   {{$category->name}}
+                   
+                                              <a class="pull-right "
+                                           style="color: #ccc;vertical-align: middle;text-align: center;cursor: pointer"
+                                           onclick="removeCategory(event,{{$category->id}})">
+
+                                            <i class="fa fa-close"></i>
+                                        </a>
+                                        <a class="pull-right  m-r-5" data-toggle="modal"
+                                           data-target="#editCategoryModal"
+                                           style="color: #ccc;vertical-align: middle;text-align: center;cursor: pointer"
+                                           onclick="editCategory(event,'{{$category->id}}','{{$category->name}}','{{$category->active}}')">
+
+                                            <i class="fa fa-pencil "></i>
+                                        </a>
+                
+                    </div>
+                    <div class="panel-body">
+                    <div class="row">
+                    <div class="col-md-4">
+                    <div class="panel card-default  text-center">
+                    <div class="panel-heading"></div>
+                        course name
+                     <div class="panel-body">
+                        course descriptions
+                     </div>
+                    
+                    </div>
+                    </div>
+                  
+                    
+                    </div>
+                    
+            
+
+                    </div>
+                 
+              </div>
+              @endforeach
+            
+             
+             </div>
+            </div>
+            
             
             
          

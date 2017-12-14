@@ -4,6 +4,7 @@ namespace App\Http\Controllers\admin;
 
 use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
+use App\CourseCategories;
 
 class CoursesController extends Controller
 {
@@ -37,6 +38,11 @@ class CoursesController extends Controller
     public function store(Request $request)
     {
         //
+        
+        
+        CourseCategories::create([
+            'name'=>$request->category_name,
+        ]);
     }
 
     /**

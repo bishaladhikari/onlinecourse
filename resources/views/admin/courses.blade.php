@@ -97,6 +97,6 @@
     </div>
 
     
-    <script src="{{asset('admin_assets/js/service.js')}}"></script>
+    <script src="{{asset('admin_assets/js/courses.js')}}"></script>
 @endsection
 

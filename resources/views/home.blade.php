@@ -22,7 +22,7 @@
         <div class="row">
             @foreach($categories as $category)
 
-                <div class="panel ">
+                <div class="panel">
                     <div class="panel-heading">Courses in "{{$category->name}}"</div>
 
                     <div class="panel-body" >
@@ -35,7 +35,7 @@
                         <div class="row">
                             @foreach($category->courses as $course)
                                 <div class="col-md-3 ">
-                                    <div class="panel card-default  text-center">
+                                    <div class="panel  course-card  text-center">
 
 
                                         <img src="{{asset('admin_assets/img/default_img.jpg')}}" style="height: 150px;width:100%">

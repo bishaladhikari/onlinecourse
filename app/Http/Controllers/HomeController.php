@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\CourseCategories;
 use Illuminate\Http\Request;
 
 class HomeController extends Controller
@@ -23,6 +24,7 @@ class HomeController extends Controller
      */
     public function index()
     {
-        return view('home');
+        $categories=CourseCategories::get();
+        return view('home')->with('categories',$categories);
     }
 }

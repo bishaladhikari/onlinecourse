@@ -18,8 +18,9 @@ Route::get('/', function () {
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
-Route::get('/courses', 'admin\CoursesController@index')->name('courses');
+Route::get('/courses', 'admin\PageController@courses')->name('courses');
 Route::resources([
-    'category' => 'admin\CoursesController'
-    
+    'category' => 'admin\CourseCategoryController',
+    'course' => 'admin\CourseController'
+
 ]);

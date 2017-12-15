@@ -66,6 +66,16 @@
     font-size: 14px;
     color: #aaaaaa;
 }
+.course-card {
+    border: none;
+    box-shadow: 0 0 2px 1px #e7e7e7;
+    padding: 0;
+
+}
+.course-card:hover {
+    box-shadow: 0 0 4px 2px #e7e7e7;
+    cursor: pointer;
+}
 .card-default {
     border: none;
     box-shadow: 0 0 10px 5px #e7e7e7;

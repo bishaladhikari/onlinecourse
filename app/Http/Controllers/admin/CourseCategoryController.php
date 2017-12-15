@@ -6,7 +6,7 @@ use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
 use App\CourseCategories;
 
-class CoursesController extends Controller
+class CourseCategoryController extends Controller
 {
     /**
      * Display a listing of the resource.
@@ -16,8 +16,8 @@ class CoursesController extends Controller
     public function index()
     {
         //
-        $categories= CourseCategories::get();
-        return view('admin.courses')->with('categories',$categories);
+//        $categories= CourseCategories::get();
+//        return view('admin.courses')->with('categories',$categories);
     }
 
     /**
@@ -34,20 +34,21 @@ class CoursesController extends Controller
      * Store a newly created resource in storage.
      *
      * @param  \Illuminate\Http\Request  $request
-     * @return \Illuminate\Http\Response
+     * @return \Illuminate\Contracts\View\Factory|\Illuminate\View\View
      */
     public function store(Request $request)
     {
         //
-        $request->validate([
-            
-            'category_name' => 'required|max:50',
-            
-        ]);
+//        $request->validate([
+//
+//            'category_name' => 'required|max:50',
+//
+//        ]);
         
-        CourseCategories::create([
+       $category= CourseCategories::create([
             'name'=>$request->category_name,
         ]);
+       return view('admin.courses.ajax-course-category')->with('category',$category);
     }
 
     /**

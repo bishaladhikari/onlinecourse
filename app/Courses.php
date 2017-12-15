@@ -4,12 +4,12 @@ namespace App;
 
 use Illuminate\Database\Eloquent\Model;
 
-class courses extends Model
+class Courses extends Model
 {
     //
     protected $table="courses";
     protected $fillable = [
-        'cat_id','name',
+        'cat_id','name','description'
     ];
     public $timestamps=false;
 

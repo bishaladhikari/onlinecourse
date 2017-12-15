@@ -17,6 +17,9 @@ class CreateCoursesTable extends Migration
             $table->increments('id');
             $table->integer('cat_id');
             $table->string('name');
+            $table->string('description')->default("No description available");
+            $table->string('img');
+
             $table->timestamps();
         });
     }

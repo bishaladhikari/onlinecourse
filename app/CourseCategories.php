@@ -12,4 +12,7 @@ class CourseCategories extends Model
         'name',
     ];
     public $timestamps=false;
+    public function courses(){
+        return $this->hasMany(Courses::class,'cat_id','id');
+    }
 }

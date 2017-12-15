@@ -219,14 +219,14 @@ function editCategory(e,category_id,category_name,active) {
         $("#categoryActiveSwitch").prop('checked', false);
 
 }
-$("#serviceImage").click(function (e) {
+$("#courseImage").click(function (e) {
     $("#pic").click();
 });
 function readURL(input) {
     if (input.files && input.files[0]) {
         let reader = new FileReader();
         reader.onload = function (e) {
-            $('#serviceImage')
+            $('#courseImage')
                 .attr('src', e.target.result)
 
         };
@@ -277,5 +277,38 @@ function makeCategorySortable(){
             });
         }
     });
+
+
 }
+
+
+
+
+
+
+
+
+
+
+//add courses
+$('body').on('click','.save-course-btn',function () {
+    let cat_id=$('#cat_id').val();
+    let title=$('#title').val();
+    let description=$('#description').val();
+    // let data= {cat_id:cat_id,title:title,description:description};
+    $.ajax({
+        type: 'POST',
+        url: 'course',
+        data: {cat_id:cat_id,title:title,description:description},
+        success: function(response) {
+            //finished
+
+            $('.course-box').append(response);
+            $('#addCourseModal').modal('hide');
+
+
+        }
+    });
+   // console.log(data);
+});
 

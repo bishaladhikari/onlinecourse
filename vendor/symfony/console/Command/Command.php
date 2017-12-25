@@ -162,7 +162,7 @@ class Command
     }
 
     /**
-     * Interacts with the user.
+     * Interacts with the _user.
      *
      * This method is executed before the InputDefinition is validated.
      * This means that this is the only place where the command can
@@ -220,7 +220,7 @@ class Command
             if (function_exists('cli_set_process_title')) {
                 if (false === @cli_set_process_title($this->processTitle)) {
                     if ('Darwin' === PHP_OS) {
-                        $output->writeln('<comment>Running "cli_get_process_title" as an unprivileged user is not supported on MacOS.</comment>');
+                        $output->writeln('<comment>Running "cli_get_process_title" as an unprivileged _user is not supported on MacOS.</comment>');
                     } else {
                         $error = error_get_last();
                         trigger_error($error['message'], E_USER_WARNING);

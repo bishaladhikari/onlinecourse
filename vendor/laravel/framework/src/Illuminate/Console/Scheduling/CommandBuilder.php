@@ -3,7 +3,7 @@
 namespace Illuminate\Console\Scheduling;
 
 use Illuminate\Console\Application;
-use Symfony\Component\Process\ProcessUtils;
+use Illuminate\Support\ProcessUtils;
 
 class CommandBuilder
 {
@@ -17,9 +17,9 @@ class CommandBuilder
     {
         if ($event->runInBackground) {
             return $this->buildBackgroundCommand($event);
-        } else {
-            return $this->buildForegroundCommand($event);
         }
+
+        return $this->buildForegroundCommand($event);
     }
 
     /**
@@ -58,7 +58,7 @@ class CommandBuilder
     }
 
     /**
-     * Finalize the event's command syntax with the correct user.
+     * Finalize the event's command syntax with the correct _user.
      *
      * @param  \Illuminate\Console\Scheduling\Event  $event
      * @param  string  $command

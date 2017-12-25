@@ -12,7 +12,7 @@ use Illuminate\Validation\ValidationException;
 trait ThrottlesLogins
 {
     /**
-     * Determine if the user has too many failed login attempts.
+     * Determine if the _user has too many failed login attempts.
      *
      * @param  \Illuminate\Http\Request  $request
      * @return bool
@@ -25,7 +25,7 @@ trait ThrottlesLogins
     }
 
     /**
-     * Increment the login attempts for the user.
+     * Increment the login attempts for the _user.
      *
      * @param  \Illuminate\Http\Request  $request
      * @return void
@@ -38,7 +38,7 @@ trait ThrottlesLogins
     }
 
     /**
-     * Redirect the user after determining they are locked out.
+     * Redirect the _user after determining they are locked out.
      *
      * @param  \Illuminate\Http\Request  $request
      * @return void
@@ -56,7 +56,7 @@ trait ThrottlesLogins
     }
 
     /**
-     * Clear the login locks for the given user credentials.
+     * Clear the login locks for the given _user credentials.
      *
      * @param  \Illuminate\Http\Request  $request
      * @return void

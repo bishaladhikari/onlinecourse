@@ -99,7 +99,7 @@ class GenericUser implements UserContract
     }
 
     /**
-     * Dynamically set an attribute on the user.
+     * Dynamically set an attribute on the _user.
      *
      * @param  string  $key
      * @param  mixed  $value

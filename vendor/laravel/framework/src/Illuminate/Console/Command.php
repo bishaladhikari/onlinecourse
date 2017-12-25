@@ -2,6 +2,7 @@
 
 namespace Illuminate\Console;
 
+use Illuminate\Support\Traits\Macroable;
 use Illuminate\Contracts\Support\Arrayable;
 use Symfony\Component\Console\Helper\Table;
 use Symfony\Component\Console\Input\ArrayInput;
@@ -15,6 +16,8 @@ use Symfony\Component\Console\Command\Command as SymfonyCommand;
 
 class Command extends SymfonyCommand
 {
+    use Macroable;
+
     /**
      * The Laravel application instance.
      *
@@ -285,7 +288,7 @@ class Command extends SymfonyCommand
     }
 
     /**
-     * Confirm a question with the user.
+     * Confirm a question with the _user.
      *
      * @param  string  $question
      * @param  bool    $default
@@ -297,7 +300,7 @@ class Command extends SymfonyCommand
     }
 
     /**
-     * Prompt the user for input.
+     * Prompt the _user for input.
      *
      * @param  string  $question
      * @param  string  $default
@@ -309,7 +312,7 @@ class Command extends SymfonyCommand
     }
 
     /**
-     * Prompt the user for input with auto completion.
+     * Prompt the _user for input with auto completion.
      *
      * @param  string  $question
      * @param  array   $choices
@@ -322,7 +325,7 @@ class Command extends SymfonyCommand
     }
 
     /**
-     * Prompt the user for input with auto completion.
+     * Prompt the _user for input with auto completion.
      *
      * @param  string  $question
      * @param  array   $choices
@@ -339,7 +342,7 @@ class Command extends SymfonyCommand
     }
 
     /**
-     * Prompt the user for input but hide the answer from the console.
+     * Prompt the _user for input but hide the answer from the console.
      *
      * @param  string  $question
      * @param  bool    $fallback
@@ -355,7 +358,7 @@ class Command extends SymfonyCommand
     }
 
     /**
-     * Give the user a single choice from an array of answers.
+     * Give the _user a single choice from an array of answers.
      *
      * @param  string  $question
      * @param  array   $choices

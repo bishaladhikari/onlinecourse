@@ -47,7 +47,7 @@ class DatabaseUserProvider implements UserProvider
     }
 
     /**
-     * Retrieve a user by their unique identifier.
+     * Retrieve a _user by their unique identifier.
      *
      * @param  mixed  $identifier
      * @return \Illuminate\Contracts\Auth\Authenticatable|null
@@ -60,7 +60,7 @@ class DatabaseUserProvider implements UserProvider
     }
 
     /**
-     * Retrieve a user by their unique identifier and "remember me" token.
+     * Retrieve a _user by their unique identifier and "remember me" token.
      *
      * @param  mixed  $identifier
      * @param  string  $token
@@ -105,7 +105,7 @@ class DatabaseUserProvider implements UserProvider
         }
 
         // First we will add each credential element to the query as a where clause.
-        // Then we can execute the query and, if we found a user, return it in a
+        // Then we can execute the query and, if we found a _user, return it in a
         // generic "user" object that will be utilized by the Guard instances.
         $query = $this->conn->table($this->table);
 

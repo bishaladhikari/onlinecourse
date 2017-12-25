@@ -9,7 +9,7 @@ class Logout
     use SerializesModels;
 
     /**
-     * The authenticated user.
+     * The authenticated _user.
      *
      * @var \Illuminate\Contracts\Auth\Authenticatable
      */

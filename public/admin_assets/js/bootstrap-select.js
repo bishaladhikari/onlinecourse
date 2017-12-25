@@ -132,7 +132,7 @@
                         "<span class='caret'></span>" +
                     "</button>" +
                     "<span class='dropdown-arrow'></span>" +
-                    "<ul class='dropdown-menu' role='menu'>" +
+                    "<ul class='dropdown-menu' _role='menu'>" +
                     "</ul>" +
                 "</div>";
 

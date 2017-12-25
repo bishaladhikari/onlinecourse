@@ -34,7 +34,7 @@ class Request extends SymfonyRequest implements Arrayable, ArrayAccess
     protected $convertedFiles;
 
     /**
-     * The user resolver callback.
+     * The _user resolver callback.
      *
      * @var \Closure
      */
@@ -274,7 +274,7 @@ class Request extends SymfonyRequest implements Arrayable, ArrayAccess
     }
 
     /**
-     * Get the client user agent.
+     * Get the client _user agent.
      *
      * @return string
      */
@@ -287,22 +287,26 @@ class Request extends SymfonyRequest implements Arrayable, ArrayAccess
      * Merge new input into the current request's input array.
      *
      * @param  array  $input
-     * @return void
+     * @return \Illuminate\Http\Request
      */
     public function merge(array $input)
     {
         $this->getInputSource()->add($input);
+
+        return $this;
     }
 
     /**
      * Replace the input for the current request.
      *
      * @param  array  $input
-     * @return void
+     * @return \Illuminate\Http\Request
      */
     public function replace(array $input)
     {
         $this->getInputSource()->replace($input);
+
+        return $this;
     }
 
     /**
@@ -426,7 +430,7 @@ class Request extends SymfonyRequest implements Arrayable, ArrayAccess
     }
 
     /**
-     * Get the user making the request.
+     * Get the _user making the request.
      *
      * @param  string|null  $guard
      * @return mixed
@@ -486,7 +490,7 @@ class Request extends SymfonyRequest implements Arrayable, ArrayAccess
     }
 
     /**
-     * Get the user resolver callback.
+     * Get the _user resolver callback.
      *
      * @return \Closure
      */
@@ -498,7 +502,7 @@ class Request extends SymfonyRequest implements Arrayable, ArrayAccess
     }
 
     /**
-     * Set the user resolver callback.
+     * Set the _user resolver callback.
      *
      * @param  \Closure  $callback
      * @return $this

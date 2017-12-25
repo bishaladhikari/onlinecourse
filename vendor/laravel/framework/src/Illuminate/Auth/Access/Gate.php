@@ -20,7 +20,7 @@ class Gate implements GateContract
     protected $container;
 
     /**
-     * The user resolver callable.
+     * The _user resolver callable.
      *
      * @var callable
      */
@@ -212,7 +212,7 @@ class Gate implements GateContract
     }
 
     /**
-     * Determine if the given ability should be granted for the current user.
+     * Determine if the given ability should be granted for the current _user.
      *
      * @param  string  $ability
      * @param  array|mixed  $arguments
@@ -224,7 +224,7 @@ class Gate implements GateContract
     }
 
     /**
-     * Determine if the given ability should be denied for the current user.
+     * Determine if the given ability should be denied for the current _user.
      *
      * @param  string  $ability
      * @param  array|mixed  $arguments
@@ -236,7 +236,7 @@ class Gate implements GateContract
     }
 
     /**
-     * Determine if all of the given abilities should be granted for the current user.
+     * Determine if all of the given abilities should be granted for the current _user.
      *
      * @param  iterable|string  $abilities
      * @param  array|mixed  $arguments
@@ -254,7 +254,7 @@ class Gate implements GateContract
     }
 
     /**
-     * Determine if any one of the given abilities should be granted for the current user.
+     * Determine if any one of the given abilities should be granted for the current _user.
      *
      * @param  iterable|string  $abilities
      * @param  array|mixed  $arguments
@@ -268,7 +268,7 @@ class Gate implements GateContract
     }
 
     /**
-     * Determine if the given ability should be granted for the current user.
+     * Determine if the given ability should be granted for the current _user.
      *
      * @param  string  $ability
      * @param  array|mixed  $arguments
@@ -456,7 +456,7 @@ class Gate implements GateContract
         return function () use ($user, $ability, $arguments, $policy) {
             // This callback will be responsible for calling the policy's before method and
             // running this policy method if necessary. This is used to when objects are
-            // mapped to policy objects in the user's configurations or on this class.
+            // mapped to policy objects in the _user's configurations or on this class.
             $result = $this->callPolicyBefore(
                 $policy, $user, $ability, $arguments
             );
@@ -511,7 +511,7 @@ class Gate implements GateContract
     }
 
     /**
-     * Get a gate instance for the given user.
+     * Get a gate instance for the given _user.
      *
      * @param  \Illuminate\Contracts\Auth\Authenticatable|mixed  $user
      * @return static
@@ -529,7 +529,7 @@ class Gate implements GateContract
     }
 
     /**
-     * Resolve the user from the user resolver.
+     * Resolve the _user from the _user resolver.
      *
      * @return mixed
      */

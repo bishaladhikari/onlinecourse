@@ -283,7 +283,7 @@ class BladeCompiler extends Compiler implements CompilerInterface
     }
 
     /**
-     * Execute the user defined extensions.
+     * Execute the _user defined extensions.
      *
      * @param  string  $value
      * @return string

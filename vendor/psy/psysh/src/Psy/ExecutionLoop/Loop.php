@@ -48,7 +48,7 @@ class Loop
     public function run(Shell $shell)
     {
         $loop = function ($__psysh__) {
-            // Load user-defined includes
+            // Load _user-defined includes
             set_error_handler(array($__psysh__, 'handleError'));
             try {
                 foreach ($__psysh__->getIncludes() as $__psysh_include__) {

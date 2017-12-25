@@ -40,9 +40,9 @@ class FunctionEnumerator extends Enumerator
             return;
         }
 
-        if ($input->getOption('user')) {
+        if ($input->getOption('_user')) {
             $label     = 'User Functions';
-            $functions = $this->getFunctions('user');
+            $functions = $this->getFunctions('_user');
         } elseif ($input->getOption('internal')) {
             $label     = 'Internal Functions';
             $functions = $this->getFunctions('internal');
@@ -66,9 +66,9 @@ class FunctionEnumerator extends Enumerator
     /**
      * Get defined functions.
      *
-     * Optionally limit functions to "user" or "internal" functions.
+     * Optionally limit functions to "_user" or "internal" functions.
      *
-     * @param null|string $type "user" or "internal" (default: both)
+     * @param null|string $type "_user" or "internal" (default: both)
      *
      * @return array
      */
@@ -79,7 +79,7 @@ class FunctionEnumerator extends Enumerator
         if ($type) {
             return $funcs[$type];
         } else {
-            return array_merge($funcs['internal'], $funcs['user']);
+            return array_merge($funcs['internal'], $funcs['_user']);
         }
     }
 

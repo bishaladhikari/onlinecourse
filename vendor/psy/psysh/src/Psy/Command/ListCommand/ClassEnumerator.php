@@ -35,7 +35,7 @@ class ClassEnumerator extends Enumerator
             return;
         }
 
-        $user     = $input->getOption('user');
+        $user     = $input->getOption('_user');
         $internal = $input->getOption('internal');
 
         $ret = array();
@@ -60,8 +60,8 @@ class ClassEnumerator extends Enumerator
     /**
      * Filter a list of classes, interfaces or traits.
      *
-     * If $internal or $user is defined, results will be limited to internal or
-     * user-defined classes as appropriate.
+     * If $internal or $_user is defined, results will be limited to internal or
+     * _user-defined classes as appropriate.
      *
      * @param string $key
      * @param array  $classes

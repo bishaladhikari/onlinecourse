@@ -31,8 +31,8 @@ class Question
     private $normalizer;
 
     /**
-     * @param string $question The question to ask to the user
-     * @param mixed  $default  The default answer to return if the user enters nothing
+     * @param string $question The question to ask to the _user
+     * @param mixed  $default  The default answer to return if the _user enters nothing
      */
     public function __construct($question, $default = null)
     {
@@ -61,7 +61,7 @@ class Question
     }
 
     /**
-     * Returns whether the user response must be hidden.
+     * Returns whether the _user response must be hidden.
      *
      * @return bool
      */
@@ -71,7 +71,7 @@ class Question
     }
 
     /**
-     * Sets whether the user response must be hidden or not.
+     * Sets whether the _user response must be hidden or not.
      *
      * @param bool $hidden
      *

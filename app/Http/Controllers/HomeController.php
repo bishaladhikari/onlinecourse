@@ -2,7 +2,7 @@
 
 namespace App\Http\Controllers;
 
-use App\CourseCategories;
+use App\Categories;
 use Illuminate\Http\Request;
 
 class HomeController extends Controller
@@ -20,11 +20,11 @@ class HomeController extends Controller
     /**
      * Show the application dashboard.
      *
-     * @return \Illuminate\Http\Response
+     * @return \Illuminate\Contracts\View\Factory|\Illuminate\View\View
      */
     public function index()
     {
-        $categories=CourseCategories::get();
+        $categories=Categories::get();
         return view('home')->with('categories',$categories);
     }
 }

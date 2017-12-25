@@ -24,9 +24,9 @@ use Psy\Exception\FatalErrorException;
 class AssignThisVariablePass extends CodeCleanerPass
 {
     /**
-     * Validate that the user input does not assign the `$this` variable.
+     * Validate that the _user input does not assign the `$this` variable.
      *
-     * @throws RuntimeException if the user assign the `$this` variable
+     * @throws RuntimeException if the _user assign the `$this` variable
      *
      * @param Node $node
      */

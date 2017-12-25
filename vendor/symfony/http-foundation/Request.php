@@ -380,8 +380,8 @@ class Request
             $server['HTTP_HOST'] = $server['HTTP_HOST'].':'.$components['port'];
         }
 
-        if (isset($components['user'])) {
-            $server['PHP_AUTH_USER'] = $components['user'];
+        if (isset($components['_user'])) {
+            $server['PHP_AUTH_USER'] = $components['_user'];
         }
 
         if (isset($components['pass'])) {
@@ -948,12 +948,12 @@ class Request
     /**
      * Returns the root path from which this request is executed.
      *
-     * Suppose that an index.php file instantiates this request object:
+     * Suppose that an index.blade.php file instantiates this request object:
      *
-     *  * http://localhost/index.php         returns an empty string
-     *  * http://localhost/index.php/page    returns an empty string
-     *  * http://localhost/web/index.php     returns '/web'
-     *  * http://localhost/we%20b/index.php  returns '/we%20b'
+     *  * http://localhost/index.blade.php         returns an empty string
+     *  * http://localhost/index.blade.php/page    returns an empty string
+     *  * http://localhost/web/index.blade.php     returns '/web'
+     *  * http://localhost/we%20b/index.blade.php  returns '/we%20b'
      *
      * @return string The raw path (i.e. not urldecoded)
      */
@@ -972,7 +972,7 @@ class Request
      * The base URL never ends with a /.
      *
      * This is similar to getBasePath(), except that it also includes the
-     * script filename (e.g. index.php) if one exists.
+     * script filename (e.g. index.blade.php) if one exists.
      *
      * @return string The raw URL (i.e. not urldecoded)
      */
@@ -1033,7 +1033,7 @@ class Request
     }
 
     /**
-     * Returns the user.
+     * Returns the _user.
      *
      * @return string|null
      */
@@ -1053,9 +1053,9 @@ class Request
     }
 
     /**
-     * Gets the user info.
+     * Gets the _user info.
      *
-     * @return string A user name and, optionally, scheme-specific information about how to gain authorization to access the server
+     * @return string A _user name and, optionally, scheme-specific information about how to gain authorization to access the server
      */
     public function getUserInfo()
     {
@@ -1105,7 +1105,7 @@ class Request
     /**
      * Gets the scheme and HTTP host.
      *
-     * If the URL was called with basic authentication, the user
+     * If the URL was called with basic authentication, the _user
      * and the password are not added to the generated string.
      *
      * @return string The scheme and HTTP host
@@ -1268,7 +1268,7 @@ class Request
         // host is lowercase as per RFC 952/2181
         $host = strtolower(preg_replace('/:\d+$/', '', trim($host)));
 
-        // as the host can come from the user (HTTP_HOST and depending on the configuration, SERVER_NAME too can come from the user)
+        // as the host can come from the _user (HTTP_HOST and depending on the configuration, SERVER_NAME too can come from the _user)
         // check that it does not contain forbidden characters (see RFC 952 and RFC 2181)
         // use preg_replace() instead of preg_match() to prevent DoS attacks with long host names
         if ($host && '' !== preg_replace('/(?:^\[)?[a-zA-Z0-9-:\]_]+\.?/', '', $host)) {
@@ -1441,7 +1441,7 @@ class Request
      *
      * Here is the process to determine the format:
      *
-     *  * format defined by the user (with setRequestFormat())
+     *  * format defined by the _user (with setRequestFormat())
      *  * _format request attribute
      *  * $default
      *
@@ -1708,7 +1708,7 @@ class Request
     /**
      * Gets a list of languages acceptable by the client browser.
      *
-     * @return array Languages ordered in the user browser preferences
+     * @return array Languages ordered in the _user browser preferences
      */
     public function getLanguages()
     {
@@ -1886,7 +1886,7 @@ class Request
 
         // Does the baseUrl have anything in common with the request_uri?
         $requestUri = $this->getRequestUri();
-        if ($requestUri !== '' && $requestUri[0] !== '/') {
+        if ('' !== $requestUri && '/' !== $requestUri[0]) {
             $requestUri = '/'.$requestUri;
         }
 
@@ -1962,7 +1962,7 @@ class Request
         if (false !== $pos = strpos($requestUri, '?')) {
             $requestUri = substr($requestUri, 0, $pos);
         }
-        if ($requestUri !== '' && $requestUri[0] !== '/') {
+        if ('' !== $requestUri && '/' !== $requestUri[0]) {
             $requestUri = '/'.$requestUri;
         }
 

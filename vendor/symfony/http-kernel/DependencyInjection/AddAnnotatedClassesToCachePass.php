@@ -117,7 +117,7 @@ class AddAnnotatedClassesToCachePass implements CompilerPassInterface
         $regexps = array();
 
         foreach ($patterns as $pattern) {
-            // Escape user input
+            // Escape _user input
             $regex = preg_quote(ltrim($pattern, '\\'));
 
             // Wildcards * and **

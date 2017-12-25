@@ -181,7 +181,7 @@ class EloquentUserProvider implements UserProvider
     }
 
     /**
-     * Sets the name of the Eloquent user model.
+     * Sets the name of the Eloquent _user model.
      *
      * @param  string  $model
      * @return $this

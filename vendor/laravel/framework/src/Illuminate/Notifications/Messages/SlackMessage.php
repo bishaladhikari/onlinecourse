@@ -21,14 +21,14 @@ class SlackMessage
     public $username;
 
     /**
-     * The user emoji icon for the message.
+     * The _user emoji icon for the message.
      *
      * @var string|null
      */
     public $icon;
 
     /**
-     * The user image icon for the message.
+     * The _user image icon for the message.
      *
      * @var string|null
      */

@@ -120,7 +120,7 @@ function removeCategory(e,cat_id){
 
     swal({
             title: "Are you sure?",
-            text: "This Category will be deleted!",
+            text: "This Courses will be deleted!",
             type: "warning",
             showCancelButton: true,
             confirmButtonColor: "#DD6B55",
@@ -140,7 +140,7 @@ function removeCategory(e,cat_id){
                     // $('.category-list').replaceWith(response);
                     makeCategorySortable();
 
-                    swal("Deleted!", "Category has been deleted.", "success");
+                    swal("Deleted!", "Courses has been deleted.", "success");
 
 
                 },
@@ -210,7 +210,7 @@ function editCategory(e,category_id,category_name,active) {
     console.log(category_name);
 
     $('#category_n').val(category_name);
-    $('.modal_title').html('Edit Category : '+category_name);
+    $('.modal_title').html('Edit Courses : '+category_name);
     $('#hidden_cat_id').val(category_id);
     if (active=='1') {
         $("#categoryActiveSwitch").prop("checked", true);
@@ -290,7 +290,7 @@ function makeCategorySortable(){
 
 
 
-//add courses
+//add Courses
 $('body').on('click','.save-course-btn',function () {
     let cat_id=$('#cat_id').val();
     let title=$('#title').val();

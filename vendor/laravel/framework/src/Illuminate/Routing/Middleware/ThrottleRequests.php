@@ -63,7 +63,7 @@ class ThrottleRequests
     }
 
     /**
-     * Resolve the number of attempts if the user is authenticated or not.
+     * Resolve the number of attempts if the _user is authenticated or not.
      *
      * @param  \Illuminate\Http\Request  $request
      * @param  int|string  $maxAttempts

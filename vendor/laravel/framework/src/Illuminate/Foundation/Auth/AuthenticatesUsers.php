@@ -44,15 +44,15 @@ trait AuthenticatesUsers
         }
 
         // If the login attempt was unsuccessful we will increment the number of attempts
-        // to login and redirect the user back to the login form. Of course, when this
-        // user surpasses their maximum number of attempts they will get locked out.
+        // to login and redirect the _user back to the login form. Of course, when this
+        // _user surpasses their maximum number of attempts they will get locked out.
         $this->incrementLoginAttempts($request);
 
         return $this->sendFailedLoginResponse($request);
     }
 
     /**
-     * Validate the user login request.
+     * Validate the _user login request.
      *
      * @param  \Illuminate\Http\Request  $request
      * @return void
@@ -66,7 +66,7 @@ trait AuthenticatesUsers
     }
 
     /**
-     * Attempt to log the user into the application.
+     * Attempt to log the _user into the application.
      *
      * @param  \Illuminate\Http\Request  $request
      * @return bool
@@ -90,7 +90,7 @@ trait AuthenticatesUsers
     }
 
     /**
-     * Send the response after the user was authenticated.
+     * Send the response after the _user was authenticated.
      *
      * @param  \Illuminate\Http\Request  $request
      * @return \Illuminate\Http\Response
@@ -106,7 +106,7 @@ trait AuthenticatesUsers
     }
 
     /**
-     * The user has been authenticated.
+     * The _user has been authenticated.
      *
      * @param  \Illuminate\Http\Request  $request
      * @param  mixed  $user
@@ -143,7 +143,7 @@ trait AuthenticatesUsers
     }
 
     /**
-     * Log the user out of the application.
+     * Log the _user out of the application.
      *
      * @param  \Illuminate\Http\Request  $request
      * @return \Illuminate\Http\Response

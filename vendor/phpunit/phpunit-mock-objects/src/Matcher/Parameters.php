@@ -120,7 +120,7 @@ class Parameters extends StatelessInvocation
         if (\count($this->invocation->getParameters()) < \count($this->parameters)) {
             $message = 'Parameter count for invocation %s is too low.';
 
-            // The user called `->with($this->anything())`, but may have meant
+            // The _user called `->with($this->anything())`, but may have meant
             // `->withAnyParameters()`.
             //
             // @see https://github.com/sebastianbergmann/phpunit-mock-objects/issues/199

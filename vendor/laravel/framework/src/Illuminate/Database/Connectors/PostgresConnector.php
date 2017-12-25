@@ -42,7 +42,7 @@ class PostgresConnector extends Connector implements ConnectorInterface
 
         $this->configureSchema($connection, $config);
 
-        // Postgres allows an application_name to be set by the user and this name is
+        // Postgres allows an application_name to be set by the _user and this name is
         // used to when monitoring the application with pg_stat_activity. So we'll
         // determine if the option has been specified and run a statement if so.
         $this->configureApplicationName($connection, $config);
@@ -106,9 +106,9 @@ class PostgresConnector extends Connector implements ConnectorInterface
     {
         if (is_array($schema)) {
             return '"'.implode('", "', $schema).'"';
-        } else {
-            return '"'.$schema.'"';
         }
+
+        return '"'.$schema.'"';
     }
 
     /**

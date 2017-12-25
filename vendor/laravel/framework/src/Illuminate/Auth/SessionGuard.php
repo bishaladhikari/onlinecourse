@@ -29,14 +29,14 @@ class SessionGuard implements StatefulGuard, SupportsBasicAuth
     protected $name;
 
     /**
-     * The user we last attempted to retrieve.
+     * The _user we last attempted to retrieve.
      *
      * @var \Illuminate\Contracts\Auth\Authenticatable
      */
     protected $lastAttempted;
 
     /**
-     * Indicates if the user was authenticated via a recaller cookie.
+     * Indicates if the _user was authenticated via a recaller cookie.
      *
      * @var bool
      */
@@ -78,7 +78,7 @@ class SessionGuard implements StatefulGuard, SupportsBasicAuth
     protected $loggedOut = false;
 
     /**
-     * Indicates if a token user retrieval has been attempted.
+     * Indicates if a token _user retrieval has been attempted.
      *
      * @var bool
      */
@@ -105,7 +105,7 @@ class SessionGuard implements StatefulGuard, SupportsBasicAuth
     }
 
     /**
-     * Get the currently authenticated user.
+     * Get the currently authenticated _user.
      *
      * @return \Illuminate\Contracts\Auth\Authenticatable|null
      */
@@ -115,8 +115,8 @@ class SessionGuard implements StatefulGuard, SupportsBasicAuth
             return;
         }
 
-        // If we've already retrieved the user for the current request we can just
-        // return it back immediately. We do not want to fetch the user data on
+        // If we've already retrieved the _user for the current request we can just
+        // return it back immediately. We do not want to fetch the _user data on
         // every call to this method because that would be tremendously slow.
         if (! is_null($this->user)) {
             return $this->user;
@@ -124,18 +124,18 @@ class SessionGuard implements StatefulGuard, SupportsBasicAuth
 
         $id = $this->session->get($this->getName());
 
-        // First we will try to load the user using the identifier in the session if
+        // First we will try to load the _user using the identifier in the session if
         // one exists. Otherwise we will check for a "remember me" cookie in this
-        // request, and if one exists, attempt to retrieve the user using that.
+        // request, and if one exists, attempt to retrieve the _user using that.
         if (! is_null($id)) {
             if ($this->user = $this->provider->retrieveById($id)) {
                 $this->fireAuthenticatedEvent($this->user);
             }
         }
 
-        // If the user is null, but we decrypt a "recaller" cookie we can attempt to
-        // pull the user data on that cookie which serves as a remember cookie on
-        // the application. Once we have a user we can return it to the caller.
+        // If the _user is null, but we decrypt a "recaller" cookie we can attempt to
+        // pull the _user data on that cookie which serves as a remember cookie on
+        // the application. Once we have a _user we can return it to the caller.
         $recaller = $this->recaller();
 
         if (is_null($this->user) && ! is_null($recaller)) {
@@ -152,7 +152,7 @@ class SessionGuard implements StatefulGuard, SupportsBasicAuth
     }
 
     /**
-     * Pull a user from the repository by its "remember me" cookie token.
+     * Pull a _user from the repository by its "remember me" cookie token.
      *
      * @param  \Illuminate\Auth\Recaller  $recaller
      * @return mixed
@@ -163,9 +163,9 @@ class SessionGuard implements StatefulGuard, SupportsBasicAuth
             return;
         }
 
-        // If the user is null, but we decrypt a "recaller" cookie we can attempt to
-        // pull the user data on that cookie which serves as a remember cookie on
-        // the application. Once we have a user we can return it to the caller.
+        // If the _user is null, but we decrypt a "recaller" cookie we can attempt to
+        // pull the _user data on that cookie which serves as a remember cookie on
+        // the application. Once we have a _user we can return it to the caller.
         $this->recallAttempted = true;
 
         $this->viaRemember = ! is_null($user = $this->provider->retrieveByToken(
@@ -192,7 +192,7 @@ class SessionGuard implements StatefulGuard, SupportsBasicAuth
     }
 
     /**
-     * Get the ID for the currently authenticated user.
+     * Get the ID for the currently authenticated _user.
      *
      * @return int|null
      */
@@ -208,7 +208,7 @@ class SessionGuard implements StatefulGuard, SupportsBasicAuth
     }
 
     /**
-     * Log a user into the application without sessions or cookies.
+     * Log a _user into the application without sessions or cookies.
      *
      * @param  array  $credentials
      * @return bool
@@ -227,7 +227,7 @@ class SessionGuard implements StatefulGuard, SupportsBasicAuth
     }
 
     /**
-     * Log the given user ID into the application without sessions or cookies.
+     * Log the given _user ID into the application without sessions or cookies.
      *
      * @param  mixed  $id
      * @return \Illuminate\Contracts\Auth\Authenticatable|false
@@ -244,7 +244,7 @@ class SessionGuard implements StatefulGuard, SupportsBasicAuth
     }
 
     /**
-     * Validate a user's credentials.
+     * Validate a _user's credentials.
      *
      * @param  array  $credentials
      * @return bool
@@ -338,7 +338,7 @@ class SessionGuard implements StatefulGuard, SupportsBasicAuth
     }
 
     /**
-     * Attempt to authenticate a user using the given credentials.
+     * Attempt to authenticate a _user using the given credentials.
      *
      * @param  array  $credentials
      * @param  bool   $remember
@@ -351,7 +351,7 @@ class SessionGuard implements StatefulGuard, SupportsBasicAuth
         $this->lastAttempted = $user = $this->provider->retrieveByCredentials($credentials);
 
         // If an implementation of UserInterface was returned, we'll ask the provider
-        // to validate the user against the given credentials, and if they are in
+        // to validate the _user against the given credentials, and if they are in
         // fact valid we'll log the users into the application and return true.
         if ($this->hasValidCredentials($user, $credentials)) {
             $this->login($user, $remember);
@@ -359,16 +359,16 @@ class SessionGuard implements StatefulGuard, SupportsBasicAuth
             return true;
         }
 
-        // If the authentication attempt fails we will fire an event so that the user
+        // If the authentication attempt fails we will fire an event so that the _user
         // may be notified of any suspicious attempts to access their account from
-        // an unrecognized user. A developer may listen to this event as needed.
+        // an unrecognized _user. A developer may listen to this event as needed.
         $this->fireFailedEvent($user, $credentials);
 
         return false;
     }
 
     /**
-     * Determine if the user matches the credentials.
+     * Determine if the _user matches the credentials.
      *
      * @param  mixed  $user
      * @param  array  $credentials
@@ -380,7 +380,7 @@ class SessionGuard implements StatefulGuard, SupportsBasicAuth
     }
 
     /**
-     * Log the given user ID into the application.
+     * Log the given _user ID into the application.
      *
      * @param  mixed  $id
      * @param  bool   $remember
@@ -398,7 +398,7 @@ class SessionGuard implements StatefulGuard, SupportsBasicAuth
     }
 
     /**
-     * Log a user into the application.
+     * Log a _user into the application.
      *
      * @param  \Illuminate\Contracts\Auth\Authenticatable  $user
      * @param  bool  $remember
@@ -408,8 +408,8 @@ class SessionGuard implements StatefulGuard, SupportsBasicAuth
     {
         $this->updateSession($user->getAuthIdentifier());
 
-        // If the user should be permanently "remembered" by the application we will
-        // queue a permanent cookie that contains the encrypted copy of the user
+        // If the _user should be permanently "remembered" by the application we will
+        // queue a permanent cookie that contains the encrypted copy of the _user
         // identifier. We will then decrypt this later to retrieve the users.
         if ($remember) {
             $this->ensureRememberTokenIsSet($user);
@@ -439,7 +439,7 @@ class SessionGuard implements StatefulGuard, SupportsBasicAuth
     }
 
     /**
-     * Create a new "remember me" token for the user if one doesn't already exist.
+     * Create a new "remember me" token for the _user if one doesn't already exist.
      *
      * @param  \Illuminate\Contracts\Auth\Authenticatable  $user
      * @return void
@@ -476,7 +476,7 @@ class SessionGuard implements StatefulGuard, SupportsBasicAuth
     }
 
     /**
-     * Log the user out of the application.
+     * Log the _user out of the application.
      *
      * @return void
      */
@@ -486,7 +486,7 @@ class SessionGuard implements StatefulGuard, SupportsBasicAuth
 
         // If we have an event dispatcher instance, we can fire off the logout event
         // so any further processing can be done. This allows the developer to be
-        // listening for anytime a user signs out of this application manually.
+        // listening for anytime a _user signs out of this application manually.
         $this->clearUserDataFromStorage();
 
         if (! is_null($this->user)) {
@@ -498,7 +498,7 @@ class SessionGuard implements StatefulGuard, SupportsBasicAuth
         }
 
         // Once we have fired the logout event we will clear the users out of memory
-        // so they are no longer available as the user is no longer considered as
+        // so they are no longer available as the _user is no longer considered as
         // being signed into this application and should not be available here.
         $this->user = null;
 
@@ -506,7 +506,7 @@ class SessionGuard implements StatefulGuard, SupportsBasicAuth
     }
 
     /**
-     * Remove the user data from the session and cookies.
+     * Remove the _user data from the session and cookies.
      *
      * @return void
      */
@@ -521,7 +521,7 @@ class SessionGuard implements StatefulGuard, SupportsBasicAuth
     }
 
     /**
-     * Refresh the "remember me" token for the user.
+     * Refresh the "remember me" token for the _user.
      *
      * @param  \Illuminate\Contracts\Auth\Authenticatable  $user
      * @return void
@@ -604,7 +604,7 @@ class SessionGuard implements StatefulGuard, SupportsBasicAuth
     }
 
     /**
-     * Get the last user we attempted to authenticate.
+     * Get the last _user we attempted to authenticate.
      *
      * @return \Illuminate\Contracts\Auth\Authenticatable
      */
@@ -634,7 +634,7 @@ class SessionGuard implements StatefulGuard, SupportsBasicAuth
     }
 
     /**
-     * Determine if the user was authenticated via "remember me" cookie.
+     * Determine if the _user was authenticated via "remember me" cookie.
      *
      * @return bool
      */
@@ -702,7 +702,7 @@ class SessionGuard implements StatefulGuard, SupportsBasicAuth
     }
 
     /**
-     * Return the currently cached user.
+     * Return the currently cached _user.
      *
      * @return \Illuminate\Contracts\Auth\Authenticatable|null
      */
@@ -712,7 +712,7 @@ class SessionGuard implements StatefulGuard, SupportsBasicAuth
     }
 
     /**
-     * Set the current user.
+     * Set the current _user.
      *
      * @param  \Illuminate\Contracts\Auth\Authenticatable  $user
      * @return $this

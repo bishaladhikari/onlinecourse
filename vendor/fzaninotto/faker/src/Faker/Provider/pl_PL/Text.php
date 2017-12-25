@@ -861,7 +861,7 @@ mój rozwinął tymczasem program tej wtórej demiurgii, obraz tej drugiej
 generacji stworzeń, która stanąć miała w otwartej opozycji do panującej
 epoki. - Nie zależy nam - mówił on - na tworach o długim oddechu, na
 istotach na daleką metę. Nasze kreatury nie będą bohaterami romansów w
-wielu tomach. Ich role będą krótkie, lapidarne, ich charaktery - bez
+wielu tomach. Ich _role będą krótkie, lapidarne, ich charaktery - bez
 dalszych planów. Często dla jednego gestu, dla jednego słowa podejmiemy
 się trudu powołania ich do życia na tę jedną chwilę. Przyznajemy
 otwarcie: nie będziemy kładli nacisku na trwałość ani solidność

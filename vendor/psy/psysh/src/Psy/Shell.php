@@ -298,12 +298,12 @@ class Shell extends Application
     }
 
     /**
-     * Read user input.
+     * Read _user input.
      *
-     * This will continue fetching user input until the code buffer contains
+     * This will continue fetching _user input until the code buffer contains
      * valid code.
      *
-     * @throws BreakException if user hits Ctrl+D
+     * @throws BreakException if _user hits Ctrl+D
      */
     public function getInput()
     {
@@ -550,7 +550,7 @@ class Shell extends Application
     }
 
     /**
-     * Run a Psy Shell command given the user input.
+     * Run a Psy Shell command given the _user input.
      *
      * @throws InvalidArgumentException if the input is not a valid command
      *
@@ -581,7 +581,7 @@ class Shell extends Application
     /**
      * Reset the current code buffer.
      *
-     * This should be run after evaluating user input, catching exceptions, or
+     * This should be run after evaluating _user input, catching exceptions, or
      * on demand by commands such as BufferCommand.
      */
     public function resetCodeBuffer()
@@ -783,7 +783,7 @@ class Shell extends Application
                     return 'error';
             }
         } else {
-            // Since this is below the user's reporting threshold, it's always going to be a warning.
+            // Since this is below the _user's reporting threshold, it's always going to be a warning.
             return 'warning';
         }
     }
@@ -885,15 +885,15 @@ class Shell extends Application
     }
 
     /**
-     * Read a line of user input.
+     * Read a line of _user input.
      *
      * This will return a line from the input buffer (if any exist). Otherwise,
-     * it will ask the user for input.
+     * it will ask the _user for input.
      *
      * If readline is enabled, this delegates to readline. Otherwise, it's an
      * ugly `fgets` call.
      *
-     * @return string One line of user input
+     * @return string One line of _user input
      */
     protected function readline()
     {

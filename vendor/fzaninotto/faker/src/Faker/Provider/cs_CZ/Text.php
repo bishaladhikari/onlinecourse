@@ -4459,7 +4459,7 @@ třetího pokoje a počkej tam na mne. Musím tě vidět.“
 „Poslyšte,“ chtěl Prokop něco říci, ale tu již kynula hlavou a mířila plavně k
 starému majorovi.
 Prokop nevěřil svým očím. Dějí se takovéhle věci, není to smluvená produkce
-pro smích, berou ti lidé vážně své role? Tlustý cousin jej vzal pod paží a
+pro smích, berou ti lidé vážně své _role? Tlustý cousin jej vzal pod paží a
 táhl diskrétně stranou. „Víte, co to znamená?“ šeptal rozčilen. „Starého
 Hagena raní mrtvice, až se to dozví. Panovnický rod! Viděl jste tady ondyno
 toho následníka? Měla být svatba a rozešlo se to. Ten člověk, ten je sem jistě

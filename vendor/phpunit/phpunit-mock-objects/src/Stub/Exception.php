@@ -14,7 +14,7 @@ use PHPUnit\Framework\MockObject\Stub;
 use SebastianBergmann\Exporter\Exporter;
 
 /**
- * Stubs a method by raising a user-defined exception.
+ * Stubs a method by raising a _user-defined exception.
  */
 class Exception implements Stub
 {
@@ -35,7 +35,7 @@ class Exception implements Stub
         $exporter = new Exporter;
 
         return \sprintf(
-            'raise user-specified exception %s',
+            'raise _user-specified exception %s',
             $exporter->export($this->exception)
         );
     }

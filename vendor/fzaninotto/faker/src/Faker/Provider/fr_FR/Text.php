@@ -208,7 +208,7 @@ courir après toutes les gotons de village et que vingt mauvais
 lieux le lui renvoyaient le soir, blasé et puant l'ivresse! Puis
 l'orgueil s'était révolté. Alors elle s'était tue, avalant sa rage
 dans un stoïcisme muet, qu'elle garda jusqu'à sa mort. Elle était
-sans cesse en courses, en affaires. Elle allait chez les avoués,
+sans cesse en Courses, en affaires. Elle allait chez les avoués,
 chez le président, se rappelait l'échéance des billets, obtenait
 des retards; et, à la maison, repassait, cousait, blanchissait,
 surveillait les ouvriers, soldait les mémoires, tandis que, sans
@@ -2215,7 +2215,7 @@ clarté des étoiles. Au bout d'une distance indéterminée, il se
 trouvait toujours une place confuse où expirait son rêve.
 
 Elle s'acheta un plan de Paris, et, du bout de son doigt, sur la
-carte, elle faisait des courses dans la capitale. Elle remontait
+carte, elle faisait des Courses dans la capitale. Elle remontait
 les boulevards, s'arrêtant à chaque angle, entre les lignes des
 rues, devant les carrés blancs qui figurent les maisons. Les yeux
 fatigués à la fin, elle fermait ses paupières, et elle voyait dans
@@ -2225,7 +2225,7 @@ péristyle des théâtres.
 
 Elle s'abonna à la Corbeille, journal des femmes, et au Sylphe des
 salons. Elle dévorait, sans en rien passer, tous les comptes
-rendus de premières représentations, de courses et de soirées,
+rendus de premières représentations, de Courses et de soirées,
 s'intéressait au début d'une chanteuse, à l'ouverture d'un
 magasin. Elle savait les modes nouvelles, l'adresse des bons
 tailleurs, les jours de Bois ou d'Opéra. Elle étudia, dans Eugène
@@ -3248,7 +3248,7 @@ ma seule distraction; mais Yonville offre si peu de ressources!
 -- Comme Tostes, sans doute, reprit Emma; aussi j'étais toujours
 abonnée à un cabinet de lecture.
 
--- Si Madame veut me faire l'honneur d'en user, dit le pharmacien,
+-- Si Madame veut me faire l'honneur d'en _user, dit le pharmacien,
 qui venait d'entendre ces derniers mots, j'ai moi-même à sa
 disposition une bibliothèque composée des meilleurs auteurs:
 Voltaire, Rousseau, Delille, Walter Scott, l'Écho des feuilletons,
@@ -9274,7 +9274,7 @@ poissées par les glorias, les vitres épaisses jaunies par les
 mouches, les serviettes humides tachées par le vin bleu; et qui,
 sentant toujours le village, comme des valets de ferme habillés en
 bourgeois, ont un café sur la rue, et du côté de la campagne un
-jardin à légumes. Charles immédiatement se mit en courses. Il
+jardin à légumes. Charles immédiatement se mit en Courses. Il
 confondit l'avant-scène avec les galeries, le parquet avec les
 loges, demanda des explications, ne les comprit pas, fut renvoyé
 du contrôleur au directeur, revint à l'auberge, retourna au
@@ -15314,7 +15314,7 @@ EOT;
     distribute copies of a Project Gutenberg-tm work in a format other than
     "Plain Vanilla ASCII" or other format used in the official version
     posted on the official Project Gutenberg-tm web site (www.gutenberg.net),
-    you must, at no additional cost, fee or expense to the user, provide a
+    you must, at no additional cost, fee or expense to the _user, provide a
     copy, a means of exporting a copy, or a means of obtaining a copy upon
     request, of the work in its original "Plain Vanilla ASCII" or other
     form.  Any alternate format must include the full Project Gutenberg-tm
@@ -15341,10 +15341,10 @@ EOT;
          address specified in Section 4, "Information about donations to
          the Project Gutenberg Literary Archive Foundation."
 
-    - You provide a full refund of any money paid by a user who notifies
+    - You provide a full refund of any money paid by a _user who notifies
          you in writing (or by e-mail) within 30 days of receipt that s/he
          does not agree to the terms of the full Project Gutenberg-tm
-         License.  You must require such a user to return or
+         License.  You must require such a _user to return or
          destroy all copies of the works possessed in a physical medium
          and discontinue all use of and all access to other copies of
          Project Gutenberg-tm works.

@@ -117,8 +117,8 @@ class ConsoleLoggerTest extends TestCase
     public function testLogsAtAllLevels($level, $message)
     {
         $logger = $this->getLogger();
-        $logger->{$level}($message, array('user' => 'Bob'));
-        $logger->log($level, $message, array('user' => 'Bob'));
+        $logger->{$level}($message, array('_user' => 'Bob'));
+        $logger->log($level, $message, array('_user' => 'Bob'));
 
         $expected = array(
             $level.' message of level '.$level.' with context: Bob',
@@ -130,14 +130,14 @@ class ConsoleLoggerTest extends TestCase
     public function provideLevelsAndMessages()
     {
         return array(
-            LogLevel::EMERGENCY => array(LogLevel::EMERGENCY, 'message of level emergency with context: {user}'),
-            LogLevel::ALERT => array(LogLevel::ALERT, 'message of level alert with context: {user}'),
-            LogLevel::CRITICAL => array(LogLevel::CRITICAL, 'message of level critical with context: {user}'),
-            LogLevel::ERROR => array(LogLevel::ERROR, 'message of level error with context: {user}'),
-            LogLevel::WARNING => array(LogLevel::WARNING, 'message of level warning with context: {user}'),
-            LogLevel::NOTICE => array(LogLevel::NOTICE, 'message of level notice with context: {user}'),
-            LogLevel::INFO => array(LogLevel::INFO, 'message of level info with context: {user}'),
-            LogLevel::DEBUG => array(LogLevel::DEBUG, 'message of level debug with context: {user}'),
+            LogLevel::EMERGENCY => array(LogLevel::EMERGENCY, 'message of level emergency with context: {_user}'),
+            LogLevel::ALERT => array(LogLevel::ALERT, 'message of level alert with context: {_user}'),
+            LogLevel::CRITICAL => array(LogLevel::CRITICAL, 'message of level critical with context: {_user}'),
+            LogLevel::ERROR => array(LogLevel::ERROR, 'message of level error with context: {_user}'),
+            LogLevel::WARNING => array(LogLevel::WARNING, 'message of level warning with context: {_user}'),
+            LogLevel::NOTICE => array(LogLevel::NOTICE, 'message of level notice with context: {_user}'),
+            LogLevel::INFO => array(LogLevel::INFO, 'message of level info with context: {_user}'),
+            LogLevel::DEBUG => array(LogLevel::DEBUG, 'message of level debug with context: {_user}'),
         );
     }
 
@@ -153,7 +153,7 @@ class ConsoleLoggerTest extends TestCase
     public function testContextReplacement()
     {
         $logger = $this->getLogger();
-        $logger->info('{Message {nothing} {user} {foo.bar} a}', array('user' => 'Bob', 'foo.bar' => 'Bar'));
+        $logger->info('{Message {nothing} {_user} {foo.bar} a}', array('_user' => 'Bob', 'foo.bar' => 'Bar'));
 
         $expected = array('info {Message {nothing} Bob Bar a}');
         $this->assertEquals($expected, $this->getLogs());

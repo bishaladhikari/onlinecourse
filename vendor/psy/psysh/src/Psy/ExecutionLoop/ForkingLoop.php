@@ -17,7 +17,7 @@ use Psy\Shell;
 /**
  * A forking version of the Psy Shell execution loop.
  *
- * This version is preferred, as it won't die prematurely if user input includes
+ * This version is preferred, as it won't die prematurely if _user input includes
  * a fatal error, such as redeclaring a class or function.
  */
 class ForkingLoop extends Loop

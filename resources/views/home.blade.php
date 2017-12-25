@@ -23,7 +23,9 @@
             @foreach($categories as $category)
 
                 <div class="panel">
-                    <div class="panel-heading">Courses in "{{$category->name}}"</div>
+                    <div class="panel-heading">
+                       <h4>Courses in "{{$category->name}}"</h4>
+                    </div>
 
                     <div class="panel-body" >
                         @if (session('status'))
@@ -41,7 +43,8 @@
                                         <img src="{{asset('admin_assets/img/default_img.jpg')}}" style="height: 150px;width:100%">
                                         <div class="panel-heading">
 
-                                            {{$course->name}}</div>
+                                            <h5>{{$course->name}}</h5>
+                                        </div>
 
                                         <div class="panel-body">
                                             {{$course->description}}

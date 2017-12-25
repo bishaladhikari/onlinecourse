@@ -5,14 +5,14 @@ namespace Illuminate\Auth\Events;
 class Attempting
 {
     /**
-     * The credentials for the user.
+     * The credentials for the _user.
      *
      * @var array
      */
     public $credentials;
 
     /**
-     * Indicates if the user should be "remembered".
+     * Indicates if the _user should be "remembered".
      *
      * @var bool
      */

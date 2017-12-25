@@ -37,7 +37,7 @@ class Event
     public $timezone;
 
     /**
-     * The user the command should run as.
+     * The _user the command should run as.
      *
      * @var string
      */
@@ -476,7 +476,7 @@ class Event
     }
 
     /**
-     * Set which user the command should run as.
+     * Set which _user the command should run as.
      *
      * @param  string  $user
      * @return $this

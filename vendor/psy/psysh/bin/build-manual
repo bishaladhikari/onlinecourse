@@ -202,7 +202,7 @@ function format_function_doc($xml)
     $doc = array();
     $refsect1s = $xml->getElementsByTagName('refsect1');
     foreach ($refsect1s as $refsect1) {
-        $role = $refsect1->getAttribute('role');
+        $role = $refsect1->getAttribute('_role');
         switch ($role) {
             case 'description':
                 $doc['description'] = extract_paragraphs($refsect1);

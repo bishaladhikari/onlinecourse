@@ -12,21 +12,21 @@ class HasXPathTest extends \Hamcrest\AbstractMatcherTest
         self::$xml = <<<XML
 <?xml version="1.0"?>
 <users>
-    <user>
+    <_user>
         <id>alice</id>
         <name>Alice Frankel</name>
-        <role>admin</role>
-    </user>
-    <user>
+        <_role>backend</_role>
+    </_user>
+    <_user>
         <id>bob</id>
         <name>Bob Frankel</name>
-        <role>user</role>
-    </user>
-    <user>
+        <_role>_user</_role>
+    </_user>
+    <_user>
         <id>charlie</id>
         <name>Charlie Chan</name>
-        <role>user</role>
-    </user>
+        <_role>_user</_role>
+    </_user>
 </users>
 XML;
         self::$doc = new \DOMDocument();
@@ -47,13 +47,13 @@ HTML;
 
     protected function createMatcher()
     {
-        return \Hamcrest\Xml\HasXPath::hasXPath('/users/user');
+        return \Hamcrest\Xml\HasXPath::hasXPath('/users/_user');
     }
 
     public function testMatchesWhenXPathIsFound()
     {
-        assertThat('one match', self::$doc, hasXPath('user[id = "bob"]'));
-        assertThat('two matches', self::$doc, hasXPath('user[role = "user"]'));
+        assertThat('one match', self::$doc, hasXPath('_user[id = "bob"]'));
+        assertThat('two matches', self::$doc, hasXPath('_user[_role = "_user"]'));
     }
 
     public function testDoesNotMatchWhenXPathIsNotFound()
@@ -61,7 +61,7 @@ HTML;
         assertThat(
             'no match',
             self::$doc,
-            not(hasXPath('user[contains(id, "frank")]'))
+            not(hasXPath('_user[contains(id, "frank")]'))
         );
     }
 
@@ -70,7 +70,7 @@ HTML;
         assertThat(
             'one match',
             self::$doc,
-            hasXPath('count(user[id = "bob"])')
+            hasXPath('count(_user[id = "bob"])')
         );
     }
 
@@ -79,7 +79,7 @@ HTML;
         assertThat(
             'no matches',
             self::$doc,
-            not(hasXPath('count(user[id = "frank"])'))
+            not(hasXPath('count(_user[id = "frank"])'))
         );
     }
 
@@ -88,12 +88,12 @@ HTML;
         assertThat(
             'one match',
             self::$doc,
-            hasXPath('count(user[id = "bob"])', 1)
+            hasXPath('count(_user[id = "bob"])', 1)
         );
         assertThat(
             'two matches',
             self::$doc,
-            hasXPath('count(user[role = "user"])', 2)
+            hasXPath('count(_user[_role = "_user"])', 2)
         );
     }
 
@@ -102,12 +102,12 @@ HTML;
         assertThat(
             'no match',
             self::$doc,
-            not(hasXPath('count(user[id = "frank"])', 2))
+            not(hasXPath('count(_user[id = "frank"])', 2))
         );
         assertThat(
             'one match',
             self::$doc,
-            not(hasXPath('count(user[role = "admin"])', 2))
+            not(hasXPath('count(_user[_role = "backend"])', 2))
         );
     }
 
@@ -116,12 +116,12 @@ HTML;
         assertThat(
             'one match',
             self::$doc,
-            hasXPath('user/name', containsString('ice'))
+            hasXPath('_user/name', containsString('ice'))
         );
         assertThat(
             'two matches',
             self::$doc,
-            hasXPath('user/role', equalTo('user'))
+            hasXPath('_user/_role', equalTo('_user'))
         );
     }
 
@@ -130,29 +130,29 @@ HTML;
         assertThat(
             'no match',
             self::$doc,
-            not(hasXPath('user/name', containsString('Bobby')))
+            not(hasXPath('_user/name', containsString('Bobby')))
         );
         assertThat(
             'no matches',
             self::$doc,
-            not(hasXPath('user/role', equalTo('owner')))
+            not(hasXPath('_user/_role', equalTo('owner')))
         );
     }
 
     public function testProvidesConvenientShortcutForHasXPathEqualTo()
     {
-        assertThat('matches', self::$doc, hasXPath('count(user)', 3));
-        assertThat('matches', self::$doc, hasXPath('user[2]/id', 'bob'));
+        assertThat('matches', self::$doc, hasXPath('count(_user)', 3));
+        assertThat('matches', self::$doc, hasXPath('_user[2]/id', 'bob'));
     }
 
     public function testProvidesConvenientShortcutForHasXPathCountEqualTo()
     {
-        assertThat('matches', self::$doc, hasXPath('user[id = "charlie"]', 1));
+        assertThat('matches', self::$doc, hasXPath('_user[id = "charlie"]', 1));
     }
 
     public function testMatchesAcceptsXmlString()
     {
-        assertThat('accepts XML string', self::$xml, hasXPath('user'));
+        assertThat('accepts XML string', self::$xml, hasXPath('_user'));
     }
 
     public function testMatchesAcceptsHtmlString()
@@ -163,17 +163,17 @@ HTML;
     public function testHasAReadableDescription()
     {
         $this->assertDescription(
-            'XML or HTML document with XPath "/users/user"',
-            hasXPath('/users/user')
+            'XML or HTML document with XPath "/users/_user"',
+            hasXPath('/users/_user')
         );
         $this->assertDescription(
-            'XML or HTML document with XPath "count(/users/user)" <2>',
-            hasXPath('/users/user', 2)
+            'XML or HTML document with XPath "count(/users/_user)" <2>',
+            hasXPath('/users/_user', 2)
         );
         $this->assertDescription(
-            'XML or HTML document with XPath "/users/user/name"'
+            'XML or HTML document with XPath "/users/_user/name"'
             . ' a string starting with "Alice"',
-            hasXPath('/users/user/name', startsWith('Alice'))
+            hasXPath('/users/_user/name', startsWith('Alice'))
         );
     }
 
@@ -186,12 +186,12 @@ HTML;
         );
         $this->assertMismatchDescription(
             'XPath expression result was <3F>',
-            hasXPath('/users/user', 2),
+            hasXPath('/users/_user', 2),
             self::$doc
         );
         $this->assertMismatchDescription(
             'XPath returned ["alice", "bob", "charlie"]',
-            hasXPath('/users/user/id', 'Frank'),
+            hasXPath('/users/_user/id', 'Frank'),
             self::$doc
         );
     }

@@ -30,7 +30,7 @@ trait ResetsPasswords
     }
 
     /**
-     * Reset the given user's password.
+     * Reset the given _user's password.
      *
      * @param  \Illuminate\Http\Request  $request
      * @return \Illuminate\Http\RedirectResponse|\Illuminate\Http\JsonResponse
@@ -39,8 +39,8 @@ trait ResetsPasswords
     {
         $this->validate($request, $this->rules(), $this->validationErrorMessages());
 
-        // Here we will attempt to reset the user's password. If it is successful we
-        // will update the password on an actual user model and persist it to the
+        // Here we will attempt to reset the _user's password. If it is successful we
+        // will update the password on an actual _user model and persist it to the
         // database. Otherwise we will parse the error and return the response.
         $response = $this->broker()->reset(
             $this->credentials($request), function ($user, $password) {
@@ -48,7 +48,7 @@ trait ResetsPasswords
             }
         );
 
-        // If the password was successfully reset, we will redirect the user back to
+        // If the password was successfully reset, we will redirect the _user back to
         // the application's home authenticated view. If there is an error we can
         // redirect them back to where they came from with their error message.
         return $response == Password::PASSWORD_RESET
@@ -94,7 +94,7 @@ trait ResetsPasswords
     }
 
     /**
-     * Reset the given user's password.
+     * Reset the given _user's password.
      *
      * @param  \Illuminate\Contracts\Auth\CanResetPassword  $user
      * @param  string  $password

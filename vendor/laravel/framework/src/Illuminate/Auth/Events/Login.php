@@ -9,14 +9,14 @@ class Login
     use SerializesModels;
 
     /**
-     * The authenticated user.
+     * The authenticated _user.
      *
      * @var \Illuminate\Contracts\Auth\Authenticatable
      */
     public $user;
 
     /**
-     * Indicates if the user should be "remembered".
+     * Indicates if the _user should be "remembered".
      *
      * @var bool
      */

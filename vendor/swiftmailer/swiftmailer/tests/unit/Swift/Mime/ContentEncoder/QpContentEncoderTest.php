@@ -188,7 +188,7 @@ class Swift_Mime_ContentEncoder_QpContentEncoderTest extends \SwiftMailerTestCas
                     text do not generally include the representation of
                     line breaks as CRLF sequences, no hard line breaks
                     (i.e. line breaks that are intended to be meaningful
-                    and to be displayed to the user) can occur in the
+                    and to be displayed to the _user) can occur in the
                     quoted-printable encoding of such types.  Sequences
                     like "=0D", "=0A", "=0A=0D" and "=0D=0A" will routinely
                     appear in non-text data represented in quoted-

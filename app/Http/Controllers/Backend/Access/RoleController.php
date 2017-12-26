@@ -12,12 +12,12 @@ class RoleController extends Controller
     /**
      * Display a listing of the resource.
      *
-     * @return \Illuminate\Http\Response
+     * @return \Illuminate\Contracts\View\Factory|\Illuminate\View\View
      */
     public function index()
     {
 
-        return view('backend.access._role.index');
+        return view('backend.access._role.index')->with('roles',Role::with('perms')->get());
 
     }
 
@@ -40,6 +40,15 @@ class RoleController extends Controller
     public function store(Request $request)
     {
         //
+       $role= Role::create([
+            'name'=>$request->name,
+
+        ]);
+       foreach ($request->permissions as $key=>$value){
+           $role->attachPermission($value);
+       }
+        return  redirect()->route('role.index');
+
     }
 
     /**

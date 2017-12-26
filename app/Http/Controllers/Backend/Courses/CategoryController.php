@@ -17,7 +17,9 @@ class CategoryController extends Controller
     {
         //
 //        $categories= Categories::get();
-        return view('backend.courses._category.index')->with('categories',Categories::all());
+
+        return view('backend.courses._category.index')
+            ->with('categories',Categories::all());
     }
 
     /**
@@ -69,11 +71,13 @@ class CategoryController extends Controller
      * Show the form for editing the specified resource.
      *
      * @param  int  $id
-     * @return \Illuminate\Http\Response
+     * @return \Illuminate\Contracts\View\Factory|\Illuminate\View\View
      */
     public function edit($id)
     {
-        //
+        $category=Categories::where('id',$id)->first();
+        return view('backend.courses._category.edit')->with('category',$category);
+
     }
 
     /**
@@ -81,11 +85,18 @@ class CategoryController extends Controller
      *
      * @param  \Illuminate\Http\Request  $request
      * @param  int  $id
-     * @return \Illuminate\Http\Response
+     * @return \Illuminate\Contracts\View\Factory|\Illuminate\View\View
      */
     public function update(Request $request, $id)
     {
-        //
+
+
+        Categories::where('id',$id)->update([
+            'name'=>$request->name
+        ]);
+//        Session::flash('message', 'Successfully updated category!');
+        return redirect()->route('category.index');
+
 
     }
 

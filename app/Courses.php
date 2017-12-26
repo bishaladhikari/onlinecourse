@@ -7,7 +7,7 @@ use Illuminate\Database\Eloquent\Model;
 class Courses extends Model
 {
     //
-    protected $table="Courses";
+    protected $table="courses";
     protected $fillable = [
         'cat_id','name','description'
     ];

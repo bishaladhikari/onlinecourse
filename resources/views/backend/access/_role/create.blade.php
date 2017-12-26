@@ -22,7 +22,7 @@
 
             </div>
             <div class="panel-body">
-                <form class="form-horizontal" role="form" method="POST" action="role.store">
+                <form class="form-horizontal" role="form" method="POST" action="{{route('role.store')}}">
                     <div class="form-group row">
 
                         <label for="name" class="control-label col-lg-2">Name</label>
@@ -40,8 +40,7 @@
                         <div class="col-lg-10">
 
                             @foreach($permissions as $permission)
-                                <input type="checkbox" name="name"  value="{{$permission->id}}"
-                                       required/>
+                                <input type="checkbox" name="permissions[]"  value="{{$permission->id}}"/>
                                 <label>{{$permission->name}}</label>
                                 <br>
                             @endforeach
@@ -49,6 +48,7 @@
                         </div>
                     </div>
                     <button type="submit" class="btn btn-success pull-right">Create</button>
+                    {{csrf_field()}}
                 </form>
 
             </div>

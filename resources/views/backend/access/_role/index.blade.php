@@ -32,33 +32,22 @@
                     </tr>
                     </thead>
                     <tbody>
-                    <tr>
-                        <td>Administrator</td>
-                        <td ><span class="bg-green p-5">View backend</span></td>
-                        <td>1</td>
-                        <td>
-                            <i class="btn fa fa-pencil bg-blue"></i>
-                            <i class="btn fa fa-times bg-aqua"></i>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>Author</td>
-                        <td ><span class="p-5">Manage courses</span></td>
-                        <td>1</td>
-                        <td>
-                            <i class="btn fa fa-pencil bg-blue"></i>
-                            <i class="btn fa fa-times bg-aqua"></i>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>User</td>
-                        <td ><span class="bg-red p-5">None</span></td>
-                        <td>1</td>
-                        <td>
-                            <i class="btn fa fa-pencil bg-blue"></i>
-                            <i class="btn fa fa-times bg-aqua"></i>
-                        </td>
-                    </tr>
+                    @foreach($roles as $role)
+                        <tr>
+                            <td>{{$role->name}}</td>
+                            <td>
+                                @foreach($role->perms as $permission)
+                                    <span class="bg-green p-5">{{$permission->name}}</span>
+                                @endforeach
+                            </td>
+                            <td>1</td>
+                            <td>
+                                <i class="btn fa fa-pencil bg-blue"></i>
+                                <i class="btn fa fa-times bg-aqua"></i>
+                            </td>
+                        </tr>
+                    @endforeach
+
                     </tbody>
 
                 </table>

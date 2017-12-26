@@ -56,8 +56,7 @@
                         <label for="name" class="control-label col-lg-2">Associated role</label>
                         <div class="col-lg-10">
                             @foreach($roles as $role)
-                                <input type="checkbox" name="roles[{{$role->id}}]"  value="{{$role->id}}"
-                                       required/>
+                                <input type="checkbox" name="roles[]"  value="{{$role->id}}"/>
                                 <label>{{$role->name}}</label>
                                 <br>
                             @endforeach

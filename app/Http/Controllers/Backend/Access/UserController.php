@@ -49,7 +49,10 @@ class UserController extends Controller
 
 
         ]);
-        $user->attachRole($request->roles);
+        foreach($request->roles as $key=>$value){
+            $user->attachRole($value);
+
+        }
 
         return  redirect()->route('user.index');
     }

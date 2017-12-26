@@ -47,7 +47,7 @@
                             <td>{{$user->email}}</td>
 
                             <td>
-                                @foreach($user->roles()->get() as $role)
+                                @foreach($user->roles as $role)
                                     {{$role->name}}
                                 @endforeach
                             </td>

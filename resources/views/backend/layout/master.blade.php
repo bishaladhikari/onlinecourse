@@ -14,6 +14,7 @@
     <!-- Theme style -->
     <link href="{{asset('backend/css/AdminLTE.css')}}" rel="stylesheet" type="text/css" />
     <link href="{{asset('backend/css/mystyle.css')}}" rel="stylesheet" type="text/css" />
+    <script  src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.2/jquery.min.js"></script>
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -285,7 +286,10 @@
 
 
 <!-- jQuery 2.0.2 -->
-<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.2/jquery.min.js"></script>
+{{--<script--}}
+        {{--src="https://code.jquery.com/jquery-3.2.1.js"--}}
+        {{--integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="--}}
+        {{--crossorigin="anonymous"></script>--}}
 <!-- Bootstrap -->
 <script src="{{asset('backend/js/bootstrap.min.js')}}" type="text/javascript"></script>
 <!-- AdminLTE App -->

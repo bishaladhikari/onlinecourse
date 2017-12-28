@@ -452,7 +452,7 @@ They were indeed a queer-looking party that assembled on the bank--the
 birds with draggled feathers, the animals with their fur clinging close
 to them, and all dripping wet, cross, and uncomfortable.
 
-The first question of course was, how to get dry again: they had a
+The first question of _course was, how to get dry again: they had a
 consultation about this, and after a few minutes it seemed quite natural
 to Alice to find herself talking familiarly with them, as if she had
 known them all her life. Indeed, she had quite a long argument with the
@@ -487,7 +487,7 @@ the patriotic archbishop of Canterbury, found it advisable--"'
 
 'Found WHAT?' said the Duck.
 
-'Found IT,' the Mouse replied rather crossly: 'of course you know what
+'Found IT,' the Mouse replied rather crossly: 'of _course you know what
 "it" means.'
 
 'I know what "it" means well enough, when I find a thing,' said the
@@ -523,9 +523,9 @@ and no one else seemed inclined to say anything.
 you might like to try the thing yourself, some winter day, I will tell
 you how the Dodo managed it.)
 
-First it marked out a race-course, in a sort of circle, ('the exact
+First it marked out a race-_course, in a sort of circle, ('the exact
 shape doesn't matter,' it said,) and then all the party were placed
-along the course, here and there. There was no 'One, two, three, and
+along the _course, here and there. There was no 'One, two, three, and
 away,' but they began running when they liked, and left off when they
 liked, so that it was not easy to know when the race was over. However,
 when they had been running half an hour or so, and were quite dry again,
@@ -540,7 +540,7 @@ of him), while the rest waited in silence. At last the Dodo said,
 
 'But who is to give the prizes?' quite a chorus of voices asked.
 
-'Why, SHE, of course,' said the Dodo, pointing to Alice with one finger;
+'Why, SHE, of _course,' said the Dodo, pointing to Alice with one finger;
 and the whole party at once crowded round her, calling out in a confused
 way, 'Prizes! Prizes!'
 
@@ -551,7 +551,7 @@ a-piece all round.
 
 'But she must have a prize herself, you know,' said the Mouse.
 
-'Of course,' the Dodo replied very gravely. 'What else have you got in
+'Of _course,' the Dodo replied very gravely. 'What else have you got in
 your pocket?' he went on, turning to Alice.
 
 'Only a thimble,' said Alice sadly.
@@ -1657,7 +1657,7 @@ tell what o'clock it is!'
 'Why should it?' muttered the Hatter. 'Does YOUR watch tell you what
 year it is?'
 
-'Of course not,' Alice replied very readily: 'but that's because it
+'Of _course not,' Alice replied very readily: 'but that's because it
 stays the same year for such a long time together.'
 
 'Which is just the case with MINE,' said the Hatter.
@@ -1670,7 +1670,7 @@ understand you,' she said, as politely as she could.
 hot tea upon its nose.
 
 The Dormouse shook its head impatiently, and said, without opening its
-eyes, 'Of course, of course; just what I was going to remark myself.'
+eyes, 'Of _course, of _course; just what I was going to remark myself.'
 
 'Have you guessed the riddle yet?' the Hatter said, turning to Alice
 again.
@@ -1689,7 +1689,7 @@ about wasting IT. It's HIM.'
 
 'I don't know what you mean,' said Alice.
 
-'Of course you don't!' the Hatter said, tossing his head contemptuously.
+'Of _course you don't!' the Hatter said, tossing his head contemptuously.
 'I dare say you never even spoke to Time!'
 
 'Perhaps not,' Alice cautiously replied: 'but I know I have to beat time
@@ -1848,7 +1848,7 @@ think you could draw treacle out of a treacle-well--eh, stupid?'
 'But they were IN the well,' Alice said to the Dormouse, not choosing to
 notice this last remark.
 
-'Of course they were', said the Dormouse; '--well in.'
+'Of _course they were', said the Dormouse; '--well in.'
 
 This answer so confused poor Alice, that she let the Dormouse go on for
 some time without interrupting it.
@@ -2276,7 +2276,7 @@ putting things!'
 
 'It's a mineral, I THINK,' said Alice.
 
-'Of course it is,' said the Duchess, who seemed ready to agree to
+'Of _course it is,' said the Duchess, who seemed ready to agree to
 everything that Alice said; 'there's a large mustard-mine near here. And
 the moral of that is--"The more there is of mine, the less there is of
 yours."'
@@ -2340,7 +2340,7 @@ cost them their lives.
 All the time they were playing the Queen never left off quarrelling with
 the other players, and shouting 'Off with his head!' or 'Off with her
 head!' Those whom she sentenced were taken into custody by the soldiers,
-who of course had to leave off being arches to do this, so that by
+who of _course had to leave off being arches to do this, so that by
 the end of half an hour or so there were no arches left, and all the
 players, except the King, the Queen, and Alice, were in custody and
 under sentence of execution.
@@ -2457,11 +2457,11 @@ a tone of great relief. 'Now at OURS they had at the end of the bill,
 the sea.'
 
 'I couldn't afford to learn it.' said the Mock Turtle with a sigh. 'I
-only took the regular course.'
+only took the regular _course.'
 
 'What was that?' inquired Alice.
 
-'Reeling and Writhing, of course, to begin with,' the Mock Turtle
+'Reeling and Writhing, of _course, to begin with,' the Mock Turtle
 replied; 'and then the different branches of Arithmetic--Ambition,
 Distraction, Uglification, and Derision.'
 
@@ -2513,7 +2513,7 @@ This was quite a new idea to Alice, and she thought it over a little
 before she made her next remark. 'Then the eleventh day must have been a
 holiday?'
 
-'Of course it was,' said the Mock Turtle.
+'Of _course it was,' said the Mock Turtle.
 
 'And how did you manage on the twelfth?' Alice went on eagerly.
 
@@ -2552,7 +2552,7 @@ then, when you've cleared all the jelly-fish out of the way--'
 
 'Each with a lobster as a partner!' cried the Gryphon.
 
-'Of course,' the Mock Turtle said: 'advance twice, set to partners--'
+'Of _course,' the Mock Turtle said: 'advance twice, set to partners--'
 
 '--change lobsters, and retire in same order,' continued the Gryphon.
 
@@ -2620,13 +2620,13 @@ very glad that it was over at last: 'and I do so like that curious song
 about the whiting!'
 
 'Oh, as to the whiting,' said the Mock Turtle, 'they--you've seen them,
-of course?'
+of _course?'
 
 'Yes,' said Alice, 'I've often seen them at dinn--' she checked herself
 hastily.
 
 'I don't know where Dinn may be,' said the Mock Turtle, 'but if you've
-seen them so often, of course you know what they're like.'
+seen them so often, of _course you know what they're like.'
 
 'I believe so,' Alice replied thoughtfully. 'They have their tails in
 their mouths--and they're all over crumbs.'
@@ -2665,7 +2665,7 @@ answer. 'They're done with blacking, I believe.'
 
 'And what are they made of?' Alice asked in a tone of great curiosity.
 
-'Soles and eels, of course,' the Gryphon replied rather impatiently:
+'Soles and eels, of _course,' the Gryphon replied rather impatiently:
 'any shrimp could have told you that.'
 
 'If I'd been the whiting,' said Alice, whose thoughts were still running
@@ -2677,7 +2677,7 @@ wise fish would go anywhere without a porpoise.'
 
 'Wouldn't it really?' said Alice in a tone of great surprise.
 
-'Of course not,' said the Mock Turtle: 'why, if a fish came to ME, and
+'Of _course not,' said the Mock Turtle: 'why, if a fish came to ME, and
 told me he was going a journey, I should say "With what porpoise?"'
 
 'Don't you mean "purpose"?' said Alice.
@@ -2871,7 +2871,7 @@ and she could even make out that one of them didn't know how to spell
 'stupid,' and that he had to ask his neighbour to tell him. 'A nice
 muddle their slates'll be in before the trial's over!' thought Alice.
 
-One of the jurors had a pencil that squeaked. This of course, Alice
+One of the jurors had a pencil that squeaked. This of _course, Alice
 could not stand, and she went round the court and got behind him, and
 very soon found an opportunity of taking it away. She did it so quickly
 that the poor little juror (it was Bill, the Lizard) could not make out
@@ -2973,7 +2973,7 @@ bread-and-butter getting so thin--and the twinkling of the tea--'
 
 'It began with the tea,' the Hatter replied.
 
-'Of course twinkling begins with a T!' said the King sharply. 'Do you
+'Of _course twinkling begins with a T!' said the King sharply. 'Do you
 take me for a dunce? Go on!'
 
 'I'm a poor man,' the Hatter went on, 'and most things twinkled after
@@ -3123,10 +3123,10 @@ court.
 
 'That's very important,' the King said, turning to the jury. They were
 just beginning to write this down on their slates, when the White Rabbit
-interrupted: 'UNimportant, your Majesty means, of course,' he said in a
+interrupted: 'UNimportant, your Majesty means, of _course,' he said in a
 very respectful tone, but frowning and making faces at him as he spoke.
 
-'UNimportant, of course, I meant,' the King hastily said, and went on
+'UNimportant, of _course, I meant,' the King hastily said, and went on
 to himself in an undertone,
 
 'important--unimportant--unimportant--important--' as if he were trying
@@ -3262,7 +3262,7 @@ certainly did NOT, being made entirely of cardboard.)
 
 'All right, so far,' said the King, and he went on muttering over
 the verses to himself: '"WE KNOW IT TO BE TRUE--" that's the jury, of
-course--"I GAVE HER ONE, THEY GAVE HIM TWO--" why, that must be what he
+_course--"I GAVE HER ONE, THEY GAVE HIM TWO--" why, that must be what he
 did with the tarts, you know--'
 
 'But, it goes on "THEY ALL RETURNED FROM HIM TO YOU,"' said Alice.
@@ -3437,7 +3437,7 @@ EOT;
     located in the United States, we do not claim a right to prevent you from
     copying, distributing, performing, displaying or creating derivative
     works based on the work as long as all references to Project Gutenberg
-    are removed.  Of course, we hope that you will support the Project
+    are removed.  Of _course, we hope that you will support the Project
     Gutenberg-tm mission of promoting free access to electronic works by
     freely sharing Project Gutenberg-tm works in compliance with the terms of
     this agreement for keeping the Project Gutenberg-tm name associated with

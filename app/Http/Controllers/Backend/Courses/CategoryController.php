@@ -4,7 +4,7 @@ namespace App\Http\Controllers\Backend\Courses;
 
 use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
-use App\Categories;
+use App\Category;
 
 class CategoryController extends Controller
 {
@@ -16,10 +16,10 @@ class CategoryController extends Controller
     public function index()
     {
         //
-//        $categories= Categories::get();
+//        $categories= Category::get();
 
         return view('backend.courses._category.index')
-            ->with('categories',Categories::all());
+            ->with('categories',Category::all());
     }
 
     /**
@@ -48,12 +48,12 @@ class CategoryController extends Controller
 //
 //        ]);
         
-       $category= Categories::create([
+       $category= Category::create([
             'name'=>$request->name,
         ]);
         return redirect()->route('category.index');
 
-//       return view('backend.Courses.ajax-course-category')->with('category',$category);
+//       return view('backend.Course.ajax-_course-category')->with('category',$category);
     }
 
     /**
@@ -75,7 +75,7 @@ class CategoryController extends Controller
      */
     public function edit($id)
     {
-        $category=Categories::where('id',$id)->first();
+        $category=Category::where('id',$id)->first();
         return view('backend.courses._category.edit')->with('category',$category);
 
     }
@@ -91,7 +91,7 @@ class CategoryController extends Controller
     {
 
 
-        Categories::where('id',$id)->update([
+        Category::where('id',$id)->update([
             'name'=>$request->name
         ]);
 //        Session::flash('message', 'Successfully updated category!');

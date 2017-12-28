@@ -2,7 +2,7 @@
 
 namespace App\Http\Controllers;
 
-use App\Categories;
+use App\Category;
 use Illuminate\Http\Request;
 
 class HomeController extends Controller
@@ -24,7 +24,7 @@ class HomeController extends Controller
      */
     public function index()
     {
-        $categories=Categories::get();
-        return view('home')->with('categories',$categories);
+        $categories=Category::get();
+        return view('frontend.home')->with('categories',$categories);
     }
 }

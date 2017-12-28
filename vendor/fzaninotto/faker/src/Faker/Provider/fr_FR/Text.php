@@ -10331,7 +10331,7 @@ troisième halte devant le jardin des plantes.
 
 -- Marchez donc! s'écria la voix plus furieusement.
 
-Et aussitôt, reprenant sa course, elle passa par Saint-Sever, par
+Et aussitôt, reprenant sa _course, elle passa par Saint-Sever, par
 le quai des Curandiers, par le quai aux Meules, encore une fois
 par le pont, par la place du Champ-de-Mars et derrière les jardins
 de l'hôpital, où des vieillards en veste noire se promènent au
@@ -12740,7 +12740,7 @@ elle ajouta:
 Et, aussitôt, racontant l'histoire de la saisie, elle lui exposa
 sa détresse; car Charles ignorait tout, sa belle-mère la
 détestait, le père Rouault ne pouvait rien; mais lui, Léon, il
-allait se mettre en course pour trouver cette indispensable
+allait se mettre en _course pour trouver cette indispensable
 somme...
 
 -- Comment veux-tu...?
@@ -15248,7 +15248,7 @@ EOT;
     located in the United States, we do not claim a right to prevent you from
     copying, distributing, performing, displaying or creating derivative
     works based on the work as long as all references to Project Gutenberg
-    are removed.  Of course, we hope that you will support the Project
+    are removed.  Of _course, we hope that you will support the Project
     Gutenberg-tm mission of promoting free access to electronic works by
     freely sharing Project Gutenberg-tm works in compliance with the terms of
     this agreement for keeping the Project Gutenberg-tm name associated with

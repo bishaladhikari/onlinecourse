@@ -37,4 +37,14 @@ class User extends Authenticatable
 //    {
 //        return $this->belongsToMany(Role::class, Config::get('entrust::assigned_roles_table'));
 //    }
+    public function deferAndAttachNewRole($role) {
+        // remove any roles tagged in this user.
+        foreach ($this->roles as $userRole) {
+            $this->roles()->detach($userRole->id);
+        }
+
+        // attach the new role using the `EntrustUserTrait` `attachRole()`
+        $this->attachRole($role);
+
+    }
 }

@@ -1,13 +1,14 @@
 <?php
 
-namespace App\Http\Controllers\Backend\Access;
+namespace App\Http\Controllers\Frontend\Author;
 
-use App\Permission;
-use App\Role;
+use App\Category;
+use App\Course;
 use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
+use Illuminate\Support\Facades\Auth;
 
-class RoleController extends Controller
+class CourseController extends Controller
 {
     /**
      * Display a listing of the resource.
@@ -16,8 +17,8 @@ class RoleController extends Controller
      */
     public function index()
     {
-
-        return view('backend.access._role.index')->with('roles',Role::with('perms')->get());
+        $courses=Course::with('category')->where('user_id',Auth::id())->get();
+        return view('frontend.author._course.index')->with('courses',$courses);
 
     }
 
@@ -28,31 +29,40 @@ class RoleController extends Controller
      */
     public function create()
     {
-        return view('backend.access._role.create')->with('permissions',Permission::all());
+        //
+
+        $categories=Category::all();
+        return view('frontend.author._course.create')->with('categories',$categories);
+
     }
 
     /**
      * Store a newly created resource in storage.
      *
      * @param  \Illuminate\Http\Request  $request
-     * @return \Illuminate\Http\Response
+     * @return string
      */
     public function store(Request $request)
     {
         //
-       $role= Role::create([
-           'name'=>$request->name,
-           'display_name'=>$request->display_name,
-           'description'=>$request->description,
+        $this->validate($request, [
+            'title' => 'required|max:50',
+//            'subtitle' => 'required|max:120',
+            'category' => 'required',
+//            'slug' => 'required|unique:courses,slug'
+        ]);
+
+        Course::create([
+            'title'=>$request->title,
+            'subtitle'=>$request->subtitle,
+            'user_id'=>Auth::id(),
+            'category_id'=>$request->category,
+            'slug'=>$request->slug,
+            'price'=>'0',
+            'description'=>$request->description,
 
         ]);
-       if($request->permissions){
-           foreach ($request->permissions as $key=>$value){
-               $role->attachPermission($value);
-           }
-       }
-
-        return  redirect()->route('role.index');
+        return redirect()->route('courses.index');
 
     }
 
@@ -71,13 +81,11 @@ class RoleController extends Controller
      * Show the form for editing the specified resource.
      *
      * @param  int  $id
-     * @return \Illuminate\Contracts\View\Factory|\Illuminate\View\View
+     * @return \Illuminate\Http\Response
      */
     public function edit($id)
     {
-        $role=Role::where('id',$id)->first();
-        return view('backend.access._role.edit')->with('role',$role);
-
+        //
     }
 
     /**
@@ -89,8 +97,7 @@ class RoleController extends Controller
      */
     public function update(Request $request, $id)
     {
-
-
+        //
     }
 
     /**

@@ -25,7 +25,7 @@
                     <p>Dashboard</p>
                 </a>
             </li>
-            <li class="{{ Request::path() == 'Courses' ? 'active' : '' }}">
+            <li class="{{ Request::path() == 'Course' ? 'active' : '' }}">
                 <a href="{{route('Courses')}}">
                     <i class="pe-7s-note2"></i>
                     <p>Courses</p>

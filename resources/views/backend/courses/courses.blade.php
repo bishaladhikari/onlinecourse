@@ -152,7 +152,7 @@
                                                 </div>
 
                                                 {{--<div class="panel-body">--}}
-                                                {{--{{$course->description}}--}}
+                                                {{--{{$_course->description}}--}}
                                                 {{--</div>--}}
 
                                             </div>
@@ -235,6 +235,6 @@
         </div>
     </div>
 
-    <script src="{{asset('Courses')}}"></script>
+    <script src="{{asset('Course')}}"></script>
 @endsection
 

@@ -23,9 +23,9 @@ class PermissionTableSeeder extends Seeder
 
             ],
             [
-                'name' => 'manage-Courses',
-                'display_name' => 'Manage Courses',
-                'description' => 'User can manage Courses',
+                'name' => 'manage-Course',
+                'display_name' => 'Manage Course',
+                'description' => 'User can manage Course',
                 'created_at'=>Carbon::now(),
                 'updated_at'=>Carbon::now()
             ],

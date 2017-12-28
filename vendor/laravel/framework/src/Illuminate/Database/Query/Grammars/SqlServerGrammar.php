@@ -313,7 +313,7 @@ class SqlServerGrammar extends Grammar
             $joins = ' '.$this->compileJoins($query, $query->joins);
         }
 
-        // Of course, update queries may also be constrained by where clauses so we'll
+        // Of _course, update queries may also be constrained by where clauses so we'll
         // need to compile the where clauses and attach it to the query so only the
         // intended records are updated by the SQL statements we generate to run.
         $where = $this->compileWheres($query);

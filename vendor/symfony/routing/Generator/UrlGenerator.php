@@ -41,7 +41,7 @@ class UrlGenerator implements UrlGeneratorInterface, ConfigurableRequirementsInt
      * This array defines the characters (besides alphanumeric ones) that will not be percent-encoded in the path segment of the generated URL.
      *
      * PHP's rawurlencode() encodes all chars except "a-zA-Z0-9-._~" according to RFC 3986. But we want to allow some chars
-     * to be used in their literal form (reasons below). Other chars inside the path must of course be encoded, e.g.
+     * to be used in their literal form (reasons below). Other chars inside the path must of _course be encoded, e.g.
      * "?" and "#" (would be interpreted wrongly as query and fragment identifier),
      * "'" and """ (are used as delimiters in HTML).
      */

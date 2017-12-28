@@ -232,6 +232,9 @@ trait EntrustUserTrait
             $role = $role['id'];
         }
 
+        // remove any roles tagged in this user.
+
+
         $this->roles()->attach($role);
     }
 

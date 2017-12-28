@@ -34,6 +34,9 @@
 .m-l-20 {
     margin-left: 20px;
 }
+.m-r-5{
+    margin-right: 5px;
+}
 .m-r-10{
     margin-right: 10px;
 }
@@ -55,6 +58,9 @@
 }
 .no-padding{
     padding: 0;
+}
+.big-font{
+    font-size:30px;
 }
 .message{
     font-size: 14px;

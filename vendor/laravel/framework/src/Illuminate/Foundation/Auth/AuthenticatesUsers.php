@@ -44,7 +44,7 @@ trait AuthenticatesUsers
         }
 
         // If the login attempt was unsuccessful we will increment the number of attempts
-        // to login and redirect the _user back to the login form. Of course, when this
+        // to login and redirect the _user back to the login form. Of _course, when this
         // _user surpasses their maximum number of attempts they will get locked out.
         $this->incrementLoginAttempts($request);
 

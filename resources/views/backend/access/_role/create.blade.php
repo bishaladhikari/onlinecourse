@@ -34,7 +34,27 @@
                                    required/>
                         </div>
                     </div>
+                    <div class="form-group row">
 
+                        <label for="name" class="control-label col-lg-2">Display name</label>
+
+
+                        <div class="col-lg-10">
+
+                            <input type="text" class="form-control" name="display_name" placeholder="Display name"
+                                   />
+                        </div>
+                    </div>
+                    <div class="form-group row">
+
+                        <label for="name" class="control-label col-lg-2">Description</label>
+
+
+                        <div class="col-lg-10">
+
+                            <input type="text" class="form-control" name="description" placeholder="Description of a role"/>
+                        </div>
+                    </div>
                     <div class="form-group">
                         <label for="name" class="control-label col-lg-2">Associated Permissions</label>
                         <div class="col-lg-10">

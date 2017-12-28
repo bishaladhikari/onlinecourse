@@ -192,7 +192,7 @@ class Swift_Mime_ContentEncoder_QpContentEncoderTest extends \SwiftMailerTestCas
                     quoted-printable encoding of such types.  Sequences
                     like "=0D", "=0A", "=0A=0D" and "=0D=0A" will routinely
                     appear in non-text data represented in quoted-
-                    printable, of course.
+                    printable, of _course.
 
                     Note that many implementations may elect to encode the
                     local representation of various content types directly

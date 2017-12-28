@@ -7,7 +7,7 @@
         </div>
 
         {{--<div class="panel-body">--}}
-        {{--{{$course->description}}--}}
+        {{--{{$_course->description}}--}}
         {{--</div>--}}
 
     </div>

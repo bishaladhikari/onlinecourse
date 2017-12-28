@@ -5,3 +5,12 @@
     box-shadow: 0 0 8px 3px #e7e7e7;
 
 }
+.m-l-5{
+    margin-left:5px;
+}
+.m-l-10{
+    margin-left:10px;
+}
+.no-print{
+    display:none !important;
+}

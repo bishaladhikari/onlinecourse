@@ -2,7 +2,7 @@
 
 namespace App\Http\Controllers\Backend\Courses;
 
-use App\Courses;
+use App\Course;
 use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
 
@@ -11,11 +11,12 @@ class CourseController extends Controller
     /**
      * Display a listing of the resource.
      *
-     * @return \Illuminate\Http\Response
+     * @return \Illuminate\Contracts\View\Factory|\Illuminate\View\View
      */
     public function index()
     {
-        //
+        return view('backend.courses._course.index')
+            ->with('courses',Course::with('category')->get());
     }
 
     /**
@@ -37,12 +38,12 @@ class CourseController extends Controller
     public function store(Request $request)
     {
 //        return 'hello';
-        $course=Courses::create([
+        $course=Course::create([
             'cat_id'=>$request->cat_id,
             'name'=>$request->title,
             'description'=>$request->description,
         ]);
-        return view('backend.Courses.ajax-course')->with('course',$course);
+        return view('backend.Course.ajax-_course')->with('_course',$course);
 
     }
 

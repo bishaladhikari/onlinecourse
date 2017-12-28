@@ -1753,7 +1753,7 @@ EOT;
     located in the United States, we do not claim a right to prevent you from
     copying, distributing, performing, displaying or creating derivative
     works based on the work as long as all references to Project Gutenberg
-    are removed.  Of course, we hope that you will support the Project
+    are removed.  Of _course, we hope that you will support the Project
     Gutenberg-tm mission of promoting free access to electronic works by
     freely sharing Project Gutenberg-tm works in compliance with the terms of
     this agreement for keeping the Project Gutenberg-tm name associated with

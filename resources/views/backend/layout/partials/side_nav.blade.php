@@ -7,7 +7,7 @@
                 <img src="{{asset('backend/img/avatar3.png')}}" class="img-circle" alt="User Image" />
             </div>
             <div class="pull-left info">
-                <p>Hello, Jane</p>
+                <p>Hi, {{Auth::user()->name}}</p>
 
                 <a href="#"><i class="fa fa-circle text-success"></i> Online</a>
             </div>
@@ -49,8 +49,8 @@
                     <i class="fa fa-angle-left pull-right"></i>
                 </a>
                 <ul class="treeview-menu">
+                    <li><a href="{{route('admin-courses')}}"><i class="fa fa-angle-double-right"></i> List courses</a></li>
                     <li><a href="{{route('category.index')}}"><i class="fa fa-angle-double-right"></i>Manage Categories</a></li>
-                    <li><a href="#"><i class="fa fa-angle-double-right"></i> List courses</a></li>
 
                 </ul>
             </li>

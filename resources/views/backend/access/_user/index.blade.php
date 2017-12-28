@@ -27,45 +27,90 @@
 
             </div>
             <div class="panel-body">
-                <table class="table table-responsive">
-                    <thead>
-                    <tr>
-                        <th>ID</th>
-                        <th>Name</th>
-                        <th>Email</th>
-                        <th>Role</th>
-                        <th>Created At</th>
-                        <th>Updated At</th>
-                        <th>Action</th>
-                    </tr>
-                    </thead>
-                    <tbody>
-                    @foreach($users as $user)
+                <div class="table-responsive">
+                    <table class="table table-hover">
+                        <thead>
                         <tr>
-                            <td>{{$user->id}}</td>
-                            <td>{{$user->name}}</td>
-                            <td>{{$user->email}}</td>
-
-                            <td>
-                                @foreach($user->roles as $role)
-                                    {{$role->name}}
-                                @endforeach
-                            </td>
-                            <td>{{$user->created_at}}</td>
-                            <td>{{$user->updated_at}}</td>
-                            <td>
-                                <i class="btn fa fa-pencil bg-blue"></i>
-                                <i class="btn fa fa-times bg-aqua"></i>
-                            </td>
+                            <th>ID</th>
+                            <th>Name</th>
+                            <th>Email</th>
+                            <th>Role</th>
+                            <th>Created At</th>
+                            <th>Updated At</th>
+                            <th>Action</th>
                         </tr>
-                    @endforeach
-                    </tbody>
+                        </thead>
+                        <tbody>
+                        @foreach($users as $user)
+                            <tr>
+                                <td>{{$user->id}}</td>
+                                <td>{{$user->name}}</td>
+                                <td>{{$user->email}}</td>
 
-                </table>
+                                <td>
+                                    @foreach($user->roles as $role)
+                                        {{$role->name}}
+                                    @endforeach
+                                </td>
+                                <td>{{$user->created_at}}</td>
+                                <td>{{$user->updated_at}}</td>
+                                <td>
+                                    <i data-id="{{$user->id}}" class="btn fa fa-pencil bg-blue edit"></i>
+
+                                    <i class="btn fa fa-times bg-aqua"></i>
+                                </td>
+                            </tr>
+                        @endforeach
+                        </tbody>
+
+                    </table>
+
+                </div>
 
             </div>
         </div>
 
+        <!-- Edit User Modal -->
+        <div class="modal " id="edit-user" tabindex="-1" role="dialog" aria-labelledby="edit-userLabel"
+             aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
 
+                </div>
+            </div>
+        </div>
     </section><!-- /.content -->
+    <script>
+
+        $(document).ready(function (e) {
+
+
+            $('body').on("click", '.edit', function (e) {
+                let user_id = $(this).data('id');
+                $.ajaxSetup({
+                    headers: {
+                        'X-CSRF-Token': $('meta[name="csrf-token"]').attr('content')
+                    }
+                });
+                e.preventDefault();
+
+
+                $.ajax({
+
+                    url: 'user/' + user_id + '/edit',
+
+                    success: function (response) {
+
+                        $('#edit-user .modal-content').html(response);
+                        $('#edit-user').modal('toggle');
+
+                    }
+
+                });
+            });
+
+        });
+
+    </script>
+
 @endsection

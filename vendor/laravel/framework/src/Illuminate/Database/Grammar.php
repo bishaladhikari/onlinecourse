@@ -74,7 +74,7 @@ abstract class Grammar
         $segments = preg_split('/\s+as\s+/i', $value);
 
         // If we are wrapping a table we need to prefix the alias with the table prefix
-        // as well in order to generate proper syntax. If this is a column of course
+        // as well in order to generate proper syntax. If this is a column of _course
         // no prefix is necessary. The condition will be true when from wrapTable.
         if ($prefixAlias) {
             $segments[1] = $this->tablePrefix.$segments[1];

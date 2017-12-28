@@ -16,7 +16,7 @@
         <div class="panel">
             <div class="panel-heading">
                 {{--<h3>all active users</h3>--}}
-                <a href="{{route('category.create')}}" class="btn btn-success">Add new category</a>
+                <a href="{{route('category.create')}}" class="btn btn-success">Create Category</a>
 
                 <span class="pull-right">
                     {{--<a href="user.create" class="btn btn-success">create user</a>--}}
@@ -26,41 +26,42 @@
 
             </div>
             <div class="panel-body">
-                <table class="table table-responsive">
-                    <thead>
-                    <tr>
-                        <th>ID</th>
-                        <th>Name</th>
-                        <th>Number of courses</th>
-                        <th>Action</th>
-                    </tr>
-                    </thead>
-                    <tbody>
-                    @foreach($categories as $category)
+                <div class="table-responsive">
+                    <table class="table">
+                        <thead>
                         <tr>
-                            <td>{{$category->id}}</td>
-                            <td>{{$category->name}}</td>
-                            <td>0</td>
-
-                            <td>
-                             <i data-id="{{$category->id}}" class="btn fa fa-pencil bg-blue edit"
-                                   {{--onclick="openEditModal(event,'{{$category->id}}')"--}}
-                             ></i>
-
-                                <i class="btn fa fa-times bg-aqua"></i>
-                            </td>
+                            <th>ID</th>
+                            <th>Name</th>
+                            <th>Number of courses</th>
+                            <th>Action</th>
                         </tr>
-                    @endforeach
-                    </tbody>
+                        </thead>
+                        <tbody>
+                        @foreach($categories as $category)
+                            <tr>
+                                <td>{{$category->id}}</td>
+                                <td>{{$category->name}}</td>
+                                <td>0</td>
 
-                </table>
+                                <td>
+                                    <i data-id="{{$category->id}}" class="btn fa fa-pencil bg-blue edit"></i>
+
+                                    <i class="btn fa fa-times bg-aqua"></i>
+                                </td>
+                            </tr>
+                        @endforeach
+                        </tbody>
+
+                    </table>
+
+                </div>
 
             </div>
         </div>
 
-        <!-- Modal -->
+        <!-- Edit Category Modal -->
         <div class="modal " id="edit-category" tabindex="-1" role="dialog" aria-labelledby="edit-categoryLabel"
-             aria-hidden="true" >
+             aria-hidden="true">
             <div class="modal-dialog" role="document">
                 <div class="modal-content">
 
@@ -71,40 +72,35 @@
 
     </section><!-- /.content -->
     <script>
-//        function openEditModal(e,category_id) {
-$(document).ready(function (e) {
+
+        $(document).ready(function (e) {
 
 
-    $('body').on("click",'.edit',function (e) {
-        category_id=$(this).data('id');
-        $.ajaxSetup({
-            headers: {
-                'X-CSRF-Token': $('meta[name="csrf-token"]').attr('content')
-            }
+            $('body').on("click", '.edit', function (e) {
+                let category_id = $(this).data('id');
+                $.ajaxSetup({
+                    headers: {
+                        'X-CSRF-Token': $('meta[name="csrf-token"]').attr('content')
+                    }
+                });
+                e.preventDefault();
+
+
+                $.ajax({
+
+                    url: 'category/' + category_id + '/edit',
+
+                    success: function (response) {
+
+                        $('#edit-category .modal-content').html(response);
+                        $('#edit-category').modal('toggle');
+
+                    }
+
+                });
+            });
+
         });
-        e.preventDefault();
 
-//        href = $(this).attr('href');
-
-        $.ajax({
-
-            url:'category/'+category_id+'/edit/',
-
-            success: function (response) {
-
-                $('#edit-category .modal-content').html(response);
-                $('#edit-category').modal('toggle');
-
-            }
-
-        });
-    });
-
-});
-
-
-//
-
-//        }
     </script>
 @endsection

@@ -1,13 +1,12 @@
 <?php
 
-namespace App\Http\Controllers\Backend\Access;
+namespace App\Http\Controllers\Frontend;
 
-use App\Permission;
-use App\Role;
+use App\Category;
 use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
 
-class RoleController extends Controller
+class CourseController extends Controller
 {
     /**
      * Display a listing of the resource.
@@ -16,19 +15,18 @@ class RoleController extends Controller
      */
     public function index()
     {
-
-        return view('backend.access._role.index')->with('roles',Role::with('perms')->get());
-
+        $categories=Category::with('courses')->get();
+        return view('frontend.course.index')->with('categories',$categories);
     }
 
     /**
      * Show the form for creating a new resource.
      *
-     * @return \Illuminate\Contracts\View\Factory|\Illuminate\View\View
+     * @return \Illuminate\Http\Response
      */
     public function create()
     {
-        return view('backend.access._role.create')->with('permissions',Permission::all());
+        //
     }
 
     /**
@@ -40,20 +38,6 @@ class RoleController extends Controller
     public function store(Request $request)
     {
         //
-       $role= Role::create([
-           'name'=>$request->name,
-           'display_name'=>$request->display_name,
-           'description'=>$request->description,
-
-        ]);
-       if($request->permissions){
-           foreach ($request->permissions as $key=>$value){
-               $role->attachPermission($value);
-           }
-       }
-
-        return  redirect()->route('role.index');
-
     }
 
     /**
@@ -65,19 +49,18 @@ class RoleController extends Controller
     public function show($id)
     {
         //
+        return view('frontend.course.show');
     }
 
     /**
      * Show the form for editing the specified resource.
      *
      * @param  int  $id
-     * @return \Illuminate\Contracts\View\Factory|\Illuminate\View\View
+     * @return \Illuminate\Http\Response
      */
     public function edit($id)
     {
-        $role=Role::where('id',$id)->first();
-        return view('backend.access._role.edit')->with('role',$role);
-
+        //
     }
 
     /**
@@ -89,8 +72,7 @@ class RoleController extends Controller
      */
     public function update(Request $request, $id)
     {
-
-
+        //
     }
 
     /**

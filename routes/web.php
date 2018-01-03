@@ -16,37 +16,47 @@
 //});
 
 
-use Illuminate\Support\Facades\Route;
+//use Illuminate\Support\Facades\Route;
+
+//use Illuminate\Routing\Route;
 
 Auth::routes();
 //
 Route::get('/', 'HomeController@index')->name('home');
-Route::group(['namespace' => 'Frontend', 'middleware' => ['auth']], function () {
-//    Route::get('courses', 'CourseController@index')->name('courses');
+Route::group([ 'middleware' => ['auth']], function () {
+//    Route::resource('courses', 'CourseController', ['except' => ['show']]);
     Route::resource('courses', 'CourseController');
-
+//    Route::get('courses/{slug}/{course_id}','CourseController@show')->name("courses.show");
     Route::group(['prefix' => '/author/', 'namespace' => 'Author'], function () {
-        Route::resource('courses'  ,'CourseController',["as"=>"author"]);
-//
-//        Route::resource('courses', 'CourseController', ['parameters' => [
-//            'courses' => 'author_courses'
-//        ]]);
-//        Route::resource('courses', 'CourseController', ['parameters' => [
-//            'courses' => 'admin_user'
-//        ]]);
+        Route::resource('courses', 'CourseController', ["as" => "author"]);
+        Route::group(['prefix' => '/courses/{slug}/manage/'], function () {
+            Route::get('info','CourseController@info')->name('author.course.manage.info');
+            Route::post('info/update','CourseController@updateInfo');
+
+            Route::get('goals','CourseController@goals');
+            Route::get('curriculum','CourseController@curriculum');
+            Route::get('announcement','CourseController@announcement');
+
+//            Route::get('goals','CourseController@goals')->name('goals');
+//            Route::get('curriculum','CourseController@curriculum');
+
+        });
+//    Route::get('courses/{slug}/manage','CourseController@manage')->name('course.manage');
+
+
     });
 
 });
-Route::group(['prefix' => '/admin/', 'namespace' => 'Backend', 'middleware' => ['auth']], function () {
-    Route::get('/dashboard', 'PageController@dashboard')->name('dashboard');
-
+Route::group(['prefix' => '/admin/', 'namespace' => 'Admin', 'middleware' => ['auth']], function () {
+    Route::get('/dashboard', function () {return view('backend.dashboard.index');})->name('dashboard');
     Route::group(['prefix' => '/access/', 'namespace' => 'Access'], function () {
-        Route::resources(['user' => 'UserController']);
-        Route::resources(['role' => 'RoleController']);
+        Route::resources([
+            'user' => 'UserController',
+            'role' => 'RoleController']);
 
     });
     Route::group(['prefix' => '/courses/', 'namespace' => 'Courses'], function () {
-        Route::resources(['category' => 'CategoryController']);
+        Route::resource('category', 'CategoryController');
         Route::get('/', 'CourseController@index')->name('admin-courses');
 
     });

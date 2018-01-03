@@ -17,6 +17,8 @@
 
 
     <!-- Scripts -->
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.2/jquery.min.js"></script>
+
     <script>
         window.Laravel = {!! json_encode([
             'csrfToken' => csrf_token(),
@@ -24,7 +26,11 @@
     </script>
 </head>
 <body>
+@if (Session::has('message'))
+    <div class="alert alert-info text-center" style="position:absolute;top:50px;width: 100%;  background: #39b54a;color:white">{{ Session::get('message') }}</div>
+@endif
 <div id="app">
+
     <nav class="navbar navbar-default navbar-static-top" style="margin-bottom:0;">
         <div class="container">
             <div class="navbar-header">
@@ -47,33 +53,34 @@
             <div class="collapse navbar-collapse" id="app-navbar-collapse">
                 <!-- Left Side Of Navbar -->
 
-                    <ul class="nav navbar-nav">
-                        <li class="dropdown">
-                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button"
-                               aria-expanded="false"
-                               aria-haspopup="true">
-                                Category <span class="caret"></span>
-                            </a>
+                <ul class="nav navbar-nav">
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button"
+                           aria-expanded="false"
+                           aria-haspopup="true">
+                            Category <span class="caret"></span>
+                        </a>
 
-                            <ul class="dropdown-menu">
-                                @forelse(\App\Category::all() as $category)
-                                    <li><a href="#">{{$category->name}}</a></li>
-                                @empty
-                                    List Empty
-                                @endforelse
-                            </ul>
-                        </li>
-                    </ul>
+                        <ul class="dropdown-menu">
+                            @forelse(\App\Category::all() as $category)
+                                <li><a href="#">{{$category->name}}</a></li>
+                            @empty
+                                List Empty
+                            @endforelse
+                        </ul>
+                    </li>
+                </ul>
 
 
-            <!-- Right Side Of Navbar -->
-                <ul class="nav navbar-nav navbar-right">
+                <!-- Right Side Of Navbar -->
+                <ul class="nav navbar-nav navbar-right top-nav">
                     <!-- Authentication Links -->
                     @if (Auth::guest())
                         <li><a href="{{ route('login') }}">Login</a></li>
                         <li><a href="{{ route('register') }}">Register</a></li>
                     @else
-                        <li><a href="{{route('courses.index')}}">Courses</a></li>
+                        <li class="{{ Request::path() == 'courses' ? 'active' : ''  }}"><a
+                                    href="{{route('courses.index')}}">Courses</a></li>
                         <li><a href="#">Blogs</a></li>
                         <li class="dropdown">
                             <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button"
@@ -111,6 +118,18 @@
 </div>
 
 <!-- Scripts -->
+
+{{--<script--}}
+{{--src="https://code.jquery.com/jquery-3.2.1.js"--}}
+{{--integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="--}}
+{{--crossorigin="anonymous"></script>--}}
 <script src="{{ asset('js/app.js') }}"></script>
+<script>
+    $('div.alert').delay(3000).slideUp(300);
+
+</script>
+@if(config('app.env') == 'local')
+    <script src="http://localhost:35729/livereload.js"></script>
+@endif
 </body>
 </html>

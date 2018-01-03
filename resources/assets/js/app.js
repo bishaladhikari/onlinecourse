@@ -16,7 +16,9 @@ window.Vue = require('vue');
  */
 
 Vue.component('example-component', require('./components/ExampleComponent.vue'));
+Vue.component('manage-section', require('./components/authors/section/manage-section.vue'));
 
 const app = new Vue({
-    el: '#app'
+    el: '#app',
+
 });

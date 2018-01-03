@@ -25,6 +25,6 @@ class HomeController extends Controller
     public function index()
     {
         $categories=Category::get();
-        return view('frontend.home')->with('categories',$categories);
+        return view('home')->with('categories',$categories);
     }
 }

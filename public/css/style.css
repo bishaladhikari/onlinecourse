@@ -1,3 +1,7 @@
+[v-cloak] { display:none; }
+.bg-mild-white{
+    background: #f5f8fa;
+}
 .row-item {
     border: 1px solid #EEEEEE;
     border-radius: 1px;
@@ -271,15 +275,19 @@ label {
     border: 0!important;
 }
 
-.nav-tabs { border-bottom: 2px solid #DDD; }
+.nav-tabs {
+    /*border-bottom: 2px solid #DDD; */
+    background: white;
+}
 .nav-tabs > li.active > a, .nav-tabs > li.active > a:focus, .nav-tabs > li.active > a:hover { border-width: 0; }
-.nav-tabs > li > a { border: none; color: #666;position:relative }
+.nav-tabs > li > a { border: none; color: #666;position:relative ;
+}
 .nav-tabs > li.active > a, .nav-tabs > li > a:hover { border: none; color: #4285F4 !important; background: transparent; }
 .nav-tabs > li > a::after { content: ""; background: #4285F4; height: 2px; position: absolute; width: 100%; left: 0px; bottom: -1px; transition: all 250ms ease 0s; transform: scale(0); }
 .nav-tabs > li.active > a::after, .nav-tabs > li:hover > a::after { transform: scale(1); }
 .tab-nav > li > a::after { background: #21527d none repeat scroll 0% 0%; color: #fff; }
 .tab-pane { padding: 15px 0; }
-.tab-content{padding:20px}
+/*.tab-content{padding:0px}*/
 /*.card {background: #FFF none repeat scroll 0% 0%; box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.3); margin-bottom: 30px; }*/
 /*body{ background: #EDECEC; padding:50px}*/
 #pic , #editPic , #editCover ,#editLogo
@@ -333,4 +341,41 @@ label {
 .list-business-form label{
     font-size: 14px;
     margin-top: 10px;
+}
+
+
+/*onlinecourse css*/
+.course-card{
+    position: relative;
+
+}
+.text {
+
+    background: rgba(0,0,0,0.8);
+    color: #fff;
+    transition: opacity .5s;
+    opacity: 0;
+    position: absolute;
+    top: 1px; bottom: 1px; left: 1px; right: 1px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.course-card:hover .text {
+    opacity: 0.7;
+}
+/*.top-nav .active{*/
+
+    /*!*background: transparent;*!*/
+
+    /*color:whit*/
+/*}*/
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+    /*background: transparent;*/
+
+    /*border-radius:2px;*/
+    /*border-bottom: 3px solid #1f648b;*/
+
+
 }

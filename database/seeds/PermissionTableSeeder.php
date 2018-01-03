@@ -15,9 +15,9 @@ class PermissionTableSeeder extends Seeder
     {
         $permissions = [
             [
-                'name' => 'view-backend',
-                'display_name' => 'View backend',
-                'description' => 'User can view backend',
+                'name' => 'view-admin',
+                'display_name' => 'View admin',
+                'description' => 'User can view admin',
                 'created_at'=>Carbon::now(),
                 'updated_at'=>Carbon::now()
 

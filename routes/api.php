@@ -13,6 +13,10 @@ use Illuminate\Http\Request;
 |
 */
 
-Route::middleware('auth:api')->get('/_user', function (Request $request) {
-    return $request->user();
+//Route::middleware('auth:api')->get('/_user', function (Request $request) {
+//    return $request->user();
+//});
+Route::group(['prefix'=>'author', 'namespace' => 'Author'],function (){
+    Route::get('{course_id}/sections','SectionController@getSections');
+    Route::post('section','SectionController@store');
 });

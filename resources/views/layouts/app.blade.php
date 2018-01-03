@@ -27,7 +27,9 @@
 </head>
 <body>
 @if (Session::has('message'))
-    <div class="alert alert-info text-center" style="position:absolute;top:50px;width: 100%;  background: #39b54a;color:white">{{ Session::get('message') }}</div>
+    <div class="alert alert-info text-center" style="position:absolute;top:50px;width: 100%;
+      /*background: #39b54a;*/
+      color:white">{{ Session::get('message') }}</div>
 @endif
 <div id="app">
 

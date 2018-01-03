@@ -51,6 +51,9 @@
 
 
                         <div v-cloak>
+                            <div class="tab-content">
+
+                            </div>
                             <div class="row" >
                                 <div class="col-md-offset-6">
                                     <i  v-show="loading" class="fa fa-spinner fa-spin big-font "></i>
@@ -61,16 +64,29 @@
                                     <span>@{{ saveStatus }}</span>
 
                                     <div class="panel panel-default clearfix" v-for="section, index in sections">
-                                        <div class="panel-heading">
-                                            @{{ index+1 }}
-                                            : @{{ section.title }}
+                                        <div class="panel-body">
+                                            <div class="row">
+                                                <div class="col-md-9">
+                                                    @{{ index+1 }}
+                                                    : @{{ section.title }}
+                                                </div>
+
+                                                <div class="col-md-2">
+                                                    <a class="btn btn-outlined"><i class="fa fa-plus p-5"></i>Add Content</a>
+                                                </div>
+                                                {{--<div class="col-md-1">--}}
+                                                    {{--<a class="btn btn-outlined"><i class="fa fa-caret-down p-5"></i> </a>--}}
+
+                                                {{--</div>--}}
+                                            </div>
+
                                         </div>
                                     </div>
                                 </div>
                                 @include('author._course.vue.forms._create_section')
-                                <div class="col-md-8 col-md-offset-2">
+                                <div class="col-md-10 col-md-offset-1">
                                     <a href="#" v-if="!showCreate" @click.prevent="showCreate = !showCreate"
-                                       class="btn btn-info col-lg-12 ">Add New Section</a>
+                                       class="btn btn-outlined col-lg-12 p-10"><i class="fa fa-plus p-5"></i>Add New Section</a>
 
                                 </div>
 

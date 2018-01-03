@@ -26,7 +26,7 @@
             <div class="col-lg-10">
 
                 <input type="text" class="form-control" name="objective"
-                       placeholder="Enter Objective for your section" id="objective" v-model="objective"
+                       placeholder="Enter objective for your section" id="objective" v-model="objective"
                        required/>
                 <small>What will your student learn at the end of this section?</small>
 

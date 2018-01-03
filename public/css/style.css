@@ -2,6 +2,16 @@
 .bg-mild-white{
     background: #f5f8fa;
 }
+.btn-outlined{
+    background:none;
+    border:1px solid #00b2b2;
+    color:#00b2b2;
+}
+.btn-outlined:hover{
+    background:#00b2b2;
+
+    color:white;
+}
 .row-item {
     border: 1px solid #EEEEEE;
     border-radius: 1px;

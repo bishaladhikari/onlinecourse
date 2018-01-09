@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers\Author;
 
+use App\Lesson;
 use App\Section;
 use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
@@ -13,13 +14,9 @@ class SectionController extends Controller
      *
      * @return \Illuminate\Http\Response
      */
-    public function index()
-    {
-        //
-    }
-    public function getSections(Request $request){
-        $sections=Section::where('course_id',$request->course_id)->get();
 
+    public function index(Request $request){
+        $sections=Section::where('course_id',$request->course_id)->get();
         return response()->json($sections, 200);
 
     }
@@ -31,7 +28,7 @@ class SectionController extends Controller
      */
     public function create()
     {
-        //
+
     }
 
     /**

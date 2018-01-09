@@ -6,14 +6,14 @@
     <title>Online Course | Dashboard</title>
     <meta content='width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no' name='viewport'>
     <!-- bootstrap 3.0.2 -->
-    <link href="{{asset('admin')}}" rel="stylesheet" type="text/css" />
+    <link href="{{asset('admin/css/bootstrap.min.css')}}" rel="stylesheet" type="text/css" />
     <!-- font Awesome -->
-    <link href="{{asset('backend/css/font-awesome.min.css')}}" rel="stylesheet" type="text/css" />
+    <link href="{{asset('admin/css/font-awesome.min.css')}}" rel="stylesheet" type="text/css" />
     <!-- Ionicons -->
-    <link href="{{asset('backend/css/ionicons.min.css')}}" rel="stylesheet" type="text/css" />
+    <link href="{{asset('admin/css/ionicons.min.css')}}" rel="stylesheet" type="text/css" />
     <!-- Theme style -->
-    <link href="{{asset('backend/css/AdminLTE.css')}}" rel="stylesheet" type="text/css" />
-    <link href="{{asset('backend/css/mystyle.css')}}" rel="stylesheet" type="text/css" />
+    <link href="{{asset('admin/css/AdminLTE.css')}}" rel="stylesheet" type="text/css" />
+    <link href="{{asset('admin/css/mystyle.css')}}" rel="stylesheet" type="text/css" />
     <script  src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.2/jquery.min.js"></script>
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
@@ -55,7 +55,7 @@
                                 <li><!-- start message -->
                                     <a href="#">
                                         <div class="pull-left">
-                                            <img src="{{asset('backend/img/avatar3.png')}}" class="img-circle" alt="User Image"/>
+                                            <img src="{{asset('admin')}}" class="img-circle" alt="User Image"/>
                                         </div>
                                         <h4>
                                             Support Team
@@ -238,7 +238,7 @@
                     <ul class="dropdown-menu">
                         <!-- User image -->
                         <li class="user-header bg-light-blue">
-                            <img src="{{asset('backend/img/avatar3.png')}}" class="img-circle" alt="User Image" />
+                            <img src="{{asset('admin')}}" class="img-circle" alt="User Image" />
                             <p>
                                 {{Auth::user()->name}} - Web Developer
                                 <small>Member since Nov. 2012</small>
@@ -291,9 +291,9 @@
         {{--integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="--}}
         {{--crossorigin="anonymous"></script>--}}
 <!-- Bootstrap -->
-<script src="{{asset('backend/js/bootstrap.min.js')}}" type="text/javascript"></script>
+<script src="{{asset('admin/js/bootstrap.min.js')}}" type="text/javascript"></script>
 <!-- AdminLTE App -->
-<script src="{{asset('backend/js/AdminLTE/app.js')}}" type="text/javascript"></script>
+<script src="{{asset('admin/js/AdminLTE/app.js')}}" type="text/javascript"></script>
 
 </body>
 </html>

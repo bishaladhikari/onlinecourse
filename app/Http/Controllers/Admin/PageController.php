@@ -20,6 +20,6 @@ class PageController extends Controller
     {
 
 //        $categories= Category::with('Courses')->get();
-        return view('backend.dashboard');
+        return view('admin.dashboard');
     }
 }

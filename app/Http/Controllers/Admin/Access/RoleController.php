@@ -17,7 +17,7 @@ class RoleController extends Controller
     public function index()
     {
 
-        return view('backend.access._role.index')->with('roles',Role::with('perms')->get());
+        return view('admin.access._role.index')->with('roles',Role::with('perms')->get());
 
     }
 
@@ -28,7 +28,7 @@ class RoleController extends Controller
      */
     public function create()
     {
-        return view('backend.access._role.create')->with('permissions',Permission::all());
+        return view('admin.access._role.create')->with('permissions',Permission::all());
     }
 
     /**
@@ -76,7 +76,7 @@ class RoleController extends Controller
     public function edit($id)
     {
         $role=Role::where('id',$id)->first();
-        return view('backend.access._role.edit')->with('role',$role);
+        return view('admin.access._role.edit')->with('role',$role);
 
     }
 

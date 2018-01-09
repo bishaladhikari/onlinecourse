@@ -13,11 +13,13 @@
     <!-- Styles -->
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
     <link href="{{ asset('css/style.css') }}" rel="stylesheet">
-    <link href="{{asset('backend/css/font-awesome.min.css')}}" rel="stylesheet" type="text/css"/>
+    <link href="{{asset('admin/css/font-awesome.min.css')}}" rel="stylesheet" type="text/css"/>
 
 
     <!-- Scripts -->
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.2/jquery.min.js"></script>
+    <link href="{{asset('js/sweetalert/sweetalert.css')}}" rel="stylesheet">
+    <script src="{{asset('js/sweetalert/sweetalert.min.js')}}"></script>
 
     <script>
         window.Laravel = {!! json_encode([

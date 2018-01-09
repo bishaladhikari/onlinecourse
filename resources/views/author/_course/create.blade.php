@@ -99,7 +99,7 @@
                                 </div>
                             </div>
                             {{csrf_field()}}
-                            <button type="submit" class="btn btn-success pull-right">Save</button>
+                            <button type="submit" class="btn theme-btn pull-right">Save</button>
                         </form>
 
                     </div>

@@ -18,7 +18,7 @@ class UserController extends Controller
 
     public function index()
     {
-        return view('backend.access._user.index')->with('users', User::with('roles')->get());
+        return view('admin.access._user.index')->with('users', User::with('roles')->get());
     }
 
     /**
@@ -29,7 +29,7 @@ class UserController extends Controller
     public function create()
     {
         //
-        return view('backend.access._user.create')
+        return view('admin.access._user.create')
             ->with('roles', Role::all());
     }
 
@@ -80,7 +80,7 @@ class UserController extends Controller
     {
         $user = User::where('id', $id)->with('roles')->first();
 
-        return view('backend.access._user.edit')->with('user', $user)->withRoles(Role::all());
+        return view('admin.access._user.edit')->with('user', $user)->withRoles(Role::all());
     }
 
     /**

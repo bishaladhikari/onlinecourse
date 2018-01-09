@@ -2,7 +2,7 @@
 
 @section('content')
     <div class="container-fluid no-padding">
-        <div class="col-sm-12" style="background:#00b1b3">
+        <div class="col-sm-12" style="background:#007791">
 
             <div class="col-md-6 col-md-offset-3" style="margin: 100px">
                 <label class="control-label" style="color:white;font-size: 50px">Browse our course library</label>

@@ -17,6 +17,6 @@ use Illuminate\Http\Request;
 //    return $request->user();
 //});
 Route::group(['prefix'=>'author', 'namespace' => 'Author'],function (){
-    Route::get('{course_id}/sections','SectionController@getSections');
-    Route::post('section','SectionController@store');
+
+    Route::resource('lesson','LessonController');
 });

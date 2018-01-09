@@ -2,16 +2,30 @@
 
     <li  class="{{ Request::path() == 'author/courses/'.$course->slug.'/manage/info' ? 'active' : ''  }}">
 
-        <a style="color: gray" href="info">Basic Info</a>
+<a style="color: gray" href="info">
+
+    {{--<span class="fa-stack fa-lg">--}}
+      {{--<i class="fa fa-circle fa-stack-2x"></i>--}}
+      {{--<i class="fa fa-inverse fa-stack-1x">1</i>--}}
+
+    {{--</span>--}}
+    Basic Info
+</a>
 
     </li>
     <li class="{{ Request::path() == 'author/courses/'.$course->slug.'/manage/goals' ? 'active' : ''  }}">
 
-        <a style="color: gray" href="goals"
-         >Goals</a>
+        <a style="color: gray" href="goals">
+
+            Goals
+        </a>
     </li>
     <li class="{{ Request::path() == 'author/courses/'.$course->slug.'/manage/curriculum' ? 'active' : ''  }}">
-        <a style="color: gray" href="curriculum">Curriculum</a>
+        <a style="color: gray" href="curriculum">
+
+
+            Curriculum
+        </a>
     </li>
     <li class="{{ Request::path() == 'author/courses/'.$course->slug.'/manage/announcements' ? 'active' : ''  }}">
         <a style="color: gray" href="announcement">Announcements</a>

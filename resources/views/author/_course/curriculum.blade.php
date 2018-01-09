@@ -1,7 +1,7 @@
 @extends('layouts.app')
 
 @section('content')
-    <div class="container-fluid no-padding" style="background:#00b1b3">
+    <div class="container-fluid no-padding  bg-theme">
         <div class="col-sm-12">
 
             <div style="margin: 50px">
@@ -19,6 +19,7 @@
 
 
             </div>
+
 
 
         </div>
@@ -44,62 +45,88 @@
 
         <div class="panel">
             <div class="panel-body">
-                <div class="tab-content" id="tab-content">
 
-                    <manage-section :course="{{$course->id}}" :course_obj="{{$course->toJson()}}" inline-template>
-
+                <lessons :course_id="{{$course->id}}"></lessons>
 
 
-                        <div v-cloak>
-                            <div class="tab-content">
+                {{--<div class="tab-content" id="tab-content">--}}
 
-                            </div>
-                            <div class="row" >
-                                <div class="col-md-offset-6">
-                                    <i  v-show="loading" class="fa fa-spinner fa-spin big-font "></i>
+                    {{--<manage-section :course="{{$course->id}}" :course_obj="{{$course->toJson()}}" inline-template>--}}
 
-                                </div>
-                                <div class="col-md-10 col-md-offset-1">
 
-                                    <span>@{{ saveStatus }}</span>
+                        {{--<div v-cloak>--}}
+                            {{--<div class="tab-content">--}}
 
-                                    <div class="panel panel-default clearfix" v-for="section, index in sections">
-                                        <div class="panel-body">
-                                            <div class="row">
-                                                <div class="col-md-9">
-                                                    @{{ index+1 }}
-                                                    : @{{ section.title }}
-                                                </div>
+                            {{--</div>--}}
+                            {{--<div class="row">--}}
+                                {{--<div class="col-md-offset-6">--}}
+                                    {{--<i v-show="loading" class="fa fa-spinner fa-spin big-font "></i>--}}
 
-                                                <div class="col-md-2">
-                                                    <a class="btn btn-outlined"><i class="fa fa-plus p-5"></i>Add Content</a>
-                                                </div>
+                                {{--</div>--}}
+                                {{--<div class="col-md-10 col-md-offset-1">--}}
+
+                                    {{--<span class="message">@{{ saveStatus }}</span>--}}
+
+                                    {{--<div class="panel panel-card  clearfix" v-for="section, index in sections">--}}
+                                        {{--<div class="panel-heading  ">--}}
+                                            {{--<div class="row">--}}
+                                                {{--<div class="col-md-9">--}}
+                                                    {{--@{{ index+1 }}--}}
+                                                    {{--: @{{ section.title }}--}}
+                                                {{--</div>--}}
+
+                                                {{--<div class="col-md-2">--}}
+                                                    {{--<a class="btn btn-outlined"><i class="fa fa-plus p-5"></i>Add Lesson</a>--}}
+                                                {{--</div>--}}
                                                 {{--<div class="col-md-1">--}}
-                                                    {{--<a class="btn btn-outlined"><i class="fa fa-caret-down p-5"></i> </a>--}}
+                                                {{--<a class="btn btn-outlined"><i class="fa fa-caret-down p-5"></i> </a>--}}
 
                                                 {{--</div>--}}
-                                            </div>
+                                            {{--</div>--}}
 
-                                        </div>
-                                    </div>
-                                </div>
-                                @include('author._course.vue.forms._create_section')
-                                <div class="col-md-10 col-md-offset-1">
-                                    <a href="#" v-if="!showCreate" @click.prevent="showCreate = !showCreate"
-                                       class="btn btn-outlined col-lg-12 p-10"><i class="fa fa-plus p-5"></i>Add New Section</a>
-
-                                </div>
-
-                            </div>
-
-                        </div>
+                                        {{--</div>--}}
+                                        {{--<div class="panel-body">--}}
+                                            {{--<!-- Edit section -->--}}
+                                            {{--<div class="clearfix">--}}
+                                                {{--@include('frontend.author.course.Vue.forms._edit_section')--}}
+                                            {{--</div>--}}
 
 
-                    </manage-section>
+                                        {{--</div>--}}
+                                    {{--</div>--}}
+                                {{--</div>--}}
+                                {{--@include('author._course.vue.forms._create_section')--}}
+
+                                {{--<div v-if="createLesson">--}}
+
+                                    {{--<create-lesson :course="{{$course->id}}" inline-template--}}
+                                                   {{--v-on:cancel-create-lesson="cancelLessonCreate">--}}
+                                        {{--@include('author._course.vue.forms._create_lesson')--}}
+                                    {{--</create-lesson>--}}
+                                {{--</div>--}}
+                                {{--<div class="col-md-5 col-md-offset-1" v-if="!createLesson && !showCreate">--}}
+                                    {{--<a href="#" v-if="!createLesson" @click.prevent="createLesson = !createLesson"--}}
+                                       {{--class="btn btn-outlined col-lg-12 p-10"><i class="fa fa-plus p-5"></i>Add New--}}
+                                        {{--Lesson</a>--}}
+
+                                {{--</div>--}}
+                                {{--<div class="col-md-5" v-if="!createLesson && !showCreate">--}}
+                                    {{--<a href="#" v-if="!showCreate" @click.prevent="showCreate = !showCreate"--}}
+                                       {{--class="btn btn-outlined col-lg-12 p-10"><i class="fa fa-plus p-5"></i>Add New--}}
+                                        {{--Section</a>--}}
+
+                                {{--</div>--}}
+
+                            {{--</div>--}}
+
+                        {{--</div>--}}
 
 
+                    {{--</manage-section>--}}
 
-                </div>
+
+                {{--</div>--}}
+
 
 
             </div>

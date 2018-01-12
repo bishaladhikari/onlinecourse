@@ -13,6 +13,8 @@ class ContentController extends Controller
        $validator = Validator::make($request->all(), [
            'file' => 'max:500000',
        ]);
+    
+    
 //       $file = $request->file('file');
 //
 //

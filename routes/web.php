@@ -26,6 +26,8 @@ Route::get('/', 'HomeController@index')->name('home');
 Route::group([ 'middleware' => ['auth']], function () {
 //    Route::resource('courses', 'CourseController', ['except' => ['show']]);
     Route::resource('courses', 'CourseController');
+    Route::get('courses/{course_slug}/lesson/{id}', 'LessonController@show')->name('lesson.show');
+
 //    Route::get('courses/{slug}/{course_id}','CourseController@show')->name("courses.show");
     Route::group(['prefix' => '/author/', 'namespace' => 'Author'], function () {
         Route::resource('courses', 'CourseController', ["as" => "author"]);

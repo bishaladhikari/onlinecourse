@@ -1,5 +1,5 @@
 <template>
-    <div v-cloak="">
+    <div  v-cloak="">
         <div class="row">
             <div class="col-md-offset-6">
                 <i v-show="loading" class="fa fa-spinner fa-spin big-font "></i>

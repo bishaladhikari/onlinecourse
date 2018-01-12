@@ -49,8 +49,6 @@
                         <div class="panel-body">
                             <b class="lightseagreen">Course Info</b>
                             <p>{{$course->level}} level</p>
-
-
                         </div>
                     </div>
                     <div class="panel panel-card" style="height:300px;">

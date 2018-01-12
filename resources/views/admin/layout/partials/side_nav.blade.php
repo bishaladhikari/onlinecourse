@@ -37,7 +37,7 @@
                     <i class="fa fa-angle-left pull-right"></i>
                 </a>
                 <ul class="treeview-menu">
-                    <li><a href="{{route('user.index')}}"><i class="fa fa-angle-double-right"></i> User Management</a></li>
+                    <li class="active"><a href="{{route('user.index')}}"><i class="fa fa-angle-double-right"></i> User Management</a></li>
                     <li><a href="{{route('role.index')}}"><i class="fa fa-angle-double-right"></i> Role Management</a></li>
 
                 </ul>

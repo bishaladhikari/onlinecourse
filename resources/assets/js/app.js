@@ -23,6 +23,7 @@ Vue.component('create-lesson', require('./components/authors/lesson/CreateLesson
 Vue.component('create-article', require('./components/authors/article/CreateArticle.vue'));
 Vue.component('upload-video', require('./components/authors/video/UploadVideo.vue'));
 Vue.component('embed-video', require('./components/authors/video/EmbedVideo.vue'));
+Vue.component('preview-video', require('./components/authors/video/PreviewVideo.vue'));
 
 // Vue.component('video-upload', require('./components/authors/video/VideoUpload.vue'));
 // Vue.component('manage-section', require('./components/authors/section/ManageSection.vue'));

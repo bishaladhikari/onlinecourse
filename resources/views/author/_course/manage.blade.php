@@ -1,7 +1,7 @@
 @extends('layouts.app')
 
 @section('content')
-    <div class="container-fluid no-padding" style="background:#00b1b3">
+    <div class="container-fluid no-padding bg-theme" >
         <div class="col-sm-12">
 
             <div style="margin: 50px">

@@ -83,9 +83,14 @@
                         <li><a href="{{ route('login') }}">Login</a></li>
                         <li><a href="{{ route('register') }}">Register</a></li>
                     @else
+
+                        @if(!Auth::user()->hasRole('Author'))
+                            <li><a href="#">Become an Instructor</a></li>
+                        @endif
                         <li class="{{ Request::path() == 'courses' ? 'active' : ''  }}"><a
                                     href="{{route('courses.index')}}">Courses</a></li>
                         <li><a href="#">Blogs</a></li>
+
                         <li class="dropdown">
                             <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button"
                                aria-expanded="false">
@@ -95,9 +100,13 @@
                             <ul class="dropdown-menu" role="menu">
                                 <li><a href="#">Profile</a></li>
                                 <li><a href="#">Messages</a></li>
-                                <li><a><b>Author</b></a></li>
-                                <li><a href="{{route('author.courses.index')}}">Author Dashboard</a></li>
-                                <li><a href="{{route('author.courses.create')}}">Create new course</a></li>
+
+                                @if(Auth::user()->hasRole('Author'))
+                                    <li><a><b>Author</b></a></li>
+                                    <li><a href="{{route('author.courses.index')}}">Author Dashboard</a></li>
+                                    <li><a href="{{route('author.courses.create')}}">Create new course</a></li>
+
+                                @endif
                                 <li>
                                     <a href="{{ route('logout') }}"
                                        onclick="event.preventDefault();
@@ -122,7 +131,8 @@
 </div>
 
 <!-- Scripts -->
-
+{{--<script src="https://code.jquery.com/jquery-1.12.4.js"></script>--}}
+{{--<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>--}}
 {{--<script--}}
 {{--src="https://code.jquery.com/jquery-3.2.1.js"--}}
 {{--integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="--}}
@@ -132,6 +142,7 @@
     $('div.alert').delay(3000).slideUp(300);
 
 </script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui-touch-punch/0.2.3/jquery.ui.touch-punch.min.js"></script>
 @if(config('app.env') == 'local')
     <script src="http://localhost:35729/livereload.js"></script>
 @endif

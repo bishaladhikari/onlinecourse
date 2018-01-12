@@ -5,7 +5,7 @@
         <div class="col-sm-12 text-center " style="background-image:url({{asset('img/front-banner.jpeg')}}); background-size: cover;background-repeat: no-repeat; height:500px;margin-bottom:10px;width: 100%;opacity: 0.8">
             <div class="row ">
                 <div class="col-md-6 col-md-offset-3" style="margin-top: 250px">
-                    <label class="control-label" style="color:white;">What do you want to learn? </label>
+                    <h2 style="color:white;">What do you want to learn? </h2>
                     <input type="text" class="form-control front-search" placeholder="Search for courses"
                            style="height: 50px;"/>
 
@@ -16,12 +16,6 @@
 
     <div class="container m-b-10">
 
-        {{--<div class="row">--}}
-        {{--<div class="panel">--}}
-
-
-        {{--</div>--}}
-        {{--</div>--}}
         <div class="row">
             @foreach($categories as $category)
 
@@ -45,15 +39,13 @@
                                     <div class="panel  course-card  text-center">
 
 
-                                        <img src="{{asset('admin_assets/img/default_img.jpg')}}"
+                                        <img src="http://via.placeholder.com/350x150"
                                              style="height: 150px;width:100%">
                                         <div class="panel-heading">
 
                                             <h5>{{$course->title}}</h5>
-                                        </div>
 
-                                        <div class="panel-body">
-                                            {{$course->description}}
+                                            <p class="description"> {{$course->description}}</p>
                                         </div>
 
                                     </div>

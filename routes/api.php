@@ -19,4 +19,6 @@ use Illuminate\Http\Request;
 Route::group(['prefix'=>'author', 'namespace' => 'Author'],function (){
 
     Route::resource('lesson','LessonController');
+    Route::post('lesson/video/upload','ContentController@uploadVideo');
+    Route::post('lesson/video/embed','ContentController@embedVideo');
 });

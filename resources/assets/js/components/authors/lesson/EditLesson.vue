@@ -3,7 +3,7 @@
         <div class="form-horizontal p-10 bg-mild-white">
 
 
-            <h4>Edit Lesson</h4>
+            <h4>Edit Lesson {{index+1}}</h4>
 
             <div class="form-group row">
 
@@ -48,7 +48,7 @@
 
 <script>
     export default {
-        props: ['lesson'],
+        props: ['lesson','index'],
 
         data: function () {
             return {

@@ -48,7 +48,7 @@ Route::group([ 'middleware' => ['auth']], function () {
 
 });
 Route::group(['prefix' => '/admin/', 'namespace' => 'Admin', 'middleware' => ['auth']], function () {
-    Route::get('/dashboard', function () {return view('backend.dashboard.index');})->name('dashboard');
+    Route::get('/dashboard', function () {return view('admin.dashboard.index');})->name('dashboard');
     Route::group(['prefix' => '/access/', 'namespace' => 'Access'], function () {
         Route::resources([
             'user' => 'UserController',

@@ -19,6 +19,7 @@ return array(
     'App\\Http\\Controllers\\Auth\\LoginController' => $baseDir . '/app/Http/Controllers/Auth/LoginController.php',
     'App\\Http\\Controllers\\Auth\\RegisterController' => $baseDir . '/app/Http/Controllers/Auth/RegisterController.php',
     'App\\Http\\Controllers\\Auth\\ResetPasswordController' => $baseDir . '/app/Http/Controllers/Auth/ResetPasswordController.php',
+    'App\\Http\\Controllers\\Author\\ContentController' => $baseDir . '/app/Http/Controllers/Author/ContentController.php',
     'App\\Http\\Controllers\\Author\\CourseController' => $baseDir . '/app/Http/Controllers/Author/CourseController.php',
     'App\\Http\\Controllers\\Author\\LessonController' => $baseDir . '/app/Http/Controllers/Author/LessonController.php',
     'App\\Http\\Controllers\\Author\\SectionController' => $baseDir . '/app/Http/Controllers/Author/SectionController.php',

@@ -33,4 +33,7 @@
     <li class="{{ Request::path() == 'author/courses/'.$course->slug.'/manage/message' ? 'active' : ''  }}">
         <a style="color: gray" href="message">Welcome Message</a>
     </li>
+    <li class="{{ Request::path() == 'author/courses/'.$course->slug.'/manage/admin-review' ? 'active' : ''  }}">
+        <a style="color: gray" href="message">Admin Review</a>
+    </li>
 </ul>

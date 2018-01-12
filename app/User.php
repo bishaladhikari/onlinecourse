@@ -8,13 +8,13 @@ use Zizaco\Entrust\Traits\EntrustUserTrait;
 use Illuminate\Support\Facades\Config;
 //use Zizaco\Confide\ConfideUser;
 //use Zizaco\Confide\ConfideUserInterface;
-//use Zizaco\Entrust\HasRole;
+
 
 class User extends Authenticatable
 {
     use Notifiable;
     use EntrustUserTrait;
-//    use HasRole;
+
 
     /**
      * The attributes that are mass assignable.

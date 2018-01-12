@@ -1,8 +1,8 @@
 @extends('layouts.app')
 
 @section('content')
-    <div class="container-fluid no-padding">
-        <div class="col-sm-12" style="background:#007791">
+    <div class="container-fluid no-padding bg-theme">
+        <div class="col-sm-12">
 
             <div class="col-md-6 col-md-offset-3" style="margin: 100px">
                 <label class="control-label" style="color:white;font-size: 50px">Browse our course library</label>
@@ -69,28 +69,26 @@
                                 @forelse($category->courses as $course)
 
                                     <a href="{{route('courses.show',$course->slug)}}">
-                                        <div class="col-md-3 "  >
+                                        <div class="col-md-3 ">
 
-                                                <div class="panel text-center course-card">
+                                            <div class="panel text-center course-card">
 
 
-                                                    <img src="{{asset('admin_assets/img/default_img.jpg')}}"
-                                                         style="height: 150px;width:100%">
-                                                    <div class="panel-heading">
+                                                <img src="http://via.placeholder.com/350x150"
+                                                     style="height: 150px;width:100%">
+                                                <div class="panel-heading">
 
-                                                        <h5>{{$course->title}}</h5>
-                                                    </div>
+                                                    <h5>{{$course->title}}</h5>
 
-                                                    <div class="panel-body">
-                                                        {{$course->subtitle}}
-                                                    </div>
+                                                    <p class="subtitle">{{$course->subtitle}}
+                                                    </p>
+
 
                                                 </div>
+                                            </div>
 
 
-
-
-                                        </div>
+                                            </div>
                                     </a>
 
                                 @empty

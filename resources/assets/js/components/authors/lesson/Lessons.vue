@@ -6,13 +6,21 @@
 
             </div>
             <div class="col-md-10 col-md-offset-1">
-                <draggable v-model="lessons"
-                           :options="{animation:150}" @start="drag=true" @end="drag=false" @change="updateLessonSort">
-                           <!--:options="{animation:150}"-->
-                    <lesson v-for="(lesson , index) in lessons" :lesson="lesson" :index="index" :key="lesson.id" @fetch-lessons="fetchLessons">
-                    </lesson>
 
-                </draggable>
+                <!--<draggable v-model="lessons"-->
+                           <!--:options="{animation:150,handle:'.drag-me'}" @start="drag=true" @end="drag=false" @change="updateLessonSort">-->
+                           <!--&lt;!&ndash;:options="{animation:150}"&ndash;&gt;-->
+
+                <ul class="lesson-list" style="list-style:none;padding:0">
+                    <li v-for="(lesson , index) in lessons">
+                        <lesson  :lesson="lesson" :index="index" :key="lesson.id" @fetch-lessons="fetchLessons">
+                        </lesson>
+                    </li>
+
+                </ul>
+
+
+                <!--</draggable>-->
 
 
                 <!--create lesson-->
@@ -29,13 +37,33 @@
         </div>
     </div>
 </template>
+
 <script>
     import draggable from 'vuedraggable';
-//    Vue.use(Sortable);
 
     export default{
         mounted() {
             this.fetchLessons();
+
+            $('.lesson-list').sortable({
+                connectWith: '.lesson-list',
+                handle:'.drag-me',
+//                container: '.container',
+                helper: 'clone',
+                revert: 'invalid',
+                forceHelperSize: true,
+                placeholder: {
+                    element: function(clone, ui) {
+                        return $('<li></li>');
+                    },
+                    update: function() {
+                        return;
+                    }
+                },start: function(e, ui){
+                    ui.placeholder.height(ui.item.height());
+                }
+            });
+
         },
 
         components:{
@@ -79,6 +107,7 @@
                     });
             },
             updateLessonSort(){
+                console.log('sorted');
 
             }
 //            cancelCreateLesson(){
@@ -96,4 +125,5 @@
 //            }
         }
     }
+
 </script>

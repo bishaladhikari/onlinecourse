@@ -2,24 +2,133 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0d984c3d-3cf6-4cc7-8132-41aea57c529a" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/lesson.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/assets/js/components/authors/video/PreviewVideo.vue" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/lesson/show.blade.php" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/css/style.css" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/player.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/video.js/dist/font/VideoJS.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/video.js/dist/font/VideoJS.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/video.js/dist/font/VideoJS.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/video.js/dist/video-js-6.6.0.zip" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/video.js/dist/video-js.swf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/hucss.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/video-js.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/Vimeo.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/Youtube.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/video.js/CHANGELOG.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/video.js/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/video.js/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/video.js/dist/alt/video-js-cdn.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/video.js/dist/alt/video-js-cdn.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/video.js/dist/alt/video.novtt.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/video.js/dist/alt/video.novtt.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/video.js/dist/examples/elephantsdream/captions.ar.vtt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/video.js/dist/examples/elephantsdream/captions.en.vtt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/video.js/dist/examples/elephantsdream/captions.ja.vtt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/video.js/dist/examples/elephantsdream/captions.ru.vtt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/video.js/dist/examples/elephantsdream/captions.sv.vtt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/video.js/dist/examples/elephantsdream/chapters.en.vtt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/video.js/dist/examples/elephantsdream/descriptions.en.vtt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/video.js/dist/examples/elephantsdream/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/video.js/dist/examples/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/video.js/dist/examples/shared/example-captions.vtt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/video.js/dist/examples/simple-embed/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/video.js/dist/font/VideoJS.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/video.js/dist/ie8/videojs-ie8.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/video.js/dist/ie8/videojs-ie8.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/video.js/dist/lang/ar.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/video.js/dist/lang/ba.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/video.js/dist/lang/bg.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/video.js/dist/lang/ca.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/video.js/dist/lang/cs.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/video.js/dist/lang/da.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/video.js/dist/lang/de.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/video.js/dist/lang/el.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/video.js/dist/lang/en.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/video.js/dist/lang/es.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/video.js/dist/lang/fa.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/video.js/dist/lang/fi.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/video.js/dist/lang/fr.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/video.js/dist/lang/gl.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/video.js/dist/lang/he.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/video.js/dist/lang/hr.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/video.js/dist/lang/hu.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/video.js/dist/lang/it.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/video.js/dist/lang/ja.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/video.js/dist/lang/ko.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/video.js/dist/lang/nb.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/video.js/dist/lang/nl.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/video.js/dist/lang/nn.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/video.js/dist/lang/pl.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/video.js/dist/lang/pt-BR.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/video.js/dist/lang/pt-PT.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/video.js/dist/lang/ru.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/video.js/dist/lang/sk.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/video.js/dist/lang/sr.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/video.js/dist/lang/sv.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/video.js/dist/lang/tr.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/video.js/dist/lang/uk.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/video.js/dist/lang/vi.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/video.js/dist/lang/zh-CN.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/video.js/dist/lang/zh-TW.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/video.js/dist/video-js.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/video.js/dist/video-js.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/video.js/dist/video.cjs.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/video.js/dist/video.es.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/video.js/dist/video.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/video.js/dist/video.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/video.js/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/video.js/src/css/_print.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/video.js/src/css/_private-variables.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/video.js/src/css/_utilities.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/video.js/src/css/_variables.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/video.js/src/css/components/_adaptive.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/video.js/src/css/components/_audio.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/video.js/src/css/components/_big-play.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/video.js/src/css/components/_button.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/video.js/src/css/components/_captions-settings.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/video.js/src/css/components/_captions.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/video.js/src/css/components/_chapters.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/video.js/src/css/components/_close-button.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/video.js/src/css/components/_control-bar.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/video.js/src/css/components/_control-spacer.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/video.js/src/css/components/_control.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/video.js/src/css/components/_descriptions.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/video.js/src/css/components/_error.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/video.js/src/css/components/_fullscreen.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/video.js/src/css/components/_layout.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/video.js/src/css/components/_live.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/video.js/src/css/components/_loading.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/video.js/src/css/components/_modal-dialog.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/video.js/src/css/components/_play-pause.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/video.js/src/css/components/_playback-rate.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/video.js/src/css/components/_poster.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/video.js/src/css/components/_progress.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/video.js/src/css/components/_slider.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/video.js/src/css/components/_subs-caps.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/video.js/src/css/components/_subtitles.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/video.js/src/css/components/_text-track.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/video.js/src/css/components/_time.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/video.js/src/css/components/_volume.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/video.js/src/css/components/menu/_menu-inline.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/video.js/src/css/components/menu/_menu-popup.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/video.js/src/css/components/menu/_menu.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/video.js/src/css/ie8.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/video.js/src/css/utilities/_linear-gradient.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/video.js/src/css/video-js.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/video.js/src/css/vjs-cdn.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/video.js/src/css/vjs.scss" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@atomic-nyc/vue-draggable/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@atomic-nyc/vue-draggable/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@atomic-nyc/vue-draggable/dist/vue-draggable.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@atomic-nyc/vue-draggable/dist/vue-draggable.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@atomic-nyc/vue-draggable/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@atomic-nyc/vue-draggable/src/Draggable.vue" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@atomic-nyc/vue-draggable/src/plugin.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/manage.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/js/components/authors/video/PreviewVideo.vue" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Lesson.php" afterPath="$PROJECT_DIR$/app/Lesson.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package-lock.json" afterPath="$PROJECT_DIR$/package-lock.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/css/lesson.css" afterPath="$PROJECT_DIR$/public/css/lesson.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/app.js" afterPath="$PROJECT_DIR$/public/js/app.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/js/app.js" afterPath="$PROJECT_DIR$/resources/assets/js/app.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/js/components/authors/lesson/Lessons.vue" afterPath="$PROJECT_DIR$/resources/assets/js/components/authors/lesson/Lessons.vue" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/admin/layout/partials/side_nav.blade.php" afterPath="$PROJECT_DIR$/resources/views/admin/layout/partials/side_nav.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/author/_course/curriculum.blade.php" afterPath="$PROJECT_DIR$/resources/views/author/_course/curriculum.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/course/show.blade.php" afterPath="$PROJECT_DIR$/resources/views/course/show.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/routes/web.php" afterPath="$PROJECT_DIR$/routes/web.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/composer/autoload_classmap.php" afterPath="$PROJECT_DIR$/vendor/composer/autoload_classmap.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/composer/autoload_static.php" afterPath="$PROJECT_DIR$/vendor/composer/autoload_static.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webpack.mix.js" afterPath="$PROJECT_DIR$/webpack.mix.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/lesson/show.blade.php" afterPath="$PROJECT_DIR$/resources/views/lesson/show.blade.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -37,7 +146,7 @@
       <file leaf-file-name="app.blade.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resources/views/layouts/app.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="154">
+            <state relative-caret-position="1974">
               <caret line="139" column="0" lean-forward="false" selection-start-line="139" selection-start-column="0" selection-end-line="140" selection-end-column="0" />
               <folding>
                 <marker date="1515737652180" expanded="true" signature="911:978" ph="..." />
@@ -48,14 +157,32 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LessonController.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Http/Controllers/LessonController.php">
+      <file leaf-file-name="master.blade.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/views/admin/layout/master.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" column="69" lean-forward="false" selection-start-line="12" selection-start-column="69" selection-end-line="12" selection-end-column="69" />
-              <folding>
-                <element signature="e#40#55#0#PHP" expanded="true" />
-              </folding>
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/vendor/video.js/dist/examples/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/vendor/video.js/dist/examples/simple-embed/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="6" column="76" lean-forward="true" selection-start-line="6" selection-start-column="76" selection-end-line="6" selection-end-column="76" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -63,36 +190,46 @@
       <file leaf-file-name="show.blade.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/resources/views/lesson/show.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="137">
-              <caret line="80" column="76" lean-forward="false" selection-start-line="80" selection-start-column="76" selection-end-line="80" selection-end-column="76" />
+            <state relative-caret-position="222">
+              <caret line="92" column="45" lean-forward="true" selection-start-line="92" selection-start-column="45" selection-end-line="92" selection-end-column="45" />
               <folding>
-                <marker date="1515759130191" expanded="true" signature="1212:1279" ph="..." />
-                <marker date="1515759130191" expanded="true" signature="1225:1277" ph="..." />
-                <marker date="1515759130191" expanded="true" signature="1226:1276" ph="..." />
+                <marker date="1515789517014" expanded="true" signature="1481:1548" ph="..." />
+                <marker date="1515789517014" expanded="true" signature="1494:1546" ph="..." />
+                <marker date="1515789517014" expanded="true" signature="1495:1545" ph="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PreviewVideo.vue" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/assets/js/components/authors/video/PreviewVideo.vue">
+      <file leaf-file-name="Vimeo.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/vendor/Vimeo.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="13" column="21" lean-forward="false" selection-start-line="13" selection-start-column="21" selection-end-line="13" selection-end-column="21" />
-              <folding>
-                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-                <element signature="e#1071#1106#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="EmbedVideo.vue" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/assets/js/components/authors/video/EmbedVideo.vue">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="78" selection-end-column="9" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="video-js.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/vendor/video.js/dist/video-js.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="video-js.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/css/video-js.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1581">
+              <caret line="17" column="5" lean-forward="true" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
+              <folding>
+                <element signature="e#525#6138#1" expanded="true" />
+                <element signature="e#6155#15261#1" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -100,40 +237,18 @@
       <file leaf-file-name="app.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resources/assets/js/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="174">
-              <caret line="25" column="87" lean-forward="false" selection-start-line="25" selection-start-column="87" selection-end-line="25" selection-end-column="87" />
+            <state relative-caret-position="719">
+              <caret line="44" column="0" lean-forward="false" selection-start-line="44" selection-start-column="0" selection-end-line="44" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Lessons.vue" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/assets/js/components/authors/lesson/Lessons.vue">
+      <file leaf-file-name="ie8.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/vendor/video.js/src/css/ie8.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1" column="9" lean-forward="false" selection-start-line="1" selection-start-column="9" selection-end-line="1" selection-end-column="9" />
-              <folding>
-                <element signature="n#div#0;n#div#0;n#template#0;n#!!top" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="side_nav.blade.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/views/admin/layout/partials/side_nav.blade.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="663">
-              <caret line="39" column="37" lean-forward="false" selection-start-line="39" selection-start-column="37" selection-end-line="39" selection-end-column="37" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="lesson.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/css/lesson.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="4777">
-              <caret line="281" column="15" lean-forward="false" selection-start-line="281" selection-start-column="15" selection-end-line="281" selection-end-column="15" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -150,10 +265,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>sidebar</find>
-      <find>skin-blue</find>
-      <find>roles</find>
-      <find>acces</find>
       <find>add newC</find>
       <find>jane</find>
       <find>blue</find>
@@ -180,6 +291,10 @@
       <find>trans</find>
       <find>transpa</find>
       <find>hover</find>
+      <find>http</find>
+      <find>vjs-big-play-centered</find>
+      <find>contr</find>
+      <find>color</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -193,10 +308,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/database/migrations/2018_01_08_073526_create_lessons_table.php" />
-        <option value="$PROJECT_DIR$/resources/assets/js/components/authors/lesson/CreateLesson.vue" />
-        <option value="$PROJECT_DIR$/resources/views/author/_course/create.blade.php" />
-        <option value="$PROJECT_DIR$/app/Http/Controllers/Author/LessonController.php" />
         <option value="$PROJECT_DIR$/database/migrations/2018_01_09_100443_create_contents_table.php" />
         <option value="$PROJECT_DIR$/resources/assets/js/components/authors/article/CreateArticle.vue" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/Admin/PageController.php" />
@@ -237,12 +348,16 @@
         <option value="$PROJECT_DIR$/app/Http/Controllers/LessonController.php" />
         <option value="$PROJECT_DIR$/resources/views/admin/layout/partials/side_nav.blade.php" />
         <option value="$PROJECT_DIR$/resources/assets/js/components/VideoPreview.vue" />
-        <option value="$PROJECT_DIR$/resources/assets/js/app.js" />
         <option value="$PROJECT_DIR$/resources/assets/js/components/PreviewVideo.vue" />
         <option value="$PROJECT_DIR$/resources/assets/js/components/authors/lesson/Lessons.vue" />
         <option value="$PROJECT_DIR$/resources/views/author/_course/curriculum.blade.php" />
-        <option value="$PROJECT_DIR$/public/css/lesson.css" />
         <option value="$PROJECT_DIR$/resources/assets/js/components/authors/video/PreviewVideo.vue" />
+        <option value="$PROJECT_DIR$/public/js/Youtube.js" />
+        <option value="$PROJECT_DIR$/public/css/hucss.css" />
+        <option value="$PROJECT_DIR$/public/css/lesson.css" />
+        <option value="$PROJECT_DIR$/public/.htaccess" />
+        <option value="$PROJECT_DIR$/resources/assets/js/app.js" />
+        <option value="$PROJECT_DIR$/public/css/video-js.css" />
         <option value="$PROJECT_DIR$/resources/views/lesson/show.blade.php" />
       </list>
     </option>
@@ -359,6 +474,7 @@
     </navigator>
     <panes>
       <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -735,7 +851,75 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="vendor" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="onlinecourse" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="onlinecourse" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="onlinecourse" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="onlinecourse" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="img" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="onlinecourse" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="onlinecourse" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="css" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="onlinecourse" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="onlinecourse" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="node_modules" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -835,7 +1019,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
       <pane id="PackagesPane" />
       <pane id="AndroidView" />
     </panes>
@@ -850,19 +1033,19 @@
     <property name="list.type.of.created.stylesheet" value="CSS" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="G:\sabkuraprojects\onlinecourse\resources\assets\sass" />
-      <recent name="G:\sabkuraprojects\onlinecourse\resources\assets\css" />
-      <recent name="G:\sabkuraprojects\onlinecourse\resources\assets\js\components\course" />
-      <recent name="G:\sabkuraprojects\onlinecourse\resources\views\course" />
-      <recent name="G:\sabkuraprojects\onlinecourse\resources\assets\js\components\authors\video" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="G:\sabkuraprojects\onlinecourse\resources\assets\js\components\authors\video" />
       <recent name="G:\sabkuraprojects\onlinecourse\resources\assets\js\components\authors\article" />
       <recent name="G:\sabkuraprojects\onlinecourse\resources\assets\js\components\authors\lesson" />
       <recent name="G:\sabkuraprojects\onlinecourse\app\Http\Controllers\Author" />
       <recent name="G:\sabkuraprojects\onlinecourse\app\Http\Controllers" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="G:\sabkuraprojects\onlinecourse\public\vendor" />
+      <recent name="G:\sabkuraprojects\onlinecourse\public\img" />
+      <recent name="G:\sabkuraprojects\onlinecourse\public\js" />
+      <recent name="G:\sabkuraprojects\onlinecourse\public\css" />
+      <recent name="G:\sabkuraprojects\onlinecourse\resources\assets\sass" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -988,25 +1171,26 @@
       <workItem from="1515646954894" duration="24943000" />
       <workItem from="1515677594201" duration="12076000" />
       <workItem from="1515736013126" duration="20270000" />
+      <workItem from="1515774493068" duration="14431000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="435972000" />
+    <option name="totallyTimeSpent" value="450403000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1" y="1" width="1364" height="726" extended-state="1" />
+    <frame x="1" y="1" width="1364" height="726" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22546013" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2285276" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32733223" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32242227" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32209107" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32913387" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19224283" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.19224283" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -1067,77 +1251,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/routes/api.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" column="61" lean-forward="false" selection-start-line="22" selection-start-column="61" selection-end-line="22" selection-end-column="61" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/assets/js/components/authors/video/UploadVideo.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="47" column="0" lean-forward="true" selection-start-line="47" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Author/SectionController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="36" lean-forward="true" selection-start-line="7" selection-start-column="36" selection-end-line="7" selection-end-column="36" />
-          <folding>
-            <element signature="e#47#62#0#PHP" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Category.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/course/includes/tabs.blade.php" />
-    <entry file="file://$PROJECT_DIR$/resources/views/author/_course/goals.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="28" column="0" lean-forward="false" selection-start-line="28" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/author/_course/includes/author-nav.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="34" lean-forward="false" selection-start-line="2" selection-start-column="34" selection-end-line="2" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/course/includes/navigation.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="22" lean-forward="false" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/assets/js/components/course/Overview.vue" />
-    <entry file="file://$PROJECT_DIR$/app/Content.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="23" lean-forward="false" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/assets/js/components/course/CourseContainer.vue" />
-    <entry file="file://$PROJECT_DIR$/resources/views/author/_course/includes/tabs.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="612">
-          <caret line="36" column="58" lean-forward="false" selection-start-line="36" selection-start-column="58" selection-end-line="36" selection-end-column="58" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/CourseController.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="299">
@@ -1172,7 +1285,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
           <caret line="22" column="26" lean-forward="false" selection-start-line="22" selection-start-column="26" selection-end-line="22" selection-end-column="26" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1202,7 +1314,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="21" column="26" lean-forward="false" selection-start-line="21" selection-start-column="26" selection-end-line="21" selection-end-column="26" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1226,7 +1337,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1248,7 +1358,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="7" column="23" lean-forward="false" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="23" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1264,7 +1373,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1292">
           <caret line="76" column="58" lean-forward="false" selection-start-line="76" selection-start-column="58" selection-end-line="76" selection-end-column="92" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1272,7 +1380,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
           <caret line="70" column="21" lean-forward="false" selection-start-line="70" selection-start-column="21" selection-end-line="70" selection-end-column="21" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1288,7 +1395,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1296,39 +1402,22 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-191">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/assets/sass/style.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/assets/sass/style.scss" />
     <entry file="file://$PROJECT_DIR$/public/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-17">
           <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/assets/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="0" lean-forward="true" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/assets/css/style.css" />
     <entry file="file://$PROJECT_DIR$/webpack.mix.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
           <caret line="13" column="21" lean-forward="false" selection-start-line="13" selection-start-column="21" selection-end-line="13" selection-end-column="21" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1352,7 +1441,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-428">
           <caret line="50" column="59" lean-forward="false" selection-start-line="50" selection-start-column="59" selection-end-line="50" selection-end-column="59" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1361,16 +1449,6 @@
         <state relative-caret-position="221">
           <caret line="13" column="5" lean-forward="false" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/LessonController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="69" lean-forward="false" selection-start-line="12" selection-start-column="69" selection-end-line="12" selection-end-column="69" />
-          <folding>
-            <element signature="e#40#55#0#PHP" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1390,14 +1468,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/assets/js/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="174">
-          <caret line="25" column="87" lean-forward="false" selection-start-line="25" selection-start-column="87" selection-end-line="25" selection-end-column="87" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/resources/assets/js/components/authors/lesson/Lessons.vue">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
@@ -1412,13 +1482,96 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="103">
           <caret line="42" column="38" lean-forward="true" selection-start-line="42" selection-start-column="38" selection-end-line="42" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/assets/js/components/authors/video/PreviewVideo.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="21" lean-forward="false" selection-start-line="13" selection-start-column="21" selection-end-line="13" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/js/video.js/src/css/ie8.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/js/Youtube.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="810">
+          <caret line="731" column="19" lean-forward="false" selection-start-line="731" selection-start-column="19" selection-end-line="731" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/css/hucss.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="36" column="64" lean-forward="false" selection-start-line="36" selection-start-column="64" selection-end-line="36" selection-end-column="64" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/css/lesson.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1411">
+          <caret line="83" column="21" lean-forward="false" selection-start-line="83" selection-start-column="21" selection-end-line="83" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/js/Video.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/.htaccess">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="31" lean-forward="false" selection-start-line="19" selection-start-column="31" selection-end-line="19" selection-end-column="31" />
+          <folding>
+            <marker date="1515782335579" expanded="true" signature="0:592" ph="&lt;IfModule mod_rewrite.c&gt;" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/LessonController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="69" lean-forward="false" selection-start-line="12" selection-start-column="69" selection-end-line="12" selection-end-column="69" />
+          <folding>
+            <element signature="e#40#55#0#PHP" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/vendor/video.js/src/css/ie8.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/assets/js/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="719">
+          <caret line="44" column="0" lean-forward="false" selection-start-line="44" selection-start-column="0" selection-end-line="44" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/layouts/app.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
+        <state relative-caret-position="1974">
           <caret line="139" column="0" lean-forward="false" selection-start-line="139" selection-start-column="0" selection-end-line="140" selection-end-column="0" />
           <folding>
             <marker date="1515737652180" expanded="true" signature="911:978" ph="..." />
@@ -1428,33 +1581,65 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/css/lesson.css">
+    <entry file="file://$PROJECT_DIR$/resources/views/admin/layout/master.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4777">
-          <caret line="281" column="15" lean-forward="false" selection-start-line="281" selection-start-column="15" selection-end-line="281" selection-end-column="15" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/assets/js/components/authors/video/PreviewVideo.vue">
+    <entry file="file://$PROJECT_DIR$/public/vendor/video.js/dist/examples/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="13" column="21" lean-forward="false" selection-start-line="13" selection-start-column="21" selection-end-line="13" selection-end-column="21" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/vendor/video.js/dist/examples/simple-embed/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="76" lean-forward="true" selection-start-line="6" selection-start-column="76" selection-end-line="6" selection-end-column="76" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/css/video-js.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1581">
+          <caret line="17" column="5" lean-forward="true" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
           <folding>
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="e#1071#1106#0" expanded="true" />
+            <element signature="e#525#6138#1" expanded="true" />
+            <element signature="e#6155#15261#1" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/vendor/video.js/dist/video-js.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/vendor/Vimeo.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/lesson/show.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="137">
-          <caret line="80" column="76" lean-forward="false" selection-start-line="80" selection-start-column="76" selection-end-line="80" selection-end-column="76" />
+        <state relative-caret-position="222">
+          <caret line="92" column="45" lean-forward="true" selection-start-line="92" selection-start-column="45" selection-end-line="92" selection-end-column="45" />
           <folding>
-            <marker date="1515759130191" expanded="true" signature="1212:1279" ph="..." />
-            <marker date="1515759130191" expanded="true" signature="1225:1277" ph="..." />
-            <marker date="1515759130191" expanded="true" signature="1226:1276" ph="..." />
+            <marker date="1515789517014" expanded="true" signature="1481:1548" ph="..." />
+            <marker date="1515789517014" expanded="true" signature="1494:1546" ph="..." />
+            <marker date="1515789517014" expanded="true" signature="1495:1545" ph="..." />
           </folding>
         </state>
       </provider>

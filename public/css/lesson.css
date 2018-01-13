@@ -79,7 +79,11 @@ html { height: 100%;}
     padding:0 10px 0 10px;
 
 }
+.sidebar-nav li .panel {
 
+    margin-bottom: 10px;
+
+}
 /*.sidebar-nav li:before {*/
 
     /*content: '';*/

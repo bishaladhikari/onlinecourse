@@ -73,9 +73,9 @@
 
                             <div class="col-md-3 " >
                                 <div class="panel course-card">
-
-                                    <img src="https://via.placeholder.com/350x150"
-                                         style="height: 150px;width:100%">
+                                    <div class="cover__wrap">
+                                        <img src="{{$course->image? asset($course->image):asset('img/default-image.png')}}" class="course-img img-responsive " >
+                                    </div>
                                     <div class="panel-heading text-center">
 
                                         <span>{{$course->title}}</span>

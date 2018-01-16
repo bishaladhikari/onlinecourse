@@ -4,8 +4,8 @@
     <div class="container-fluid no-padding bg-theme">
         <div class="col-sm-12">
 
-            <div class="col-md-6 col-md-offset-3" style="margin: 100px">
-                <label class="control-label" style="color:white;font-size: 50px">Browse our course library</label>
+            <div class="col-md-6 col-md-offset-3 text-center">
+                <p class="p-15" style="color:white;font-size: 50px">Browse our course library</p>
 
 
             </div>
@@ -69,18 +69,19 @@
                                 @forelse($category->courses as $course)
 
                                     <a href="{{route('courses.show',$course->slug)}}">
-                                        <div class="col-md-3 ">
+                                        <div class="col-sm-3 ">
 
                                             <div class="panel text-center course-card">
 
 
-                                                <img src="http://via.placeholder.com/350x150"
-                                                     style="height: 150px;width:100%">
+                                                <div class="cover__wrap">
+                                                    <img src="{{$course->image? asset($course->image):asset('img/default-image.png')}}" class="course-img img-responsive " >
+                                                </div>
+
                                                 <div class="panel-heading">
 
-                                                    <h5>{{$course->title}}</h5>
-
-                                                    <p class="subtitle">{{$course->subtitle}}
+                                                    <p class="subtitle"><b>{{$course->title}}</b><br>
+                                                        <span class="message">{{$course->subtitle}}</span>
                                                     </p>
 
 

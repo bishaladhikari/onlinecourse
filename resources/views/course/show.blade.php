@@ -1,22 +1,25 @@
 @extends('layouts.app')
 
 @section('content')
-    <div class="container-fluid no-padding bg-theme">
+    <div class="container-fluid  bg-theme">
 
-        <div class="col-sm-12">
-            <div class="row" style="margin: 100px">
+        <div class="col-sm-12 p-10">
+            <div class="row">
                 <div class="col-sm-4">
-                    <img src="http://via.placeholder.com/350x150" class="animated zoomIn">
+
+                        <img src="{{$course->image? asset($course->image):asset('img/default-image.png')}}" class="course-img img-responsive img-thumbnail " >
                 </div>
                 <div class="col-sm-8" >
                     <span class="control-label btn-secondary p-5"
                           style="color:white;">{{$course->category->name}}</span>
                     <br>
 
-                    <label class="control-label" style="color:white;font-size: 50px">{{$course->title}}</label>
-                    <span class="p-5" style="color:white;"><span
-                                class="big-font">|</span> {{$course->subtitle}}</span><br>
-                    <a href="#" class="btn p-10" style="background: #00b2b2;color: white">Start Lessons</a>
+                    <h3 style="color:white;">{{$course->title}}</h3>
+                    <span class="p-5" style="color:white;">
+                        {{--<span--}}
+                                {{--class="big-font">|</span>--}}
+                        {{$course->subtitle}}</span><br>
+                    <a href="{{route('lesson.show',['slug'=>$course->slug,'index'=>1])}}" class="btn p-10 m-t-10" style="background: #00b2b2;color: white">Start Lessons</a>
 
                 </div>
 
@@ -70,22 +73,22 @@
             @forelse($course->lesson as $index=>$lesson)
 
                 <div class="panel panel-card">
-                    @if($index==0)
-                        <div class="panel-heading no-padding">
-                            <span class="bg-theme p-5" style="border-radius:2px">Free preview</span>
-                        </div>
-                    @endif
+                    {{--@if($index==0)--}}
+                        {{--<div class="panel-heading no-padding">--}}
+                            {{--<span class="bg-theme p-5" style="border-radius:2px">Free preview</span>--}}
+                        {{--</div>--}}
+                    {{--@endif--}}
 
                     <div class="panel-body">
                         <div class="row ">
-                            <a href="#">
+                            <a href="{{route('lesson.show',['slug'=>$course->slug,'index'=>$index+1])}}">
                                 <div class="col-xs-2 text-center"><h3><i class="fa fa-play-circle"
                                                                          style="font-size: 80px;"></i></h3></div>
                             </a>
                             <div class="col-xs-10">
-                                <p class="message">Lesson {{ ++$index }}</p>
+                                <p class="message">Lesson {{ $index+1 }}</p>
 
-                                <a href="#" style="font-size: 16px"><b class="lightseagreen">{{$lesson->title}}</b></a><br>
+                                <a href="{{route('lesson.show',['slug'=>$course->slug,'index'=>$index+1])}}" style="font-size: 16px"><b class="lightseagreen">{{$lesson->title}}</b></a><br>
                                 <b class="message">{{$lesson->description}}</b>
                             </div>
                         </div>

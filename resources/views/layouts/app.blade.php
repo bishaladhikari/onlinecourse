@@ -35,7 +35,7 @@
 @endif
 <div id="app">
 
-    <nav class="navbar navbar-default navbar-static-top" style="margin-bottom:0;">
+    <nav class="navbar navbar-default navbar-static-top" style="margin-bottom:0; border: none;padding:10px">
         <div class="container">
             <div class="navbar-header">
 

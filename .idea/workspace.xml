@@ -2,133 +2,32 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0d984c3d-3cf6-4cc7-8132-41aea57c529a" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/player.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/video.js/dist/font/VideoJS.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/video.js/dist/font/VideoJS.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/video.js/dist/font/VideoJS.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/video.js/dist/video-js-6.6.0.zip" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/video.js/dist/video-js.swf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/hucss.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/video-js.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/Vimeo.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/Youtube.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/video.js/CHANGELOG.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/video.js/LICENSE" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/video.js/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/video.js/dist/alt/video-js-cdn.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/video.js/dist/alt/video-js-cdn.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/video.js/dist/alt/video.novtt.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/video.js/dist/alt/video.novtt.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/video.js/dist/examples/elephantsdream/captions.ar.vtt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/video.js/dist/examples/elephantsdream/captions.en.vtt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/video.js/dist/examples/elephantsdream/captions.ja.vtt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/video.js/dist/examples/elephantsdream/captions.ru.vtt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/video.js/dist/examples/elephantsdream/captions.sv.vtt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/video.js/dist/examples/elephantsdream/chapters.en.vtt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/video.js/dist/examples/elephantsdream/descriptions.en.vtt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/video.js/dist/examples/elephantsdream/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/video.js/dist/examples/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/video.js/dist/examples/shared/example-captions.vtt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/video.js/dist/examples/simple-embed/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/video.js/dist/font/VideoJS.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/video.js/dist/ie8/videojs-ie8.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/video.js/dist/ie8/videojs-ie8.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/video.js/dist/lang/ar.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/video.js/dist/lang/ba.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/video.js/dist/lang/bg.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/video.js/dist/lang/ca.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/video.js/dist/lang/cs.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/video.js/dist/lang/da.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/video.js/dist/lang/de.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/video.js/dist/lang/el.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/video.js/dist/lang/en.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/video.js/dist/lang/es.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/video.js/dist/lang/fa.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/video.js/dist/lang/fi.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/video.js/dist/lang/fr.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/video.js/dist/lang/gl.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/video.js/dist/lang/he.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/video.js/dist/lang/hr.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/video.js/dist/lang/hu.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/video.js/dist/lang/it.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/video.js/dist/lang/ja.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/video.js/dist/lang/ko.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/video.js/dist/lang/nb.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/video.js/dist/lang/nl.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/video.js/dist/lang/nn.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/video.js/dist/lang/pl.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/video.js/dist/lang/pt-BR.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/video.js/dist/lang/pt-PT.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/video.js/dist/lang/ru.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/video.js/dist/lang/sk.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/video.js/dist/lang/sr.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/video.js/dist/lang/sv.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/video.js/dist/lang/tr.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/video.js/dist/lang/uk.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/video.js/dist/lang/vi.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/video.js/dist/lang/zh-CN.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/video.js/dist/lang/zh-TW.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/video.js/dist/video-js.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/video.js/dist/video-js.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/video.js/dist/video.cjs.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/video.js/dist/video.es.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/video.js/dist/video.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/video.js/dist/video.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/video.js/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/video.js/src/css/_print.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/video.js/src/css/_private-variables.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/video.js/src/css/_utilities.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/video.js/src/css/_variables.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/video.js/src/css/components/_adaptive.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/video.js/src/css/components/_audio.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/video.js/src/css/components/_big-play.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/video.js/src/css/components/_button.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/video.js/src/css/components/_captions-settings.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/video.js/src/css/components/_captions.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/video.js/src/css/components/_chapters.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/video.js/src/css/components/_close-button.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/video.js/src/css/components/_control-bar.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/video.js/src/css/components/_control-spacer.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/video.js/src/css/components/_control.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/video.js/src/css/components/_descriptions.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/video.js/src/css/components/_error.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/video.js/src/css/components/_fullscreen.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/video.js/src/css/components/_layout.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/video.js/src/css/components/_live.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/video.js/src/css/components/_loading.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/video.js/src/css/components/_modal-dialog.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/video.js/src/css/components/_play-pause.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/video.js/src/css/components/_playback-rate.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/video.js/src/css/components/_poster.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/video.js/src/css/components/_progress.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/video.js/src/css/components/_slider.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/video.js/src/css/components/_subs-caps.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/video.js/src/css/components/_subtitles.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/video.js/src/css/components/_text-track.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/video.js/src/css/components/_time.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/video.js/src/css/components/_volume.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/video.js/src/css/components/menu/_menu-inline.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/video.js/src/css/components/menu/_menu-popup.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/video.js/src/css/components/menu/_menu.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/video.js/src/css/ie8.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/video.js/src/css/utilities/_linear-gradient.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/video.js/src/css/video-js.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/video.js/src/css/vjs-cdn.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/vendor/video.js/src/css/vjs.scss" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@atomic-nyc/vue-draggable/LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@atomic-nyc/vue-draggable/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@atomic-nyc/vue-draggable/dist/vue-draggable.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@atomic-nyc/vue-draggable/dist/vue-draggable.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@atomic-nyc/vue-draggable/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@atomic-nyc/vue-draggable/src/Draggable.vue" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@atomic-nyc/vue-draggable/src/plugin.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/manage.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/js/components/authors/video/PreviewVideo.vue" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/default-image.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/Video.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/author/_course/includes/banner.blade.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/landing.blade.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/lesson/no-resource.blade.php" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/css/hucss.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/css/video-js.css" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Controllers/Author/CourseController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/Author/CourseController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Controllers/LessonController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/LessonController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Lesson.php" afterPath="$PROJECT_DIR$/app/Lesson.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/css/lesson.css" afterPath="$PROJECT_DIR$/public/css/lesson.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/css/style.css" afterPath="$PROJECT_DIR$/public/css/style.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/app.js" afterPath="$PROJECT_DIR$/public/js/app.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/js/app.js" afterPath="$PROJECT_DIR$/resources/assets/js/app.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/author/_course/curriculum.blade.php" afterPath="$PROJECT_DIR$/resources/views/author/_course/curriculum.blade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/author/_course/goals.blade.php" afterPath="$PROJECT_DIR$/resources/views/author/_course/goals.blade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/author/_course/index.blade.php" afterPath="$PROJECT_DIR$/resources/views/author/_course/index.blade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/author/_course/info.blade.php" afterPath="$PROJECT_DIR$/resources/views/author/_course/info.blade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/course/index.blade.php" afterPath="$PROJECT_DIR$/resources/views/course/index.blade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/course/show.blade.php" afterPath="$PROJECT_DIR$/resources/views/course/show.blade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" afterPath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/lesson/show.blade.php" afterPath="$PROJECT_DIR$/resources/views/lesson/show.blade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/routes/web.php" afterPath="$PROJECT_DIR$/routes/web.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/composer/autoload_classmap.php" afterPath="$PROJECT_DIR$/vendor/composer/autoload_classmap.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/composer/autoload_static.php" afterPath="$PROJECT_DIR$/vendor/composer/autoload_static.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -143,112 +42,120 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="app.blade.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/views/layouts/app.blade.php">
+      <file leaf-file-name="LessonController.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Http/Controllers/LessonController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1974">
-              <caret line="139" column="0" lean-forward="false" selection-start-line="139" selection-start-column="0" selection-end-line="140" selection-end-column="0" />
+            <state relative-caret-position="386">
+              <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
               <folding>
-                <marker date="1515737652180" expanded="true" signature="911:978" ph="..." />
-                <marker date="1515737652180" expanded="true" signature="924:976" ph="..." />
-                <marker date="1515737652180" expanded="true" signature="925:975" ph="..." />
+                <element signature="e#40#56#0#PHP" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="master.blade.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/views/admin/layout/master.blade.php">
+      <file leaf-file-name="CourseController.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Author/CourseController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="318">
+              <caret line="174" column="37" lean-forward="false" selection-start-line="174" selection-start-column="37" selection-end-line="174" selection-end-column="37" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/vendor/video.js/dist/examples/index.html">
+      <file leaf-file-name="show.blade.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/views/course/show.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="153">
+              <caret line="9" column="104" lean-forward="false" selection-start-line="9" selection-start-column="104" selection-end-line="9" selection-end-column="104" />
+              <folding>
+                <element signature="e#617#637#0#HTML" expanded="true" />
+                <element signature="e#997#1037#0#HTML" expanded="true" />
+                <marker date="1516097730499" expanded="false" signature="3121:3138" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="info.blade.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/views/author/_course/info.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="5" column="35" lean-forward="true" selection-start-line="5" selection-start-column="35" selection-end-line="5" selection-end-column="35" />
+              <folding>
+                <element signature="e#7877#7897#0#HTML" expanded="true" />
+                <marker date="1516097940179" expanded="true" signature="8943:9423" ph="..." />
+                <marker date="1516097940179" expanded="true" signature="8992:9413" ph="..." />
+                <marker date="1516097940179" expanded="true" signature="9086:9343" ph="..." />
+                <marker date="1516097940179" expanded="true" signature="9451:9982" ph="..." />
+                <marker date="1516097940179" expanded="true" signature="9464:9631" ph="..." />
+                <marker date="1516097940179" expanded="true" signature="9691:9832" ph="..." />
+                <marker date="1516097940179" expanded="true" signature="9713:9831" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="curriculum.blade.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/views/author/_course/curriculum.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="7" column="34" lean-forward="true" selection-start-line="7" selection-start-column="34" selection-end-line="7" selection-end-column="34" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/vendor/video.js/dist/examples/simple-embed/index.html">
+      <file leaf-file-name="goals.blade.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/views/author/_course/goals.blade.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="102">
-              <caret line="6" column="76" lean-forward="true" selection-start-line="6" selection-start-column="76" selection-end-line="6" selection-end-column="76" />
+              <caret line="6" column="34" lean-forward="true" selection-start-line="6" selection-start-column="34" selection-end-line="6" selection-end-column="34" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="show.blade.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/resources/views/lesson/show.blade.php">
+      <file leaf-file-name="banner.blade.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/views/author/_course/includes/banner.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="222">
-              <caret line="92" column="45" lean-forward="true" selection-start-line="92" selection-start-column="45" selection-end-line="92" selection-end-column="45" />
+            <state relative-caret-position="68">
+              <caret line="4" column="24" lean-forward="false" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
               <folding>
-                <marker date="1515789517014" expanded="true" signature="1481:1548" ph="..." />
-                <marker date="1515789517014" expanded="true" signature="1494:1546" ph="..." />
-                <marker date="1515789517014" expanded="true" signature="1495:1545" ph="..." />
+                <element signature="n#style#0;n#h4#0;n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Vimeo.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/vendor/Vimeo.js">
+      <file leaf-file-name="index.blade.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/resources/views/course/index.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="video-js.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/vendor/video.js/dist/video-js.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="video-js.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/css/video-js.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1581">
-              <caret line="17" column="5" lean-forward="true" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
+            <state relative-caret-position="119">
+              <caret line="7" column="18" lean-forward="false" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
               <folding>
-                <element signature="e#525#6138#1" expanded="true" />
-                <element signature="e#6155#15261#1" expanded="true" />
+                <element signature="e#227#262#0#HTML" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="app.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/assets/js/app.js">
+      <file leaf-file-name="index.blade.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/views/author/_course/index.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="719">
-              <caret line="44" column="0" lean-forward="false" selection-start-line="44" selection-start-column="0" selection-end-line="44" selection-end-column="0" />
+            <state relative-caret-position="310">
+              <caret line="76" column="35" lean-forward="true" selection-start-line="76" selection-start-column="35" selection-end-line="77" selection-end-column="42" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ie8.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/vendor/video.js/src/css/ie8.css">
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="204">
+              <caret line="301" column="14" lean-forward="false" selection-start-line="301" selection-start-column="14" selection-end-line="301" selection-end-column="14" />
               <folding />
             </state>
           </provider>
@@ -265,16 +172,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>add newC</find>
-      <find>jane</find>
-      <find>blue</find>
-      <find>atta</find>
-      <find>_</find>
-      <find>courses</find>
-      <find>inc</find>
-      <find>sort</find>
-      <find>create</find>
-      <find>upda</find>
       <find>slug</find>
       <find>sess</find>
       <find>incl</find>
@@ -286,7 +183,6 @@
       <find>$da</find>
       <find>createVideo</find>
       <find>theme-btn</find>
-      <find>panel</find>
       <find>400</find>
       <find>trans</find>
       <find>transpa</find>
@@ -295,6 +191,17 @@
       <find>vjs-big-play-centered</find>
       <find>contr</find>
       <find>color</find>
+      <find>p-</find>
+      <find>panel-car</find>
+      <find>panel</find>
+      <find>300</find>
+      <find>a</find>
+      <find>&gt; a</find>
+      <find>li</find>
+      <find>1a1a</find>
+      <find>text</find>
+      <find>.text</find>
+      <find>wrap</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -308,17 +215,9 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/database/migrations/2018_01_09_100443_create_contents_table.php" />
-        <option value="$PROJECT_DIR$/resources/assets/js/components/authors/article/CreateArticle.vue" />
-        <option value="$PROJECT_DIR$/app/Http/Controllers/Admin/PageController.php" />
-        <option value="$PROJECT_DIR$/resources/views/admin/layout/master.blade.php" />
-        <option value="$PROJECT_DIR$/resources/assets/js/components/authors/video/VideoUpload.vue" />
-        <option value="$PROJECT_DIR$/resources/assets/js/components/authors/video/CreateVideo.vue" />
         <option value="$PROJECT_DIR$/resources/assets/js/components/authors/video/UploadVideo.vue" />
         <option value="$PROJECT_DIR$/resources/views/author/_course/includes/tabs.blade.php" />
-        <option value="$PROJECT_DIR$/resources/views/author/_course/info.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/author/_course/manage.blade.php" />
-        <option value="$PROJECT_DIR$/resources/views/author/_course/goals.blade.php" />
         <option value="$PROJECT_DIR$/routes/api.php" />
         <option value="$PROJECT_DIR$/database/migrations/2018_01_11_054033_create_contents_table.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/Author/ContentController.php" />
@@ -335,30 +234,38 @@
         <option value="$PROJECT_DIR$/app/User.php" />
         <option value="$PROJECT_DIR$/config/entrust.php" />
         <option value="$PROJECT_DIR$/vendor/zizaco/entrust/src/Entrust/EntrustServiceProvider.php" />
-        <option value="$PROJECT_DIR$/resources/views/course/index.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/home.blade.php" />
-        <option value="$PROJECT_DIR$/resources/views/author/_course/index.blade.php" />
-        <option value="$PROJECT_DIR$/public/css/style.css" />
-        <option value="$PROJECT_DIR$/resources/views/layouts/app.blade.php" />
         <option value="$PROJECT_DIR$/resources/assets/css/style.css" />
         <option value="$PROJECT_DIR$/webpack.mix.js" />
-        <option value="$PROJECT_DIR$/resources/views/course/show.blade.php" />
-        <option value="$PROJECT_DIR$/routes/web.php" />
-        <option value="$PROJECT_DIR$/app/Lesson.php" />
-        <option value="$PROJECT_DIR$/app/Http/Controllers/LessonController.php" />
         <option value="$PROJECT_DIR$/resources/views/admin/layout/partials/side_nav.blade.php" />
         <option value="$PROJECT_DIR$/resources/assets/js/components/VideoPreview.vue" />
         <option value="$PROJECT_DIR$/resources/assets/js/components/PreviewVideo.vue" />
         <option value="$PROJECT_DIR$/resources/assets/js/components/authors/lesson/Lessons.vue" />
-        <option value="$PROJECT_DIR$/resources/views/author/_course/curriculum.blade.php" />
         <option value="$PROJECT_DIR$/resources/assets/js/components/authors/video/PreviewVideo.vue" />
         <option value="$PROJECT_DIR$/public/js/Youtube.js" />
         <option value="$PROJECT_DIR$/public/css/hucss.css" />
-        <option value="$PROJECT_DIR$/public/css/lesson.css" />
         <option value="$PROJECT_DIR$/public/.htaccess" />
-        <option value="$PROJECT_DIR$/resources/assets/js/app.js" />
         <option value="$PROJECT_DIR$/public/css/video-js.css" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/LandingController.php" />
+        <option value="$PROJECT_DIR$/resources/views/layouts/app.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/landing.blade.php" />
+        <option value="$PROJECT_DIR$/resources/assets/js/app.js" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/Author/LessonController.php" />
+        <option value="$PROJECT_DIR$/app/Lesson.php" />
+        <option value="$PROJECT_DIR$/resources/views/lesson/no-resource.blade.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/LessonController.php" />
+        <option value="$PROJECT_DIR$/public/css/lesson.css" />
         <option value="$PROJECT_DIR$/resources/views/lesson/show.blade.php" />
+        <option value="$PROJECT_DIR$/routes/web.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/Author/CourseController.php" />
+        <option value="$PROJECT_DIR$/public/css/style.css" />
+        <option value="$PROJECT_DIR$/resources/views/course/show.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/author/_course/index.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/author/_course/goals.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/author/_course/curriculum.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/author/_course/info.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/author/_course/includes/banner.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/course/index.blade.php" />
       </list>
     </option>
   </component>
@@ -473,8 +380,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -497,20 +402,6 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="routes" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="onlinecourse" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="onlinecourse" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="resources" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
@@ -537,7 +428,7 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="lesson" />
+              <option name="myItemId" value="course" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -559,7 +450,11 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="layouts" />
+              <option name="myItemId" value="course" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="includes" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -607,63 +502,15 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="admin" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="onlinecourse" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="onlinecourse" />
+              <option name="myItemId" value="author" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
+              <option name="myItemId" value="_course" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="admin" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="layout" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="onlinecourse" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="onlinecourse" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="admin" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="layout" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="partials" />
+              <option name="myItemId" value="includes" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -696,10 +543,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="assets" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sass" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -722,40 +565,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="js" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="onlinecourse" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="onlinecourse" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="assets" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="components" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="authors" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="video" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -851,42 +660,6 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="vendor" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="onlinecourse" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="onlinecourse" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="public" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="onlinecourse" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="onlinecourse" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="public" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="img" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
@@ -906,34 +679,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="css" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="onlinecourse" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="onlinecourse" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="node_modules" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="onlinecourse" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="onlinecourse" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="database" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -1019,6 +764,8 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="AndroidView" />
     </panes>
@@ -1033,19 +780,19 @@
     <property name="list.type.of.created.stylesheet" value="CSS" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="G:\sabkuraprojects\onlinecourse\public\img" />
+      <recent name="G:\sabkuraprojects\onlinecourse\resources\views\lesson" />
+      <recent name="G:\sabkuraprojects\onlinecourse\public\js" />
+      <recent name="G:\sabkuraprojects\onlinecourse\public\vendor" />
+      <recent name="G:\sabkuraprojects\onlinecourse\resources\views" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="G:\sabkuraprojects\onlinecourse\resources\assets\js\components\authors\video" />
       <recent name="G:\sabkuraprojects\onlinecourse\resources\assets\js\components\authors\article" />
       <recent name="G:\sabkuraprojects\onlinecourse\resources\assets\js\components\authors\lesson" />
       <recent name="G:\sabkuraprojects\onlinecourse\app\Http\Controllers\Author" />
       <recent name="G:\sabkuraprojects\onlinecourse\app\Http\Controllers" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="G:\sabkuraprojects\onlinecourse\public\vendor" />
-      <recent name="G:\sabkuraprojects\onlinecourse\public\img" />
-      <recent name="G:\sabkuraprojects\onlinecourse\public\js" />
-      <recent name="G:\sabkuraprojects\onlinecourse\public\css" />
-      <recent name="G:\sabkuraprojects\onlinecourse\resources\assets\sass" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -1172,17 +919,20 @@
       <workItem from="1515677594201" duration="12076000" />
       <workItem from="1515736013126" duration="20270000" />
       <workItem from="1515774493068" duration="14431000" />
+      <workItem from="1515825212113" duration="2596000" />
+      <workItem from="1515901759550" duration="4022000" />
+      <workItem from="1515998812734" duration="34269000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="450403000" />
+    <option name="totallyTimeSpent" value="491290000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1" y="1" width="1364" height="726" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2285276" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24309815" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32733223" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1251,80 +1001,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/CourseController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="52" column="53" lean-forward="true" selection-start-line="52" selection-start-column="53" selection-end-line="52" selection-end-column="53" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Course.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="21" column="45" lean-forward="false" selection-start-line="21" selection-start-column="45" selection-end-line="21" selection-end-column="45" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/assets/js/components/authors/lesson/Lesson.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="29">
-          <caret line="2" column="49" lean-forward="true" selection-start-line="2" selection-start-column="49" selection-end-line="2" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/assets/js/components/authors/lesson/EditLesson.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="37" lean-forward="false" selection-start-line="5" selection-start-column="37" selection-end-line="5" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Admin/PageController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="22" column="26" lean-forward="false" selection-start-line="22" selection-start-column="26" selection-end-line="22" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/zizaco/entrust/src/config/config.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-357">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/User.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="16" lean-forward="false" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/zizaco/entrust/src/Entrust/Entrust.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-257">
-          <caret line="0" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/entrust.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="21" column="26" lean-forward="false" selection-start-line="21" selection-start-column="26" selection-end-line="21" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Role.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/RoleUser.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1361,21 +1037,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/author/_course/index.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="105" lean-forward="false" selection-start-line="13" selection-start-column="105" selection-end-line="13" selection-end-column="105" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/course/index.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1292">
-          <caret line="76" column="58" lean-forward="false" selection-start-line="76" selection-start-column="58" selection-end-line="76" selection-end-column="92" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
@@ -1387,7 +1048,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="176">
           <caret line="3025" column="11" lean-forward="false" selection-start-line="3025" selection-start-column="9" selection-end-line="3025" selection-end-column="11" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1406,13 +1066,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/assets/sass/style.scss" />
-    <entry file="file://$PROJECT_DIR$/public/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-17">
-          <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/resources/assets/css/style.css" />
     <entry file="file://$PROJECT_DIR$/webpack.mix.js">
       <provider selected="true" editor-type-id="text-editor">
@@ -1421,42 +1074,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/routes/web.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="139">
-          <caret line="28" column="36" lean-forward="false" selection-start-line="28" selection-start-column="36" selection-end-line="28" selection-end-column="36" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Author/LessonController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/course/show.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-428">
-          <caret line="50" column="59" lean-forward="false" selection-start-line="50" selection-start-column="59" selection-end-line="50" selection-end-column="59" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Lesson.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="5" lean-forward="false" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/admin/layout/partials/side_nav.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="663">
           <caret line="39" column="37" lean-forward="false" selection-start-line="39" selection-start-column="37" selection-end-line="39" selection-end-column="37" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1464,7 +1085,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
           <caret line="12" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="78" selection-end-column="9" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1472,55 +1092,97 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
           <caret line="1" column="9" lean-forward="false" selection-start-line="1" selection-start-column="9" selection-end-line="1" selection-end-column="9" />
-          <folding>
-            <element signature="n#div#0;n#div#0;n#template#0;n#!!top" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/author/_course/curriculum.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="103">
-          <caret line="42" column="38" lean-forward="true" selection-start-line="42" selection-start-column="38" selection-end-line="42" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/assets/js/components/authors/video/PreviewVideo.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="21" lean-forward="false" selection-start-line="13" selection-start-column="21" selection-end-line="13" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/js/video.js/src/css/ie8.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/js/Youtube.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="810">
-          <caret line="731" column="19" lean-forward="false" selection-start-line="731" selection-start-column="19" selection-end-line="731" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/assets/js/components/authors/video/PreviewVideo.vue" />
+    <entry file="file://$PROJECT_DIR$/public/js/video.js/src/css/ie8.css" />
+    <entry file="file://$PROJECT_DIR$/public/js/Youtube.js" />
     <entry file="file://$PROJECT_DIR$/public/css/hucss.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="250">
           <caret line="36" column="64" lean-forward="false" selection-start-line="36" selection-start-column="64" selection-end-line="36" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/.htaccess">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="31" lean-forward="false" selection-start-line="19" selection-start-column="31" selection-end-line="19" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/vendor/video.js/src/css/ie8.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/admin/layout/master.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/vendor/video.js/dist/examples/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/vendor/video.js/dist/examples/simple-embed/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="76" lean-forward="false" selection-start-line="6" selection-start-column="76" selection-end-line="6" selection-end-column="76" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/css/video-js.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="5" lean-forward="false" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/vendor/video.js/dist/video-js.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/vendor/Vimeo.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/HomeController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="335">
+          <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="28" selection-end-column="5" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/css/lesson.css">
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/LandingController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1411">
-          <caret line="83" column="21" lean-forward="false" selection-start-line="83" selection-start-column="21" selection-end-line="83" selection-end-column="21" />
+        <state relative-caret-position="119">
+          <caret line="8" column="1" lean-forward="false" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
+          <folding>
+            <element signature="e#40#57#0#PHP" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/landing.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="48" lean-forward="false" selection-start-line="12" selection-start-column="48" selection-end-line="12" selection-end-column="48" />
           <folding />
         </state>
       </provider>
@@ -1533,55 +1195,45 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/.htaccess">
+    <entry file="file://$PROJECT_DIR$/resources/assets/js/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="31" lean-forward="false" selection-start-line="19" selection-start-column="31" selection-end-line="19" selection-end-column="31" />
+        <state relative-caret-position="714">
+          <caret line="42" column="0" lean-forward="false" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
           <folding>
-            <marker date="1515782335579" expanded="true" signature="0:592" ph="&lt;IfModule mod_rewrite.c&gt;" />
+            <element signature="e#1792#1817#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/LessonController.php">
+    <entry file="file://$PROJECT_DIR$/resources/assets/js/components/authors/lesson/CreateLesson.vue">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="69" lean-forward="false" selection-start-line="12" selection-start-column="69" selection-end-line="12" selection-end-column="69" />
-          <folding>
-            <element signature="e#40#55#0#PHP" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/vendor/video.js/src/css/ie8.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
+        <state relative-caret-position="-1140">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/assets/js/app.js">
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Author/LessonController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="719">
-          <caret line="44" column="0" lean-forward="false" selection-start-line="44" selection-start-column="0" selection-end-line="44" selection-end-column="0" />
+        <state relative-caret-position="412">
+          <caret line="54" column="65" lean-forward="true" selection-start-line="54" selection-start-column="65" selection-end-line="54" selection-end-column="65" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/layouts/app.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1974">
-          <caret line="139" column="0" lean-forward="false" selection-start-line="139" selection-start-column="0" selection-end-line="140" selection-end-column="0" />
+        <state relative-caret-position="63">
+          <caret line="114" column="40" lean-forward="false" selection-start-line="114" selection-start-column="40" selection-end-line="114" selection-end-column="40" />
           <folding>
-            <marker date="1515737652180" expanded="true" signature="911:978" ph="..." />
-            <marker date="1515737652180" expanded="true" signature="924:976" ph="..." />
-            <marker date="1515737652180" expanded="true" signature="925:975" ph="..." />
+            <marker date="1515826071425" expanded="true" signature="911:978" ph="..." />
+            <marker date="1515826071425" expanded="true" signature="924:976" ph="..." />
+            <marker date="1515826071425" expanded="true" signature="925:975" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/admin/layout/master.blade.php">
+    <entry file="file://$PROJECT_DIR$/app/Content.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -1589,57 +1241,145 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/vendor/video.js/dist/examples/index.html">
+    <entry file="file://$PROJECT_DIR$/resources/views/lesson/no-resource.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="51">
+          <caret line="3" column="57" lean-forward="false" selection-start-line="3" selection-start-column="57" selection-end-line="3" selection-end-column="57" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/vendor/video.js/dist/examples/simple-embed/index.html">
+    <entry file="file://$PROJECT_DIR$/public/css/lesson.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="76" lean-forward="true" selection-start-line="6" selection-start-column="76" selection-end-line="6" selection-end-column="76" />
+        <state relative-caret-position="17">
+          <caret line="174" column="28" lean-forward="false" selection-start-line="174" selection-start-column="28" selection-end-line="174" selection-end-column="28" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/css/video-js.css">
+    <entry file="file://$PROJECT_DIR$/app/Lesson.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1581">
-          <caret line="17" column="5" lean-forward="true" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
-          <folding>
-            <element signature="e#525#6138#1" expanded="true" />
-            <element signature="e#6155#15261#1" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/vendor/video.js/dist/video-js.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/vendor/Vimeo.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="306">
+          <caret line="18" column="27" lean-forward="false" selection-start-line="18" selection-start-column="27" selection-end-line="18" selection-end-column="27" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/lesson/show.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="222">
-          <caret line="92" column="45" lean-forward="true" selection-start-line="92" selection-start-column="45" selection-end-line="92" selection-end-column="45" />
+        <state relative-caret-position="321">
+          <caret line="101" column="59" lean-forward="false" selection-start-line="101" selection-start-column="59" selection-end-line="101" selection-end-column="59" />
           <folding>
-            <marker date="1515789517014" expanded="true" signature="1481:1548" ph="..." />
-            <marker date="1515789517014" expanded="true" signature="1494:1546" ph="..." />
-            <marker date="1515789517014" expanded="true" signature="1495:1545" ph="..." />
+            <marker date="1516083006317" expanded="true" signature="1500:1567" ph="..." />
+            <marker date="1516083006317" expanded="true" signature="1513:1565" ph="..." />
+            <marker date="1516083006317" expanded="true" signature="1514:1564" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/web.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="35" column="61" lean-forward="false" selection-start-line="35" selection-start-column="61" selection-end-line="35" selection-end-column="88" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/LessonController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="386">
+          <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+          <folding>
+            <element signature="e#40#56#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Author/CourseController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="318">
+          <caret line="174" column="37" lean-forward="false" selection-start-line="174" selection-start-column="37" selection-end-line="174" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="301" column="14" lean-forward="false" selection-start-line="301" selection-start-column="14" selection-end-line="301" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/course/show.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="104" lean-forward="false" selection-start-line="9" selection-start-column="104" selection-end-line="9" selection-end-column="104" />
+          <folding>
+            <element signature="e#617#637#0#HTML" expanded="true" />
+            <element signature="e#997#1037#0#HTML" expanded="true" />
+            <marker date="1516097730499" expanded="false" signature="3121:3138" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/author/_course/goals.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="34" lean-forward="true" selection-start-line="6" selection-start-column="34" selection-end-line="6" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/author/_course/curriculum.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="34" lean-forward="true" selection-start-line="7" selection-start-column="34" selection-end-line="7" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/author/_course/index.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="310">
+          <caret line="76" column="35" lean-forward="true" selection-start-line="76" selection-start-column="35" selection-end-line="77" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/author/_course/info.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="35" lean-forward="true" selection-start-line="5" selection-start-column="35" selection-end-line="5" selection-end-column="35" />
+          <folding>
+            <element signature="e#7877#7897#0#HTML" expanded="true" />
+            <marker date="1516097940179" expanded="true" signature="8943:9423" ph="..." />
+            <marker date="1516097940179" expanded="true" signature="8992:9413" ph="..." />
+            <marker date="1516097940179" expanded="true" signature="9086:9343" ph="..." />
+            <marker date="1516097940179" expanded="true" signature="9451:9982" ph="..." />
+            <marker date="1516097940179" expanded="true" signature="9464:9631" ph="..." />
+            <marker date="1516097940179" expanded="true" signature="9691:9832" ph="..." />
+            <marker date="1516097940179" expanded="true" signature="9713:9831" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/author/_course/includes/banner.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="24" lean-forward="false" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
+          <folding>
+            <element signature="n#style#0;n#h4#0;n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/course/index.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="18" lean-forward="false" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
+          <folding>
+            <element signature="e#227#262#0#HTML" expanded="true" />
           </folding>
         </state>
       </provider>

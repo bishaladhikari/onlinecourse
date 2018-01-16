@@ -41,7 +41,10 @@ require('jquery-ui/ui/widgets/sortable.js');
 
 import VueClip from 'vue-clip'
 
+
+
 Vue.use(VueClip)
+
 
 import axios from 'axios'
 import VueAxios from 'vue-axios'

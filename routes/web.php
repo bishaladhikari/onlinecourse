@@ -23,10 +23,11 @@
 Auth::routes();
 //
 Route::get('/', 'HomeController@index')->name('home');
+Route::get('/landing', 'LandingController@index');
 Route::group([ 'middleware' => ['auth']], function () {
 //    Route::resource('courses', 'CourseController', ['except' => ['show']]);
     Route::resource('courses', 'CourseController');
-    Route::get('courses/{course_slug}/lesson/{id}', 'LessonController@show')->name('lesson.show');
+    Route::get('courses/{course_slug}/lesson/{sort_id}', 'LessonController@show')->name('lesson.show');
 
 //    Route::get('courses/{slug}/{course_id}','CourseController@show')->name("courses.show");
     Route::group(['prefix' => '/author/', 'namespace' => 'Author'], function () {
@@ -34,6 +35,8 @@ Route::group([ 'middleware' => ['auth']], function () {
         Route::group(['prefix' => '/courses/{slug}/manage/'], function () {
             Route::get('info','CourseController@info')->name('author.course.manage.info');
             Route::post('info/update','CourseController@updateInfo');
+            Route::post('info/updateImage', 'CourseController@updateImage');
+
 
             Route::get('goals','CourseController@goals');
             Route::get('curriculum','CourseController@curriculum');

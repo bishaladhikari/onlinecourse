@@ -12,7 +12,7 @@
 
     <!-- Styles -->
     {{--<link href="{{URL::asset('css/video-js.css') }}" rel="stylesheet">--}}
-    <link href="{{asset('vendor/video.js/dist/video-js.min.css') }}" rel="stylesheet">
+    <link href="{{URL::asset('vendor/video.js/dist/video-js.css') }}" rel="stylesheet">
 
     <link rel="stylesheet" href="{{asset('css/lesson.css')}}"/>
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
@@ -24,9 +24,9 @@
 
     {{--<!-- Scripts -->--}}
     {{--<script src="{{URL::asset('js/Video.js') }}"></script>--}}
-    <script src="{{asset('vendor/video.js/dist/video.js') }}"></script>
-    <script src="{{asset('vendor/Youtube.js')}}"></script>
-    <script src="{{asset('vendor/Vimeo.js') }}"></script>
+    <script src="{{URL::asset('vendor/video.js/dist/video.js') }}"></script>
+    <script src="{{URL::asset('vendor/Youtube.js')}}"></script>
+    {{--<script src="{{asset('vendor/Vimeo.js') }}"></script>--}}
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.2/jquery.min.js"></script>
     <link href="{{asset('js/sweetalert/sweetalert.css')}}" rel="stylesheet">
     <script src="{{asset('js/sweetalert/sweetalert.min.js')}}"></script>
@@ -48,20 +48,23 @@
         <nav class="navbar navbar-inverse navbar-fixed-top" id="sidebar-wrapper" role="navigation">
             <ul class="nav sidebar-nav">
                 <li class="sidebar-brand" >
-                    <a href="#">
-                        {{$lessons->first()->course->title}}
-                    </a>
+                    <a href="{{route('courses.show',$course->slug)}}"><i class="fa fa-chevron-left m-r-10"></i> {{$course->title}}</a>
                 </li>
-                @foreach($lessons as $index=>$lesson)
+                @foreach($allLessons as $index=>$lesson)
                     <li>
-                        <div class="panel panel-card">
-                            <div class="panel-body">
-                                <b> <i class="fa fa-play-circle m-r-10"></i><span class="m-r-10">{{$index+1}} . </span>{{$lesson->title}}</b>
+                        <a href="{{route('lesson.show',['slug'=>$course->slug,'index'=>$index+1])}}">
+
+                            <div class="lesson-list p-5">
+                                <div class="panel-body">
+                                    <b> <i class="fa fa-play-circle m-r-10"></i><span class="m-r-10">{{$index+1}} . </span>{{$lesson->title}}</b>
+                                </div>
                             </div>
-                        </div>
+                        </a>
+
                     </li>
 
                 @endforeach
+
 
 
             </ul>
@@ -78,26 +81,25 @@
                 <span class="hamb-bottom"></span>
             </button>
             <div class="container">
-
-
-
                 <div class="row">
 
                     <div class="col-lg-10 col-lg-offset-1">
                         {{--<preview-video></preview-video>--}}
                         <div class="inner">
                             <div align="center" id="player-container" class="video-js-box hu-css">
+
                         <video
                                class="video-js vjs-big-play-centered"
                                controls
                                preload="auto"
-                               data-setup='{"techOrder": ["vimeo", "youtube", "html5"], "fluid": true, "preload": "auto", "autoplay": true, "playbackRates": [0.5, 0.75, 1, 1.5, 2] }'
+                               data-setup='{"techOrder": ["youtube", "html5"], "fluid": true, "preload": "auto", "autoplay": true, "playbackRates": [0.5, 0.75, 1, 1.5, 2] }'
                                poster="/img/front-banner.jpeg" >
-                            <source type="video/youtube" src="https://www.youtube.com/watch?v=lUpvEgJEn94"/>
+                            <source type="video/youtube" src="{{$content->video_path}}">
                         </video>
+
                             </div>
                         </div>
-
+                        <h3>{{$currentLesson->title}}.</h3>
                         <h1>Course Content appears here.</h1>
                         <p>Bacon ipsum dolor sit amet tri-tip shoulder tenderloin shankle. Bresaola tail pancetta ball tip
                             doner meatloaf corned beef. Kevin pastrami tri-tip prosciutto ham hock pork belly bacon pork
@@ -133,9 +135,6 @@
     </div>
     <!-- /#wrapper -->
 </div>
-
-<script src="{{ asset('js/app.js') }}"></script>
-
 </body>
 <script>
     $(document).ready(function () {
@@ -167,5 +166,3 @@
         });
     });
 </script>
-
-{{--<script src="https://cdnjs.cloudflare.com/ajax/libs/videojs-youtube/2.4.1/Youtube.js"></script>--}}

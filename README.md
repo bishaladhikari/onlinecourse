@@ -1,6 +1,6 @@
 # onlinecourse
 Composer install
-make .env and setup your database.
+setup .env.
 php artisan migrate:fresh --seed
 
 
